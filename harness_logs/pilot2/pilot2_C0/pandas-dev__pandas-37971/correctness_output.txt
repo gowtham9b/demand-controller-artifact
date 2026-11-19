@@ -1,0 +1,397 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh
++++ '[' -n '' ']'
++++ _la_log 'Beginning libarrow activation.'
++++ '[' '' = 1 ']'
++++ _la_gdb_prefix=/opt/miniconda3/envs/testbed/share/gdb/auto-load
++++ '[' '!' -w /opt/miniconda3/envs/testbed/share/gdb/auto-load ']'
++++ _la_placeholder=replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX
++++ _la_symlink_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib
++++ _la_orig_install_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
++++ _la_log '          _la_gdb_prefix: /opt/miniconda3/envs/testbed/share/gdb/auto-load'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_placeholder: replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_symlink_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib'
++++ '[' '' = 1 ']'
++++ _la_log '    _la_orig_install_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib'
++++ '[' '' = 1 ']'
++++ _la_log '  content of that folder:'
++++ '[' '' = 1 ']'
+++++ ls -al /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
+++++ sed 's/^/      /'
++++ _la_log '      total 12
+      drwxr-xr-x 2 root root 4096 Jul 25  2025 .
+      drwxr-xr-x 3 root root 4096 Jul 25  2025 ..
+      -rw-r--r-- 1 root root  971 Jul 25  2025 libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ for _la_target in "$_la_orig_install_dir/"*.py
++++ '[' '!' -e /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ basename /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_symlink=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_log '   _la_target: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ _la_log '  _la_symlink: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ '[' -L /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ readlink /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ '[' /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py = /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
++++ _la_log 'symlink $_la_symlink already exists and points to $_la_target, skipping.'
++++ '[' '' = 1 ']'
++++ continue
++++ _la_log 'Libarrow activation complete.'
++++ '[' '' = 1 ']'
++++ unset _la_gdb_prefix
++++ unset _la_log
++++ unset _la_orig_install_dir
++++ unset _la_placeholder
++++ unset _la_symlink
++++ unset _la_symlink_dir
++++ unset _la_target
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   pandas/core/arrays/interval.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit b2b81d854a67d79cb84767e75254c1b380cf6982
+Author: patrick <61934744+phofl@users.noreply.github.com>
+Date:   Fri Nov 20 04:09:37 2020 +0100
+
+    CLN: Remove duplicate from MultiIndex.equals (#37961)
+
+diff --git a/pandas/core/indexes/multi.py b/pandas/core/indexes/multi.py
+index 95f14bb643..6e18b29673 100644
+--- a/pandas/core/indexes/multi.py
++++ b/pandas/core/indexes/multi.py
+@@ -3312,21 +3312,19 @@ class MultiIndex(Index):
+         if not isinstance(other, Index):
+             return False
+ 
++        if len(self) != len(other):
++            return False
++
+         if not isinstance(other, MultiIndex):
+             # d-level MultiIndex can equal d-tuple Index
+             if not is_object_dtype(other.dtype):
+                 # other cannot contain tuples, so cannot match self
+                 return False
+-            elif len(self) != len(other):
+-                return False
+             return array_equivalent(self._values, other._values)
+ 
+         if self.nlevels != other.nlevels:
+             return False
+ 
+-        if len(self) != len(other):
+-            return False
+-
+         for i in range(self.nlevels):
+             self_codes = self.codes[i]
+             self_codes = self_codes[self_codes != -1]
++ export 'CFLAGS= -fwrapv -fno-strict-overflow -fno-strict-aliasing -Wno-error -Wno-array-bounds -Wno-deprecated-declarations -Wno-sign-compare -Wno-strict-prototypes -Wno-cpp -Wno-unused-function -Wno-missing-prototypes -Wno-implicit-function-declaration -Wno-return-type'
++ CFLAGS=' -fwrapv -fno-strict-overflow -fno-strict-aliasing -Wno-error -Wno-array-bounds -Wno-deprecated-declarations -Wno-sign-compare -Wno-strict-prototypes -Wno-cpp -Wno-unused-function -Wno-missing-prototypes -Wno-implicit-function-declaration -Wno-return-type'
++ pip install -e . --no-build-isolation
+Obtaining file:///testbed
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: python-dateutil>=2.7.3 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas==1.2.0.dev0+1263.gb2b81d854a.dirty) (2.9.0.post0)
+Requirement already satisfied: pytz>=2017.3 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas==1.2.0.dev0+1263.gb2b81d854a.dirty) (2025.2)
+Requirement already satisfied: numpy>=1.16.5 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas==1.2.0.dev0+1263.gb2b81d854a.dirty) (1.26.4)
+Requirement already satisfied: six>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from python-dateutil>=2.7.3->pandas==1.2.0.dev0+1263.gb2b81d854a.dirty) (1.17.0)
+Building wheels for collected packages: pandas
+  Building editable for pandas (pyproject.toml): started
+  Building editable for pandas (pyproject.toml): still running...
+  Building editable for pandas (pyproject.toml): finished with status 'done'
+  Created wheel for pandas: filename=pandas-1.2.0.dev0+1263.gb2b81d854a.dirty-0.editable-cp310-cp310-linux_x86_64.whl size=7882 sha256=c038d73acbc56cab5b0b4366ec9b065bc7018eb545ba2fa950271cb96e4b407b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-1y428xo0/wheels/0d/a6/cb/465a7b303d624cc531250fa27c75d038ddc29430bdb6ba7c9f
+Successfully built pandas
+Installing collected packages: pandas
+  Attempting uninstall: pandas
+    Found existing installation: pandas 1.2.0.dev0+1263.gb2b81d854a.dirty
+    Uninstalling pandas-1.2.0.dev0+1263.gb2b81d854a.dirty:
+      Successfully uninstalled pandas-1.2.0.dev0+1263.gb2b81d854a.dirty
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+fastparquet 2024.11.0 requires pandas>=1.5.0, but you have pandas 1.2.0.dev0+1263.gb2b81d854a.dirty which is incompatible.
+seaborn 0.13.2 requires pandas>=1.2, but you have pandas 1.2.0.dev0+1263.gb2b81d854a.dirty which is incompatible.
+statsmodels 0.14.5 requires pandas!=2.1.0,>=1.4, but you have pandas 1.2.0.dev0+1263.gb2b81d854a.dirty which is incompatible.
+xarray 2025.6.1 requires pandas>=2.1, but you have pandas 1.2.0.dev0+1263.gb2b81d854a.dirty which is incompatible.
+Successfully installed pandas-1.2.0.dev0+1263.gb2b81d854a.dirty
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ pip uninstall pytest-qt -y
+WARNING: Skipping pytest-qt as it is not installed.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 /testbed/pandas/tests/extension/test_categorical.py | cut -d" " -f1); line=$(echo 0 /testbed/pandas/tests/extension/test_categorical.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 /testbed/pandas/tests/indexing/interval/test_interval.py | cut -d" " -f1); line=$(echo 1 /testbed/pandas/tests/indexing/interval/test_interval.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 /testbed/pandas/tests/arrays/categorical/test_constructors.py | cut -d" " -f1); line=$(echo 2 /testbed/pandas/tests/arrays/categorical/test_constructors.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 /testbed/pandas/tests/reshape/test_pivot.py | cut -d" " -f1); line=$(echo 3 /testbed/pandas/tests/reshape/test_pivot.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:41:54 UTC 2026] Processing [0]: /testbed/pandas/tests/extension/test_categorical.py
+[Fri Nov 13 21:41:54 UTC 2026] Processing [2]: /testbed/pandas/tests/arrays/categorical/test_constructors.py
+[Fri Nov 13 21:41:54 UTC 2026] Processing [1]: /testbed/pandas/tests/indexing/interval/test_interval.py
+[Fri Nov 13 21:41:54 UTC 2026] Processing [3]: /testbed/pandas/tests/reshape/test_pivot.py
+[Fri Nov 13 21:41:58 UTC 2026] Finished processing [2] with exit 0: /testbed/pandas/tests/arrays/categorical/test_constructors.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 /testbed/pandas/tests/indexes/categorical/test_indexing.py | cut -d" " -f1); line=$(echo 4 /testbed/pandas/tests/indexes/categorical/test_indexing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:41:59 UTC 2026] Processing [4]: /testbed/pandas/tests/indexes/categorical/test_indexing.py
+[Fri Nov 13 21:42:00 UTC 2026] Finished processing [1] with exit 0: /testbed/pandas/tests/indexing/interval/test_interval.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 /testbed/pandas/tests/indexes/interval/test_interval.py | cut -d" " -f1); line=$(echo 5 /testbed/pandas/tests/indexes/interval/test_interval.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:00 UTC 2026] Processing [5]: /testbed/pandas/tests/indexes/interval/test_interval.py
+[Fri Nov 13 21:42:00 UTC 2026] Finished processing [0] with exit 0: /testbed/pandas/tests/extension/test_categorical.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 /testbed/pandas/tests/indexes/test_setops.py | cut -d" " -f1); line=$(echo 6 /testbed/pandas/tests/indexes/test_setops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:01 UTC 2026] Processing [6]: /testbed/pandas/tests/indexes/test_setops.py
+[Fri Nov 13 21:42:02 UTC 2026] Finished processing [4] with exit 0: /testbed/pandas/tests/indexes/categorical/test_indexing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 /testbed/pandas/tests/indexes/categorical/test_map.py | cut -d" " -f1); line=$(echo 7 /testbed/pandas/tests/indexes/categorical/test_map.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:02 UTC 2026] Processing [7]: /testbed/pandas/tests/indexes/categorical/test_map.py
+[Fri Nov 13 21:42:03 UTC 2026] Finished processing [3] with exit 0: /testbed/pandas/tests/reshape/test_pivot.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 /testbed/pandas/tests/indexes/interval/test_astype.py | cut -d" " -f1); line=$(echo 8 /testbed/pandas/tests/indexes/interval/test_astype.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:04 UTC 2026] Processing [8]: /testbed/pandas/tests/indexes/interval/test_astype.py
+[Fri Nov 13 21:42:04 UTC 2026] Finished processing [5] with exit 0: /testbed/pandas/tests/indexes/interval/test_interval.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 /testbed/pandas/tests/frame/methods/test_round.py | cut -d" " -f1); line=$(echo 9 /testbed/pandas/tests/frame/methods/test_round.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:05 UTC 2026] Processing [9]: /testbed/pandas/tests/frame/methods/test_round.py
+[Fri Nov 13 21:42:06 UTC 2026] Finished processing [7] with exit 0: /testbed/pandas/tests/indexes/categorical/test_map.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 /testbed/pandas/tests/base/test_value_counts.py | cut -d" " -f1); line=$(echo 10 /testbed/pandas/tests/base/test_value_counts.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:06 UTC 2026] Processing [10]: /testbed/pandas/tests/base/test_value_counts.py
+[Fri Nov 13 21:42:08 UTC 2026] Finished processing [8] with exit 0: /testbed/pandas/tests/indexes/interval/test_astype.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 /testbed/pandas/tests/frame/test_arithmetic.py | cut -d" " -f1); line=$(echo 11 /testbed/pandas/tests/frame/test_arithmetic.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:08 UTC 2026] Processing [11]: /testbed/pandas/tests/frame/test_arithmetic.py
+[Fri Nov 13 21:42:08 UTC 2026] Finished processing [9] with exit 1: /testbed/pandas/tests/frame/methods/test_round.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 /testbed/pandas/tests/indexes/interval/test_base.py | cut -d" " -f1); line=$(echo 12 /testbed/pandas/tests/indexes/interval/test_base.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:08 UTC 2026] Processing [12]: /testbed/pandas/tests/indexes/interval/test_base.py
+[Fri Nov 13 21:42:09 UTC 2026] Finished processing [6] with exit 0: /testbed/pandas/tests/indexes/test_setops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 13 /testbed/pandas/tests/generic/test_duplicate_labels.py | cut -d" " -f1); line=$(echo 13 /testbed/pandas/tests/generic/test_duplicate_labels.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:10 UTC 2026] Processing [13]: /testbed/pandas/tests/generic/test_duplicate_labels.py
+[Fri Nov 13 21:42:10 UTC 2026] Finished processing [10] with exit 0: /testbed/pandas/tests/base/test_value_counts.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 14 /testbed/pandas/tests/reshape/merge/test_merge.py | cut -d" " -f1); line=$(echo 14 /testbed/pandas/tests/reshape/merge/test_merge.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:11 UTC 2026] Processing [14]: /testbed/pandas/tests/reshape/merge/test_merge.py
+[Fri Nov 13 21:42:13 UTC 2026] Finished processing [12] with exit 0: /testbed/pandas/tests/indexes/interval/test_base.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 15 /testbed/pandas/tests/indexes/test_base.py | cut -d" " -f1); line=$(echo 15 /testbed/pandas/tests/indexes/test_base.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:13 UTC 2026] Processing [15]: /testbed/pandas/tests/indexes/test_base.py
+[Fri Nov 13 21:42:14 UTC 2026] Finished processing [11] with exit 1: /testbed/pandas/tests/frame/test_arithmetic.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 16 /testbed/pandas/tests/indexes/interval/test_indexing.py | cut -d" " -f1); line=$(echo 16 /testbed/pandas/tests/indexes/interval/test_indexing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:14 UTC 2026] Processing [16]: /testbed/pandas/tests/indexes/interval/test_indexing.py
+[Fri Nov 13 21:42:14 UTC 2026] Finished processing [13] with exit 0: /testbed/pandas/tests/generic/test_duplicate_labels.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 17 /testbed/pandas/tests/indexing/test_categorical.py | cut -d" " -f1); line=$(echo 17 /testbed/pandas/tests/indexing/test_categorical.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:15 UTC 2026] Processing [17]: /testbed/pandas/tests/indexing/test_categorical.py
+[Fri Nov 13 21:42:20 UTC 2026] Finished processing [16] with exit 0: /testbed/pandas/tests/indexes/interval/test_indexing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 18 /testbed/pandas/tests/indexes/interval/test_setops.py | cut -d" " -f1); line=$(echo 18 /testbed/pandas/tests/indexes/interval/test_setops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:20 UTC 2026] Processing [18]: /testbed/pandas/tests/indexes/interval/test_setops.py
+[Fri Nov 13 21:42:20 UTC 2026] Finished processing [14] with exit 1: /testbed/pandas/tests/reshape/merge/test_merge.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 19 /testbed/pandas/tests/indexes/test_common.py | cut -d" " -f1); line=$(echo 19 /testbed/pandas/tests/indexes/test_common.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:21 UTC 2026] Processing [19]: /testbed/pandas/tests/indexes/test_common.py
+[Fri Nov 13 21:42:22 UTC 2026] Finished processing [17] with exit 0: /testbed/pandas/tests/indexing/test_categorical.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 20 /testbed/pandas/tests/indexes/interval/test_constructors.py | cut -d" " -f1); line=$(echo 20 /testbed/pandas/tests/indexes/interval/test_constructors.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:22 UTC 2026] Processing [20]: /testbed/pandas/tests/indexes/interval/test_constructors.py
+[Fri Nov 13 21:42:25 UTC 2026] Finished processing [18] with exit 0: /testbed/pandas/tests/indexes/interval/test_setops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 21 /testbed/pandas/tests/frame/test_constructors.py | cut -d" " -f1); line=$(echo 21 /testbed/pandas/tests/frame/test_constructors.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:26 UTC 2026] Processing [21]: /testbed/pandas/tests/frame/test_constructors.py
+[Fri Nov 13 21:42:28 UTC 2026] Finished processing [19] with exit 0: /testbed/pandas/tests/indexes/test_common.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 22 /testbed/pandas/tests/indexes/test_any_index.py | cut -d" " -f1); line=$(echo 22 /testbed/pandas/tests/indexes/test_any_index.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:28 UTC 2026] Processing [22]: /testbed/pandas/tests/indexes/test_any_index.py
+[Fri Nov 13 21:42:28 UTC 2026] Finished processing [15] with exit 1: /testbed/pandas/tests/indexes/test_base.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 23 /testbed/pandas/tests/arrays/categorical/test_indexing.py | cut -d" " -f1); line=$(echo 23 /testbed/pandas/tests/arrays/categorical/test_indexing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:29 UTC 2026] Processing [23]: /testbed/pandas/tests/arrays/categorical/test_indexing.py
+[Fri Nov 13 21:42:29 UTC 2026] Finished processing [20] with exit 0: /testbed/pandas/tests/indexes/interval/test_constructors.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 24 /testbed/pandas/tests/arithmetic/test_interval.py | cut -d" " -f1); line=$(echo 24 /testbed/pandas/tests/arithmetic/test_interval.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:29 UTC 2026] Processing [24]: /testbed/pandas/tests/arithmetic/test_interval.py
+[Fri Nov 13 21:42:33 UTC 2026] Finished processing [22] with exit 0: /testbed/pandas/tests/indexes/test_any_index.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 25 /testbed/pandas/tests/series/methods/test_sort_index.py | cut -d" " -f1); line=$(echo 25 /testbed/pandas/tests/series/methods/test_sort_index.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:33 UTC 2026] Processing [25]: /testbed/pandas/tests/series/methods/test_sort_index.py
+[Fri Nov 13 21:42:33 UTC 2026] Finished processing [23] with exit 0: /testbed/pandas/tests/arrays/categorical/test_indexing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 26 /testbed/pandas/tests/groupby/aggregate/test_cython.py | cut -d" " -f1); line=$(echo 26 /testbed/pandas/tests/groupby/aggregate/test_cython.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:33 UTC 2026] Processing [26]: /testbed/pandas/tests/groupby/aggregate/test_cython.py
+[Fri Nov 13 21:42:35 UTC 2026] Finished processing [21] with exit 1: /testbed/pandas/tests/frame/test_constructors.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 27 /testbed/pandas/tests/extension/test_interval.py | cut -d" " -f1); line=$(echo 27 /testbed/pandas/tests/extension/test_interval.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:35 UTC 2026] Processing [27]: /testbed/pandas/tests/extension/test_interval.py
+[Fri Nov 13 21:42:36 UTC 2026] Finished processing [24] with exit 0: /testbed/pandas/tests/arithmetic/test_interval.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 28 /testbed/pandas/tests/reshape/test_cut.py | cut -d" " -f1); line=$(echo 28 /testbed/pandas/tests/reshape/test_cut.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:36 UTC 2026] Processing [28]: /testbed/pandas/tests/reshape/test_cut.py
+[Fri Nov 13 21:42:37 UTC 2026] Finished processing [25] with exit 0: /testbed/pandas/tests/series/methods/test_sort_index.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 29 /testbed/pandas/tests/reshape/test_qcut.py | cut -d" " -f1); line=$(echo 29 /testbed/pandas/tests/reshape/test_qcut.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:37 UTC 2026] Processing [29]: /testbed/pandas/tests/reshape/test_qcut.py
+[Fri Nov 13 21:42:38 UTC 2026] Finished processing [26] with exit 0: /testbed/pandas/tests/groupby/aggregate/test_cython.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 30 /testbed/pandas/tests/test_algos.py | cut -d" " -f1); line=$(echo 30 /testbed/pandas/tests/test_algos.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:42:38 UTC 2026] Processing [30]: /testbed/pandas/tests/test_algos.py
+[Fri Nov 13 21:42:41 UTC 2026] Finished processing [28] with exit 0: /testbed/pandas/tests/reshape/test_cut.py
+[Fri Nov 13 21:42:41 UTC 2026] Finished processing [29] with exit 0: /testbed/pandas/tests/reshape/test_qcut.py
+[Fri Nov 13 21:42:41 UTC 2026] Finished processing [27] with exit 0: /testbed/pandas/tests/extension/test_interval.py
+[Fri Nov 13 21:42:43 UTC 2026] Finished processing [30] with exit 1: /testbed/pandas/tests/test_algos.py
++ [[ -s /tmp/single_thread_tests.txt ]]
++ cat /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 1 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'idx=$(echo % | cut -d" " -f1); NUM_PARALLEL_TESTS=$(cat /tmp/covering_tests.txt | grep -vFx -f /tmp/single_thread_tests.txt | wc -l); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$((idx + NUM_PARALLEL_TESTS)).txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$((idx + NUM_PARALLEL_TESTS))]: $line" >&2; retries=0; rc=0; while true; do PYTHONHASHSEED=0 pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$((idx + NUM_PARALLEL_TESTS))] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$((idx + NUM_PARALLEL_TESTS))] with exit $rc: $line" >&2; exit $rc;' else echo 'Input file is empty, skipping.'
+/bin/bash -c 'idx=$(echo 0 /testbed/pandas/tests/io/excel/test_writers.py | cut -d" " -f1); NUM_PARALLEL_TESTS=$(cat /tmp/covering_tests.txt | grep -vFx -f /tmp/single_thread_tests.txt | wc -l); line=$(echo 0 /testbed/pandas/tests/io/excel/test_writers.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$((idx + NUM_PARALLEL_TESTS)).txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$((idx + NUM_PARALLEL_TESTS))]: $line" >&2; retries=0; rc=0; while true; do PYTHONHASHSEED=0 pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m "not slow and not network and not db and not single_cpu" $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$((idx + NUM_PARALLEL_TESTS))] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$((idx + NUM_PARALLEL_TESTS))] with exit $rc: $line" >&2; exit $rc;' else echo 'Input file is empty, skipping.'
+[Fri Nov 13 21:42:43 UTC 2026] Processing [31]: /testbed/pandas/tests/io/excel/test_writers.py
+[Fri Nov 13 21:43:14 UTC 2026] Finished processing [31] with exit 1: /testbed/pandas/tests/io/excel/test_writers.py

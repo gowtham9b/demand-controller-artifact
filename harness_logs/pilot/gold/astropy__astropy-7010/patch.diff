@@ -1,0 +1,269 @@
+diff --git a/astropy/units/quantity.py b/astropy/units/quantity.py
+index 1c68621405d4..3bdda4a6370e 100644
+--- a/astropy/units/quantity.py
++++ b/astropy/units/quantity.py
+@@ -18,6 +18,7 @@
+ # AstroPy
+ from .core import (Unit, dimensionless_unscaled, get_current_unit_registry,
+                    UnitBase, UnitsError, UnitTypeError)
++from .utils import is_effectively_unity
+ from .format.latex import Latex
+ from ..utils.compat import NUMPY_LT_1_13, NUMPY_LT_1_14
+ from ..utils.compat.misc import override__dir__
+@@ -391,6 +392,10 @@ def __new__(cls, value, unit=None, dtype=None, copy=True, order=None,
+             return value.to(unit)
+ 
+     def __array_finalize__(self, obj):
++        # If we're a new object or viewing an ndarray, nothing has to be done.
++        if obj is None or obj.__class__ is np.ndarray:
++            return
++
+         # If our unit is not set and obj has a valid one, use it.
+         if self._unit is None:
+             unit = getattr(obj, '_unit', None)
+@@ -399,9 +404,8 @@ def __array_finalize__(self, obj):
+ 
+         # Copy info if the original had `info` defined.  Because of the way the
+         # DataInfo works, `'info' in obj.__dict__` is False until the
+-        # `info` attribute is accessed or set.  Note that `obj` can be an
+-        # ndarray which doesn't have a `__dict__`.
+-        if 'info' in getattr(obj, '__dict__', ()):
++        # `info` attribute is accessed or set.
++        if 'info' in obj.__dict__:
+             self.info = obj.info
+ 
+     def __array_prepare__(self, obj, context=None):
+@@ -627,9 +631,9 @@ def __array_ufunc__(self, function, method, *inputs, **kwargs):
+             kwargs['out'] = (out_array,) if function.nout == 1 else out_array
+ 
+         # Same for inputs, but here also convert if necessary.
+-        arrays = tuple((converter(input_.value) if converter else
+-                        getattr(input_, 'value', input_))
+-                       for input_, converter in zip(inputs, converters))
++        arrays = [(converter(input_.value) if converter else
++                   getattr(input_, 'value', input_))
++                  for input_, converter in zip(inputs, converters)]
+ 
+         # Call our superclass's __array_ufunc__
+         result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+@@ -734,6 +738,9 @@ def _new_view(self, obj=None, unit=None):
+             unit = self.unit
+             quantity_subclass = self.__class__
+         else:
++            # In principle, could gain time by testing unit is self.unit
++            # as well, and then quantity_subclass = self.__class__, but
++            # Constant relies on going through `__quantity_subclass__`.
+             unit = Unit(unit)
+             quantity_subclass = getattr(unit, '_quantity_class', Quantity)
+             if isinstance(self, quantity_subclass):
+@@ -746,6 +753,8 @@ def _new_view(self, obj=None, unit=None):
+         # convert python and numpy scalars, which cannot be viewed as arrays
+         # and thus not as Quantity either, to zero-dimensional arrays.
+         # (These are turned back into scalar in `.value`)
++        # Note that for an ndarray input, the np.array call takes only double
++        # ``obj.__class is np.ndarray``. So, not worth special-casing.
+         if obj is None:
+             obj = self.view(np.ndarray)
+         else:
+@@ -865,11 +874,24 @@ def to_value(self, unit=None, equivalencies=[]):
+         --------
+         to : Get a new instance in a different unit.
+         """
+-        value = self.view(np.ndarray)
+-        if unit is not None:
++        if unit is None or unit is self.unit:
++            value = self.view(np.ndarray)
++        else:
+             unit = Unit(unit)
+-            if unit != self.unit:
++            # We want a view if the unit does not change.  One could check
++            # with "==", but that calculates the scale that we need anyway.
++            # TODO: would be better for `unit.to` to have an in-place flag.
++            try:
++                scale = self.unit._to(unit)
++            except Exception:
++                # Short-cut failed; try default (maybe equivalencies help).
+                 value = self._to_value(unit, equivalencies)
++            else:
++                value = self.view(np.ndarray)
++                if not is_effectively_unity(scale):
++                    # not in-place!
++                    value = value * scale
++
+         return value if self.shape else value.item()
+ 
+     value = property(to_value,
+diff --git a/astropy/units/quantity_helper.py b/astropy/units/quantity_helper.py
+index 8b3ada9cc2c1..aed37acf1e07 100644
+--- a/astropy/units/quantity_helper.py
++++ b/astropy/units/quantity_helper.py
+@@ -307,40 +307,52 @@ def helper_two_arg_dimensionless(f, unit1, unit2):
+ UFUNC_HELPERS[np.logaddexp2] = helper_two_arg_dimensionless
+ 
+ 
+-def get_converters_and_unit(f, *units):
+-
++def get_converters_and_unit(f, unit1, unit2):
+     converters = [None, None]
+-    # no units for any input -- e.g., np.add(a1, a2, out=q)
+-    if all(unit is None for unit in units):
+-        return converters, dimensionless_unscaled
++    # By default, we try adjusting unit2 to unit1, so that the result will
++    # be unit1 as well. But if there is no second unit, we have to try
++    # adjusting unit1 (to dimensionless, see below).
++    if unit2 is None:
++        if unit1 is None:
++            # No units for any input -- e.g., np.add(a1, a2, out=q)
++            return converters, dimensionless_unscaled
++        changeable = 0
++        # swap units.
++        unit2 = unit1
++        unit1 = None
++    elif unit2 is unit1:
++        # ensure identical units is fast ("==" is slow, so avoid that).
++        return converters, unit1
++    else:
++        changeable = 1
+ 
+-    fixed, changeable = (1, 0) if units[1] is None else (0, 1)
+-    if units[fixed] is None:
++    # Try to get a converter from unit2 to unit1.
++    if unit1 is None:
+         try:
+-            converters[changeable] = get_converter(units[changeable],
++            converters[changeable] = get_converter(unit2,
+                                                    dimensionless_unscaled)
+         except UnitsError:
+             # special case: would be OK if unitless number is zero, inf, nan
+-            converters[fixed] = False
+-            return converters, units[changeable]
++            converters[1-changeable] = False
++            return converters, unit2
+         else:
+             return converters, dimensionless_unscaled
+ 
+     else:
+         try:
+-            converters[changeable] = get_converter(units[changeable],
+-                                                   units[fixed])
++            converters[changeable] = get_converter(unit2, unit1)
+         except UnitsError:
+             raise UnitConversionError(
+                 "Can only apply '{0}' function to quantities "
+                 "with compatible dimensions"
+                 .format(f.__name__))
+ 
+-        return converters, units[fixed]
++        return converters, unit1
+ 
+ 
+-def helper_twoarg_invariant(f, unit1, unit2):
+-    return get_converters_and_unit(f, unit1, unit2)
++# This used to be a separate function that just called get_converters_and_unit.
++# Using it directly saves a few us; keeping the clearer name.
++helper_twoarg_invariant = get_converters_and_unit
+ 
+ 
+ UFUNC_HELPERS[np.add] = helper_twoarg_invariant
+@@ -441,10 +453,21 @@ def converters_and_unit(function, method, *args):
+     UnitTypeError : when the conversion to the required (or consistent) units
+         is not possible.
+     """
+-    # Check whether we even support this ufunc
+-    if function in UNSUPPORTED_UFUNCS:
+-        raise TypeError("Cannot use function '{0}' with quantities"
+-                        .format(function.__name__))
++
++    # Check whether we support this ufunc, by getting the helper function
++    # (defined above) which returns a list of function(s) that convert the
++    # input(s) to the unit required for the ufunc, as well as the unit the
++    # result will have (a tuple of units if there are multiple outputs).
++    try:
++        ufunc_helper = UFUNC_HELPERS[function]
++    except KeyError:
++        if function in UNSUPPORTED_UFUNCS:
++            raise TypeError("Cannot use function '{0}' with quantities"
++                            .format(function.__name__))
++        else:
++            raise TypeError("Unknown ufunc {0}.  Please raise issue on "
++                            "https://github.com/astropy/astropy"
++                            .format(function.__name__))
+ 
+     if method == '__call__' or (method == 'outer' and function.nin == 2):
+         # Find out the units of the arguments passed to the ufunc; usually,
+@@ -452,16 +475,8 @@ def converters_and_unit(function, method, *args):
+         # could also be a Numpy array, etc.  These are given unit=None.
+         units = [getattr(arg, 'unit', None) for arg in args]
+ 
+-        # If the ufunc is supported, then we call a helper function (defined
+-        # above) which returns a list of function(s) that converts the input(s)
+-        # to the unit required for the ufunc, as well as the unit the output
+-        # will have (this is a tuple of units if there are multiple outputs).
+-        if function in UFUNC_HELPERS:
+-            converters, result_unit = UFUNC_HELPERS[function](function, *units)
+-        else:
+-            raise TypeError("Unknown ufunc {0}.  Please raise issue on "
+-                            "https://github.com/astropy/astropy"
+-                            .format(function.__name__))
++        # Determine possible conversion functions, and the result unit.
++        converters, result_unit = ufunc_helper(function, *units)
+ 
+         if any(converter is False for converter in converters):
+             # for two-argument ufuncs with a quantity and a non-quantity,
+@@ -516,30 +531,29 @@ def converters_and_unit(function, method, *args):
+                         result_unit = dimensionless_unscaled
+ 
+     else:  # methods for which the unit should stay the same
+-        if method == 'at':
+-            unit = getattr(args[0], 'unit', None)
+-            units = [unit]
+-            if function.nin == 2:
+-                units.append(getattr(args[2], 'unit', None))
++        nin = function.nin
++        unit = getattr(args[0], 'unit', None)
++        if method == 'at' and nin <= 2:
++            if nin == 1:
++                units = [unit]
++            else:
++                units = [unit, getattr(args[2], 'unit', None)]
+ 
+-            converters, result_unit = UFUNC_HELPERS[function](function, *units)
++            converters, result_unit = ufunc_helper(function, *units)
+ 
+             # ensure there is no 'converter' for indices (2nd argument)
+             converters.insert(1, None)
+ 
+-        elif (method in ('reduce', 'accumulate', 'reduceat') and
+-              function.nin == 2):
+-            unit = getattr(args[0], 'unit', None)
+-            converters, result_unit = UFUNC_HELPERS[function](function,
+-                                                              unit, unit)
++        elif method in {'reduce', 'accumulate', 'reduceat'} and nin == 2:
++            converters, result_unit = ufunc_helper(function, unit, unit)
+             converters = converters[:1]
+             if method == 'reduceat':
+                 # add 'scale' for indices (2nd argument)
+                 converters += [None]
+ 
+         else:
+-            if method in ('reduce', 'accumulate', 'reduceat',
+-                          'outer') and function.nin != 2:
++            if method in {'reduce', 'accumulate',
++                          'reduceat', 'outer'} and nin != 2:
+                 raise ValueError("{0} only supported for binary functions"
+                                  .format(method))
+ 
+@@ -554,9 +568,10 @@ def converters_and_unit(function, method, *args):
+                             "Quantity instance as the result is not a "
+                             "Quantity.".format(function.__name__, method))
+ 
+-        if converters[0] is not None or (unit is not None and
+-                                         (not result_unit.is_equivalent(unit) or
+-                                          result_unit.to(unit) != 1.)):
++        if (converters[0] is not None or
++            (unit is not None and unit is not result_unit and
++             (not result_unit.is_equivalent(unit) or
++              result_unit.to(unit) != 1.))):
+             raise UnitsError("Cannot use '{1}' method on ufunc {0} with a "
+                              "Quantity instance as it would change the unit."
+                              .format(function.__name__, method))

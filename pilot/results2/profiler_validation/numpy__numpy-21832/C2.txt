@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 250 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  38.8%     0.038    0.090       2  numpy/core/function_base.py:23 linspace
+ 2   4.7%     0.005    0.015       2  numpy/core/fromnumeric.py:69 _wrapreduction
+ 3   3.0%     0.003    0.004       4  numpy/core/numerictypes.py:282 issubclass_
+ 4   2.9%     0.003    0.007       2  numpy/core/numerictypes.py:356 issubdtype
+ 5   2.3%     0.002    0.017       2  numpy/core/fromnumeric.py:2307 any
+ 6   2.1%     0.002    0.004       2  numpy/core/numeric.py:1873 isscalar
+ 7   1.4%     0.001    0.001       2  numpy/core/fromnumeric.py:70 <dictcomp>
+ 8   0.8%     0.001    0.001       2  numpy/core/function_base.py:18 _linspace_dispatcher
+Outside the repository: 41.2% of self time. Largest: <built-in method numpy.core._multiarray_umath.implement_array_function> 11.2%; <method 'reduce' of 'numpy.ufunc' objects> 6.0%; <built-in method numpy.asanyarray> 2.7%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

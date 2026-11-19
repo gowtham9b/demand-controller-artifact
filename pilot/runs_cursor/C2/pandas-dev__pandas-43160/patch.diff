@@ -1,0 +1,19 @@
+diff --git a/pandas/core/arrays/period.py b/pandas/core/arrays/period.py
+index 471ee295eb..e4dee23f28 100644
+--- a/pandas/core/arrays/period.py
++++ b/pandas/core/arrays/period.py
+@@ -347,7 +347,13 @@ class PeriodArray(dtl.DatelikeOps):
+             return ~self._isnan
+ 
+         # This will raise TypeError for non-object dtypes
+-        return np.array(list(self), dtype=object)
++        if self.ndim != 1:
++            return np.array(list(self), dtype=object)
++        freq = self.freq
++        from_ordinal = Period._from_ordinal
++        out = np.empty(len(self), dtype=object)
++        out[:] = [from_ordinal(ordinal=x, freq=freq) for x in self.asi8.tolist()]
++        return out
+ 
+     def __arrow_array__(self, type=None):
+         """

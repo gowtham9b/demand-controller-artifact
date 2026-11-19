@@ -1,0 +1,506 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/gdal ']'
++++ export GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ export GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ '[' '!' -d /opt/miniconda3/envs/testbed/lib/gdalplugins ']'
++++ export CPL_ZIP_ENCODING=UTF-8
++++ CPL_ZIP_ENCODING=UTF-8
++++ '[' -n '5.1.16(1)-release' ']'
++++ '[' -f /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo ']'
++++ source /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo
+++++ function_exists _get_comp_words_by_ref
+++++ declare -f -F _get_comp_words_by_ref
+++++ return 1
+++++ return 0
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/epsg_csv ']'
++++ '[' -d /opt/miniconda3/envs/testbed/Library/share/epsg_csv ']'
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh
++++ '[' -n '' ']'
++++ _la_log 'Beginning libarrow activation.'
++++ '[' '' = 1 ']'
++++ _la_gdb_prefix=/opt/miniconda3/envs/testbed/share/gdb/auto-load
++++ '[' '!' -w /opt/miniconda3/envs/testbed/share/gdb/auto-load ']'
++++ _la_placeholder=replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX
++++ _la_symlink_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib
++++ _la_orig_install_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
++++ _la_log '          _la_gdb_prefix: /opt/miniconda3/envs/testbed/share/gdb/auto-load'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_placeholder: replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_symlink_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib'
++++ '[' '' = 1 ']'
++++ _la_log '    _la_orig_install_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib'
++++ '[' '' = 1 ']'
++++ _la_log '  content of that folder:'
++++ '[' '' = 1 ']'
+++++ ls -al /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
+++++ sed 's/^/      /'
++++ _la_log '      total 12
+      drwxr-xr-x 2 root root 4096 Jul 25  2025 .
+      drwxr-xr-x 3 root root 4096 Jul 25  2025 ..
+      -rw-r--r-- 1 root root  971 Jul 25  2025 libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ for _la_target in "$_la_orig_install_dir/"*.py
++++ '[' '!' -e /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ basename /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_symlink=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_log '   _la_target: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ _la_log '  _la_symlink: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ '[' -L /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ readlink /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ '[' /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py = /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
++++ _la_log 'symlink $_la_symlink already exists and points to $_la_target, skipping.'
++++ '[' '' = 1 ']'
++++ continue
++++ _la_log 'Libarrow activation complete.'
++++ '[' '' = 1 ']'
++++ unset _la_gdb_prefix
++++ unset _la_log
++++ unset _la_orig_install_dir
++++ unset _la_placeholder
++++ unset _la_symlink
++++ unset _la_symlink_dir
++++ unset _la_target
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/proj ']'
++++ export PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ '[' -f /opt/miniconda3/envs/testbed/share/proj/copyright_and_licenses.csv ']'
++++ export PROJ_NETWORK=ON
++++ PROJ_NETWORK=ON
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/udunits ']'
++++ export UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++++ UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   xarray/core/variable.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 8d728bf253f63c557ab8993d47c1cd0c3113277d
+Author: ignamv <ignamv@gmail.com>
+Date:   Sun May 5 20:06:57 2024 +0200
+
+    Add argument check_dims to assert_allclose to allow transposed inputs (#5733) (#8991)
+    
+    * Add argument check_dims to assert_allclose to allow transposed inputs
+    
+    * Update whats-new.rst
+    
+    * Add `check_dims` argument to assert_equal and assert_identical + tests
+    
+    * Assert that dimensions match before transposing or comparing values
+    
+    * Add docstring for check_dims to assert_equal and assert_identical
+    
+    * Update doc/whats-new.rst
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    
+    * Undo fat finger
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    
+    * Add attribution to whats-new.rst
+    
+    * Replace check_dims with bool argument check_dim_order, rename align_dims to maybe_transpose_dims
+    
+    * Remove left-over half-made test
+    
+    * Remove check_dim_order argument from assert_identical
+    
+    * assert_allclose/equal: emit full diff if dimensions don't match
+    
+    * Rename check_dim_order test, test Dataset with different dim orders
+    
+    * Update whats-new.rst
+    
+    * Hide maybe_transpose_dims from Pytest traceback
+    
+    Co-authored-by: Maximilian Roos <5635139+max-sixty@users.noreply.github.com>
+    
+    * Ignore mypy error due to missing functools.partial.__name__
+    
+    ---------
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    Co-authored-by: Maximilian Roos <5635139+max-sixty@users.noreply.github.com>
+
+diff --git a/doc/whats-new.rst b/doc/whats-new.rst
+index 0f79b648..9a4601a7 100644
+--- a/doc/whats-new.rst
++++ b/doc/whats-new.rst
+@@ -29,6 +29,8 @@ New Features
+   for example, will retain the object.  However, one cannot do operations that are not possible on the `ExtensionArray`
+   then, such as broadcasting.
+   By `Ilan Gold <https://github.com/ilan-gold>`_.
++- :py:func:`testing.assert_allclose`/:py:func:`testing.assert_equal` now accept a new argument `check_dims="transpose"`, controlling whether a transposed array is considered equal. (:issue:`5733`, :pull:`8991`)
++  By `Ignacio Martinez Vazquez <https://github.com/ignamv>`_.
+ - Added the option to avoid automatically creating 1D pandas indexes in :py:meth:`Dataset.expand_dims()`, by passing the new kwarg
+   `create_index=False`. (:pull:`8960`)
+   By `Tom Nicholas <https://github.com/TomNicholas>`_.
+diff --git a/xarray/testing/assertions.py b/xarray/testing/assertions.py
+index 018874c1..69885868 100644
+--- a/xarray/testing/assertions.py
++++ b/xarray/testing/assertions.py
+@@ -95,6 +95,18 @@ def assert_isomorphic(a: DataTree, b: DataTree, from_root: bool = False):
+         raise TypeError(f"{type(a)} not of type DataTree")
+ 
+ 
++def maybe_transpose_dims(a, b, check_dim_order: bool):
++    """Helper for assert_equal/allclose/identical"""
++    __tracebackhide__ = True
++    if not isinstance(a, (Variable, DataArray, Dataset)):
++        return b
++    if not check_dim_order and set(a.dims) == set(b.dims):
++        # Ensure transpose won't fail if a dimension is missing
++        # If this is the case, the difference will be caught by the caller
++        return b.transpose(*a.dims)
++    return b
++
++
+ @overload
+ def assert_equal(a, b): ...
+ 
+@@ -104,7 +116,7 @@ def assert_equal(a: DataTree, b: DataTree, from_root: bool = True): ...
+ 
+ 
+ @ensure_warnings
+-def assert_equal(a, b, from_root=True):
++def assert_equal(a, b, from_root=True, check_dim_order: bool = True):
+     """Like :py:func:`numpy.testing.assert_array_equal`, but for xarray
+     objects.
+ 
+@@ -127,6 +139,8 @@ def assert_equal(a, b, from_root=True):
+         Only used when comparing DataTree objects. Indicates whether or not to
+         first traverse to the root of the trees before checking for isomorphism.
+         If a & b have no parents then this has no effect.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -137,6 +151,7 @@ def assert_equal(a, b, from_root=True):
+     assert (
+         type(a) == type(b) or isinstance(a, Coordinates) and isinstance(b, Coordinates)
+     )
++    b = maybe_transpose_dims(a, b, check_dim_order)
+     if isinstance(a, (Variable, DataArray)):
+         assert a.equals(b), formatting.diff_array_repr(a, b, "equals")
+     elif isinstance(a, Dataset):
+@@ -182,6 +197,8 @@ def assert_identical(a, b, from_root=True):
+         Only used when comparing DataTree objects. Indicates whether or not to
+         first traverse to the root of the trees before checking for isomorphism.
+         If a & b have no parents then this has no effect.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -213,7 +230,9 @@ def assert_identical(a, b, from_root=True):
+ 
+ 
+ @ensure_warnings
+-def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
++def assert_allclose(
++    a, b, rtol=1e-05, atol=1e-08, decode_bytes=True, check_dim_order: bool = True
++):
+     """Like :py:func:`numpy.testing.assert_allclose`, but for xarray objects.
+ 
+     Raises an AssertionError if two objects are not equal up to desired
+@@ -233,6 +252,8 @@ def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
+         Whether byte dtypes should be decoded to strings as UTF-8 or not.
+         This is useful for testing serialization methods on Python 3 that
+         return saved strings as bytes.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -240,16 +261,16 @@ def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
+     """
+     __tracebackhide__ = True
+     assert type(a) == type(b)
++    b = maybe_transpose_dims(a, b, check_dim_order)
+ 
+     equiv = functools.partial(
+         _data_allclose_or_equiv, rtol=rtol, atol=atol, decode_bytes=decode_bytes
+     )
+-    equiv.__name__ = "allclose"
++    equiv.__name__ = "allclose"  # type: ignore[attr-defined]
+ 
+     def compat_variable(a, b):
+         a = getattr(a, "variable", a)
+         b = getattr(b, "variable", b)
+-
+         return a.dims == b.dims and (a._data is b._data or equiv(a.data, b.data))
+ 
+     if isinstance(a, Variable):
+diff --git a/xarray/tests/test_assertions.py b/xarray/tests/test_assertions.py
+index f7e49a0f..aa0ea46f 100644
+--- a/xarray/tests/test_assertions.py
++++ b/xarray/tests/test_assertions.py
+@@ -57,6 +57,25 @@ def test_allclose_regression() -> None:
+ def test_assert_allclose(obj1, obj2) -> None:
+     with pytest.raises(AssertionError):
+         xr.testing.assert_allclose(obj1, obj2)
++    with pytest.raises(AssertionError):
++        xr.testing.assert_allclose(obj1, obj2, check_dim_order=False)
++
++
++@pytest.mark.parametrize("func", ["assert_equal", "assert_allclose"])
++def test_assert_allclose_equal_transpose(func) -> None:
++    """Transposed DataArray raises assertion unless check_dim_order=False."""
++    obj1 = xr.DataArray([[0, 1, 2], [2, 3, 4]], dims=["a", "b"])
++    obj2 = xr.DataArray([[0, 2], [1, 3], [2, 4]], dims=["b", "a"])
++    with pytest.raises(AssertionError):
++        getattr(xr.testing, func)(obj1, obj2)
++    getattr(xr.testing, func)(obj1, obj2, check_dim_order=False)
++    ds1 = obj1.to_dataset(name="varname")
++    ds1["var2"] = obj1
++    ds2 = obj1.to_dataset(name="varname")
++    ds2["var2"] = obj1.transpose()
++    with pytest.raises(AssertionError):
++        getattr(xr.testing, func)(ds1, ds2)
++    getattr(xr.testing, func)(ds1, ds2, check_dim_order=False)
+ 
+ 
+ @pytest.mark.filterwarnings("error")
++ pip install -e . --no-build-isolation
+Obtaining file:///testbed
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.23 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (2.2.6)
+Requirement already satisfied: packaging>=23.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (25.0)
+Requirement already satisfied: pandas>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (2.3.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2025.2)
+Requirement already satisfied: six>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas>=2.0->xarray==0.0.0) (1.17.0)
+Building wheels for collected packages: xarray
+  Building editable for xarray (pyproject.toml): started
+  Building editable for xarray (pyproject.toml): finished with status 'done'
+  Created wheel for xarray: filename=xarray-0.0.0-0.editable-py3-none-any.whl size=12369 sha256=a795faf1604bab4fd096aa700e9fba21811493fd12db275cba66e235df2ef334
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ogeqyfdq/wheels/0d/a6/cb/465a7b303d624cc531250fa27c75d038ddc29430bdb6ba7c9f
+Successfully built xarray
+Installing collected packages: xarray
+  Attempting uninstall: xarray
+    Found existing installation: xarray 0.0.0
+    Uninstalling xarray-0.0.0:
+      Successfully uninstalled xarray-0.0.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+xarray-datatree 0.0.15 requires xarray<=2024.07.0,>=2023.12.0, but you have xarray 0.0.0 which is incompatible.
+Successfully installed xarray-0.0.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ echo PERF_START:
+PERF_START:
++ python /tmp/workload.py
+--2026-11-16 19:05:13--  https://github.com/pydata/xarray/files/15213429/software_timestamp.zip
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/13221727/15213429?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20261116%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261116T190450Z&X-Amz-Expires=300&X-Amz-Signature=d45272fdaf4283561aa8b8ec1d5271011ef6c53a44ceafac1e7e94fefed53644&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3Dsoftware_timestamp.zip&response-content-type=application%2Fzip [following]
+--2026-11-16 19:05:13--  https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/13221727/15213429?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20261116%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261116T190450Z&X-Amz-Expires=300&X-Amz-Signature=d45272fdaf4283561aa8b8ec1d5271011ef6c53a44ceafac1e7e94fefed53644&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3Dsoftware_timestamp.zip&response-content-type=application%2Fzip
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 526182 (514K) [application/zip]
+Saving to: ‘/tmp/software_timestamp.zip’
+
+     0K .......... .......... .......... .......... ..........  9% 3.28M 0s
+    50K .......... .......... .......... .......... .......... 19% 2.73M 0s
+   100K .......... .......... .......... .......... .......... 29% 6.59M 0s
+   150K .......... .......... .......... .......... .......... 38% 21.5M 0s
+   200K .......... .......... .......... .......... .......... 48% 3.89M 0s
+   250K .......... .......... .......... .......... .......... 58% 19.3M 0s
+   300K .......... .......... .......... .......... .......... 68% 12.3M 0s
+   350K .......... .......... .......... .......... .......... 77% 49.6M 0s
+   400K .......... .......... .......... .......... .......... 87% 21.6M 0s
+   450K .......... .......... .......... .......... .......... 97% 39.6M 0s
+   500K .......... ...                                        100% 96.8M=0.07s
+
+2026-11-16 19:05:14 (7.59 MB/s) - ‘/tmp/software_timestamp.zip’ saved [526182/526182]
+
+Mean: 0.036628424999071284
+Std Dev: 0.0004497836068491829
+PERF_END:
++ echo PERF_END:

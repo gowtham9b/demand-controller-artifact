@@ -1,0 +1,291 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   sympy/core/assumptions.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 6f0fd470a4f7a582c21d3a610798943817d0a334
+Merge: 56e47083ed 495a6c3488
+Author: Chris Smith <smichr@gmail.com>
+Date:   Thu Jan 5 23:52:17 2023 -0600
+
+    Merge pull request #24455 from skieffer/fix-is-cyclic
+    
+    Repair `PermutationGroup.is_cyclic`
+
++ pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from sympy==1.12.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.12.dev0
+    Uninstalling sympy-1.12.dev0:
+      Successfully uninstalled sympy-1.12.dev0
+  DEPRECATION: Legacy editable install of sympy==1.12.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.0 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 sympy/core/tests/test_sorting.py | cut -d" " -f1); line=$(echo 0 sympy/core/tests/test_sorting.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 sympy/core/tests/test_relational.py | cut -d" " -f1); line=$(echo 1 sympy/core/tests/test_relational.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 sympy/core/tests/test_noncommutative.py | cut -d" " -f1); line=$(echo 2 sympy/core/tests/test_noncommutative.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 sympy/core/tests/test_exprtools.py | cut -d" " -f1); line=$(echo 3 sympy/core/tests/test_exprtools.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:30 UTC 2026] Processing [2]: sympy/core/tests/test_noncommutative.py
+[Fri Nov 13 21:48:30 UTC 2026] Processing [1]: sympy/core/tests/test_relational.py
+[Fri Nov 13 21:48:30 UTC 2026] Processing [0]: sympy/core/tests/test_sorting.py
+[Fri Nov 13 21:48:30 UTC 2026] Processing [3]: sympy/core/tests/test_exprtools.py
+[Fri Nov 13 21:48:31 UTC 2026] Finished processing [0] with exit 0: sympy/core/tests/test_sorting.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 sympy/core/tests/test_basic.py | cut -d" " -f1); line=$(echo 4 sympy/core/tests/test_basic.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:31 UTC 2026] Processing [4]: sympy/core/tests/test_basic.py
+[Fri Nov 13 21:48:31 UTC 2026] Finished processing [2] with exit 0: sympy/core/tests/test_noncommutative.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 sympy/core/tests/test_numbers.py | cut -d" " -f1); line=$(echo 5 sympy/core/tests/test_numbers.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:31 UTC 2026] Processing [5]: sympy/core/tests/test_numbers.py
+[Fri Nov 13 21:48:32 UTC 2026] Finished processing [4] with exit 0: sympy/core/tests/test_basic.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 sympy/core/tests/test_cache.py | cut -d" " -f1); line=$(echo 6 sympy/core/tests/test_cache.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:32 UTC 2026] Processing [6]: sympy/core/tests/test_cache.py
+[Fri Nov 13 21:48:32 UTC 2026] Finished processing [3] with exit 0: sympy/core/tests/test_exprtools.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 sympy/core/tests/test_var.py | cut -d" " -f1); line=$(echo 7 sympy/core/tests/test_var.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:32 UTC 2026] Processing [7]: sympy/core/tests/test_var.py
+[Fri Nov 13 21:48:32 UTC 2026] Finished processing [6] with exit 0: sympy/core/tests/test_cache.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 sympy/core/tests/test_containers.py | cut -d" " -f1); line=$(echo 8 sympy/core/tests/test_containers.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:33 UTC 2026] Finished processing [7] with exit 0: sympy/core/tests/test_var.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 sympy/core/tests/test_evalf.py | cut -d" " -f1); line=$(echo 9 sympy/core/tests/test_evalf.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:33 UTC 2026] Processing [8]: sympy/core/tests/test_containers.py
+[Fri Nov 13 21:48:33 UTC 2026] Processing [9]: sympy/core/tests/test_evalf.py
+[Fri Nov 13 21:48:33 UTC 2026] Finished processing [5] with exit 0: sympy/core/tests/test_numbers.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 sympy/core/tests/test_compatibility.py | cut -d" " -f1); line=$(echo 10 sympy/core/tests/test_compatibility.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:33 UTC 2026] Finished processing [8] with exit 0: sympy/core/tests/test_containers.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 sympy/core/tests/test_facts.py | cut -d" " -f1); line=$(echo 11 sympy/core/tests/test_facts.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:34 UTC 2026] Processing [10]: sympy/core/tests/test_compatibility.py
+[Fri Nov 13 21:48:34 UTC 2026] Processing [11]: sympy/core/tests/test_facts.py
+[Fri Nov 13 21:48:34 UTC 2026] Finished processing [10] with exit 0: sympy/core/tests/test_compatibility.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 sympy/core/tests/test_parameters.py | cut -d" " -f1); line=$(echo 12 sympy/core/tests/test_parameters.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:34 UTC 2026] Finished processing [11] with exit 0: sympy/core/tests/test_facts.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 13 sympy/core/tests/test_assumptions.py | cut -d" " -f1); line=$(echo 13 sympy/core/tests/test_assumptions.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:34 UTC 2026] Processing [12]: sympy/core/tests/test_parameters.py
+[Fri Nov 13 21:48:35 UTC 2026] Processing [13]: sympy/core/tests/test_assumptions.py
+[Fri Nov 13 21:48:35 UTC 2026] Finished processing [12] with exit 0: sympy/core/tests/test_parameters.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 14 sympy/core/tests/test_count_ops.py | cut -d" " -f1); line=$(echo 14 sympy/core/tests/test_count_ops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:35 UTC 2026] Processing [14]: sympy/core/tests/test_count_ops.py
+[Fri Nov 13 21:48:36 UTC 2026] Finished processing [13] with exit 0: sympy/core/tests/test_assumptions.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 15 sympy/core/tests/test_match.py | cut -d" " -f1); line=$(echo 15 sympy/core/tests/test_match.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:36 UTC 2026] Finished processing [1] with exit 0: sympy/core/tests/test_relational.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 16 sympy/core/tests/test_expr.py | cut -d" " -f1); line=$(echo 16 sympy/core/tests/test_expr.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:36 UTC 2026] Processing [15]: sympy/core/tests/test_match.py
+[Fri Nov 13 21:48:36 UTC 2026] Processing [16]: sympy/core/tests/test_expr.py
+[Fri Nov 13 21:48:36 UTC 2026] Finished processing [14] with exit 0: sympy/core/tests/test_count_ops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 17 sympy/core/tests/test_symbol.py | cut -d" " -f1); line=$(echo 17 sympy/core/tests/test_symbol.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:36 UTC 2026] Processing [17]: sympy/core/tests/test_symbol.py
+[Fri Nov 13 21:48:37 UTC 2026] Finished processing [17] with exit 0: sympy/core/tests/test_symbol.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 18 sympy/core/tests/test_truediv.py | cut -d" " -f1); line=$(echo 18 sympy/core/tests/test_truediv.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:37 UTC 2026] Processing [18]: sympy/core/tests/test_truediv.py
+[Fri Nov 13 21:48:37 UTC 2026] Finished processing [15] with exit 0: sympy/core/tests/test_match.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 19 sympy/core/tests/test_priority.py | cut -d" " -f1); line=$(echo 19 sympy/core/tests/test_priority.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:38 UTC 2026] Processing [19]: sympy/core/tests/test_priority.py
+[Fri Nov 13 21:48:38 UTC 2026] Finished processing [9] with exit 0: sympy/core/tests/test_evalf.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 20 sympy/core/tests/test_rules.py | cut -d" " -f1); line=$(echo 20 sympy/core/tests/test_rules.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:38 UTC 2026] Finished processing [18] with exit 0: sympy/core/tests/test_truediv.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 21 sympy/core/tests/test_eval.py | cut -d" " -f1); line=$(echo 21 sympy/core/tests/test_eval.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:38 UTC 2026] Processing [20]: sympy/core/tests/test_rules.py
+[Fri Nov 13 21:48:38 UTC 2026] Processing [21]: sympy/core/tests/test_eval.py
+[Fri Nov 13 21:48:38 UTC 2026] Finished processing [19] with exit 0: sympy/core/tests/test_priority.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 22 sympy/core/tests/test_sympify.py | cut -d" " -f1); line=$(echo 22 sympy/core/tests/test_sympify.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:38 UTC 2026] Processing [22]: sympy/core/tests/test_sympify.py
+[Fri Nov 13 21:48:39 UTC 2026] Finished processing [20] with exit 0: sympy/core/tests/test_rules.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 23 sympy/core/tests/test_logic.py | cut -d" " -f1); line=$(echo 23 sympy/core/tests/test_logic.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:39 UTC 2026] Finished processing [21] with exit 0: sympy/core/tests/test_eval.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 24 sympy/core/tests/test_equal.py | cut -d" " -f1); line=$(echo 24 sympy/core/tests/test_equal.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:39 UTC 2026] Processing [23]: sympy/core/tests/test_logic.py
+[Fri Nov 13 21:48:39 UTC 2026] Processing [24]: sympy/core/tests/test_equal.py
+[Fri Nov 13 21:48:40 UTC 2026] Finished processing [22] with exit 0: sympy/core/tests/test_sympify.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 25 sympy/core/tests/test_function.py | cut -d" " -f1); line=$(echo 25 sympy/core/tests/test_function.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:40 UTC 2026] Processing [25]: sympy/core/tests/test_function.py
+[Fri Nov 13 21:48:40 UTC 2026] Finished processing [23] with exit 0: sympy/core/tests/test_logic.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 26 sympy/core/tests/test_complex.py | cut -d" " -f1); line=$(echo 26 sympy/core/tests/test_complex.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:40 UTC 2026] Finished processing [24] with exit 0: sympy/core/tests/test_equal.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 27 sympy/core/tests/test_singleton.py | cut -d" " -f1); line=$(echo 27 sympy/core/tests/test_singleton.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:40 UTC 2026] Processing [26]: sympy/core/tests/test_complex.py
+[Fri Nov 13 21:48:40 UTC 2026] Processing [27]: sympy/core/tests/test_singleton.py
+[Fri Nov 13 21:48:41 UTC 2026] Finished processing [27] with exit 0: sympy/core/tests/test_singleton.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 28 sympy/core/tests/test_arit.py | cut -d" " -f1); line=$(echo 28 sympy/core/tests/test_arit.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:41 UTC 2026] Processing [28]: sympy/core/tests/test_arit.py
+[Fri Nov 13 21:48:41 UTC 2026] Finished processing [26] with exit 0: sympy/core/tests/test_complex.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 29 sympy/core/tests/test_constructor_postprocessor.py | cut -d" " -f1); line=$(echo 29 sympy/core/tests/test_constructor_postprocessor.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:41 UTC 2026] Processing [29]: sympy/core/tests/test_constructor_postprocessor.py
+[Fri Nov 13 21:48:41 UTC 2026] Finished processing [16] with exit 0: sympy/core/tests/test_expr.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 30 sympy/core/tests/test_args.py | cut -d" " -f1); line=$(echo 30 sympy/core/tests/test_args.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:42 UTC 2026] Processing [30]: sympy/core/tests/test_args.py
+[Fri Nov 13 21:48:42 UTC 2026] Finished processing [29] with exit 0: sympy/core/tests/test_constructor_postprocessor.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 31 sympy/core/tests/test_traversal.py | cut -d" " -f1); line=$(echo 31 sympy/core/tests/test_traversal.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:42 UTC 2026] Processing [31]: sympy/core/tests/test_traversal.py
+[Fri Nov 13 21:48:43 UTC 2026] Finished processing [31] with exit 0: sympy/core/tests/test_traversal.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 32 sympy/core/tests/test_multidimensional.py | cut -d" " -f1); line=$(echo 32 sympy/core/tests/test_multidimensional.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:43 UTC 2026] Processing [32]: sympy/core/tests/test_multidimensional.py
+[Fri Nov 13 21:48:44 UTC 2026] Finished processing [32] with exit 0: sympy/core/tests/test_multidimensional.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 33 sympy/core/tests/test_kind.py | cut -d" " -f1); line=$(echo 33 sympy/core/tests/test_kind.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:44 UTC 2026] Processing [33]: sympy/core/tests/test_kind.py
+[Fri Nov 13 21:48:45 UTC 2026] Finished processing [33] with exit 0: sympy/core/tests/test_kind.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 34 sympy/core/tests/test_power.py | cut -d" " -f1); line=$(echo 34 sympy/core/tests/test_power.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:45 UTC 2026] Processing [34]: sympy/core/tests/test_power.py
+[Fri Nov 13 21:48:45 UTC 2026] Finished processing [30] with exit 0: sympy/core/tests/test_args.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 35 sympy/core/tests/test_subs.py | cut -d" " -f1); line=$(echo 35 sympy/core/tests/test_subs.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:45 UTC 2026] Processing [35]: sympy/core/tests/test_subs.py
+[Fri Nov 13 21:48:45 UTC 2026] Finished processing [28] with exit 0: sympy/core/tests/test_arit.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 36 sympy/core/tests/test_operations.py | cut -d" " -f1); line=$(echo 36 sympy/core/tests/test_operations.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:45 UTC 2026] Processing [36]: sympy/core/tests/test_operations.py
+[Fri Nov 13 21:48:46 UTC 2026] Finished processing [25] with exit 0: sympy/core/tests/test_function.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 37 sympy/core/tests/test_random.py | cut -d" " -f1); line=$(echo 37 sympy/core/tests/test_random.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:46 UTC 2026] Processing [37]: sympy/core/tests/test_random.py
+[Fri Nov 13 21:48:46 UTC 2026] Finished processing [36] with exit 0: sympy/core/tests/test_operations.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 38 sympy/core/tests/test_diff.py | cut -d" " -f1); line=$(echo 38 sympy/core/tests/test_diff.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:47 UTC 2026] Processing [38]: sympy/core/tests/test_diff.py
+[Fri Nov 13 21:48:47 UTC 2026] Finished processing [35] with exit 0: sympy/core/tests/test_subs.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 39 sympy/core/tests/test_expand.py | cut -d" " -f1); line=$(echo 39 sympy/core/tests/test_expand.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning bin/test --no-subprocess --verbose $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 21:48:47 UTC 2026] Finished processing [37] with exit 0: sympy/core/tests/test_random.py
+[Fri Nov 13 21:48:47 UTC 2026] Processing [39]: sympy/core/tests/test_expand.py
+[Fri Nov 13 21:48:48 UTC 2026] Finished processing [34] with exit 0: sympy/core/tests/test_power.py
+[Fri Nov 13 21:48:48 UTC 2026] Finished processing [39] with exit 0: sympy/core/tests/test_expand.py
+[Fri Nov 13 21:48:54 UTC 2026] Finished processing [38] with exit 0: sympy/core/tests/test_diff.py
++ [[ -s /tmp/single_thread_tests.txt ]]

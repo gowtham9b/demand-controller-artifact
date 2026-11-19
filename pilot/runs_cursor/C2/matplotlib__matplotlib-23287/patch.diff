@@ -1,0 +1,26 @@
+diff --git a/lib/matplotlib/backends/backend_pdf.py b/lib/matplotlib/backends/backend_pdf.py
+index 26cf265591..40f97fcf2c 100644
+--- a/lib/matplotlib/backends/backend_pdf.py
++++ b/lib/matplotlib/backends/backend_pdf.py
+@@ -367,6 +367,7 @@ class Name:
+     """PDF name object."""
+     __slots__ = ('name',)
+     _regex = re.compile(r'[^!-~]')
++    _cache = {}
+ 
+     def __init__(self, name):
+         if isinstance(name, Name):
+@@ -374,7 +375,12 @@ class Name:
+         else:
+             if isinstance(name, bytes):
+                 name = name.decode('ascii')
+-            self.name = self._regex.sub(Name.hexify, name).encode('ascii')
++            cached = Name._cache.get(name)
++            if cached is None:
++                cached = self._regex.sub(Name.hexify, name).encode('ascii')
++                if len(Name._cache) < 4096:
++                    Name._cache[name] = cached
++            self.name = cached
+ 
+     def __repr__(self):
+         return "<Name %s>" % self.name

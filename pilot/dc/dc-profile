@@ -1,0 +1,8 @@
+#!/bin/bash
+# Requests evidence from the host-side demand controller, which meters the
+# allowance, profiles workload() in this container and renders the result.
+if [ "$#" -ne 0 ]; then
+  echo "dc-profile takes no arguments; it profiles the original workload() against the current repository." >&2
+  exit 2
+fi
+curl -sS --max-time 900 "http://host.docker.internal:${DC_PORT}/profile?token=${DC_TOKEN}"

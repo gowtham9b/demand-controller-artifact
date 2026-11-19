@@ -1,0 +1,68 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..223a4bcc 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3170,6 +3170,7 @@ def unify_chunks(*args, **kwargs):
+         )
+ 
+     arrays = []
++    _rechunked = {}
+     for a, i in arginds:
+         if i is None:
+             arrays.append(a)
+@@ -3183,7 +3184,13 @@ def unify_chunks(*args, **kwargs):
+                 for n, j in enumerate(i)
+             )
+             if chunks != a.chunks and all(a.chunks):
+-                arrays.append(a.rechunk(chunks))
++                key = (id(a), chunks)
++                try:
++                    r = _rechunked[key][1]
++                except KeyError:
++                    r = a.rechunk(chunks)
++                    _rechunked[key] = (a, r)
++                arrays.append(r)
+             else:
+                 arrays.append(a)
+     return chunkss, arrays
+@@ -3298,10 +3305,19 @@ def block(arrays, allow_unknown_chunksizes=False):
+     # See numpy license at https://github.com/numpy/numpy/blob/master/LICENSE.txt
+     # or NUMPY_LICENSE.txt within this directory
+ 
++    _nd_cache = {}
++
+     def atleast_nd(x, ndim):
++        key = id(x)
++        try:
++            return _nd_cache[key][1]
++        except KeyError:
++            pass
+         x = asanyarray(x)
+         diff = max(ndim - x.ndim, 0)
+-        return x[(None,) * diff + (Ellipsis,)]
++        res = x[(None,) * diff + (Ellipsis,)]
++        _nd_cache[key] = (x, res)
++        return res
+ 
+     def format_index(index):
+         return "arrays" + "".join("[{}]".format(i) for i in index)
+@@ -3347,7 +3363,18 @@ def block(arrays, allow_unknown_chunksizes=False):
+         raise ValueError("Lists cannot be empty")
+ 
+     # convert all the arrays to ndarrays
+-    arrays = rec.map_reduce(arrays, f_map=asanyarray, f_reduce=list)
++    _any_cache = {}
++
++    def _asany(x):
++        key = id(x)
++        try:
++            return _any_cache[key][1]
++        except KeyError:
++            res = asanyarray(x)
++            _any_cache[key] = (x, res)
++            return res
++
++    arrays = rec.map_reduce(arrays, f_map=_asany, f_reduce=list)
+ 
+     # determine the maximum dimension of the elements
+     elem_ndim = rec.map_reduce(arrays, f_map=lambda xi: xi.ndim, f_reduce=max)

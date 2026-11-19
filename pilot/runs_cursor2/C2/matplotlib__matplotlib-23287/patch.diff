@@ -1,0 +1,30 @@
+diff --git a/lib/matplotlib/backends/backend_pdf.py b/lib/matplotlib/backends/backend_pdf.py
+index 26cf265591..e4c4d6c5dc 100644
+--- a/lib/matplotlib/backends/backend_pdf.py
++++ b/lib/matplotlib/backends/backend_pdf.py
+@@ -362,6 +362,16 @@ class Reference:
+         write(b"\nendobj\n")
+ 
+ 
++class _NameTable(dict):
++    def __missing__(self, key):
++        val = chr(key) if 33 <= key <= 126 else '#%02x' % key
++        self[key] = val
++        return val
++
++
++_NAME_TABLE = _NameTable()
++
++
+ @total_ordering
+ class Name:
+     """PDF name object."""
+@@ -374,7 +384,7 @@ class Name:
+         else:
+             if isinstance(name, bytes):
+                 name = name.decode('ascii')
+-            self.name = self._regex.sub(Name.hexify, name).encode('ascii')
++            self.name = name.translate(_NAME_TABLE).encode('ascii')
+ 
+     def __repr__(self):
+         return "<Name %s>" % self.name

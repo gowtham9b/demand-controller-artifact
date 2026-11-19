@@ -1,0 +1,21 @@
+diff --git a/lib/matplotlib/transforms.py b/lib/matplotlib/transforms.py
+index c3d1b79291..196548c6a6 100644
+--- a/lib/matplotlib/transforms.py
++++ b/lib/matplotlib/transforms.py
+@@ -2002,9 +2002,13 @@ class Affine2D(Affine2DBase):
+         """
+         a = math.cos(theta)
+         b = math.sin(theta)
+-        rotate_mtx = np.array([[a, -b, 0.0], [b, a, 0.0], [0.0, 0.0, 1.0]],
+-                              float)
+-        self._mtx = np.dot(rotate_mtx, self._mtx)
++        m = self._mtx
++        new = m.copy()
++        r0 = m[0]
++        r1 = m[1]
++        new[0] = a * r0 - b * r1
++        new[1] = b * r0 + a * r1
++        self._mtx = new
+         self.invalidate()
+         return self
+ 

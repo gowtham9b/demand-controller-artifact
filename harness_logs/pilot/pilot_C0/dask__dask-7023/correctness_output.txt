@@ -1,0 +1,376 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   dask/array/core.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	2020-12-21 11:17:36 -0600
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 4a7a2438219c4ee493434042e50f4cdb67b6ec9f
+Author: Rafal Wojdyla <ravwojdyla@gmail.com>
+Date:   Mon Dec 21 18:17:36 2020 +0100
+
+    Temporarly pin sphinx version to 3.3.1 (#7002)
+    
+    Related #7001
+
+diff --git a/docs/requirements-docs.txt b/docs/requirements-docs.txt
+index ba0dd913b..8c473ee4b 100644
+--- a/docs/requirements-docs.txt
++++ b/docs/requirements-docs.txt
+@@ -1,5 +1,7 @@
+ numpydoc
+-sphinx
++# TODO: Remove sphinx pinning once sphinx==3.4.1 is released
++# See https://github.com/dask/dask/issues/7001
++sphinx==3.3.1
+ dask-sphinx-theme>=1.3.5
+ sphinx-click
+ toolz
++ pip install --no-deps -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Installing collected packages: dask
+  Attempting uninstall: dask
+    Found existing installation: dask 2020.12.0+21.g4a7a24382.dirty
+    Uninstalling dask-2020.12.0+21.g4a7a24382.dirty:
+      Successfully uninstalled dask-2020.12.0+21.g4a7a24382.dirty
+  DEPRECATION: Legacy editable install of dask==2020.12.0+21.g4a7a24382.dirty from file:///testbed (setup.py develop) is deprecated. pip 25.0 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for dask
+Successfully installed dask
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 dask/tests/test_cache.py | cut -d" " -f1); line=$(echo 0 dask/tests/test_cache.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 dask/array/tests/test_routines.py | cut -d" " -f1); line=$(echo 1 dask/array/tests/test_routines.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 dask/array/tests/test_fft.py | cut -d" " -f1); line=$(echo 2 dask/array/tests/test_fft.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 dask/array/tests/test_xarray.py | cut -d" " -f1); line=$(echo 3 dask/array/tests/test_xarray.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:28 UTC 2026] Processing [1]: dask/array/tests/test_routines.py
+[Thu Nov 12 17:14:28 UTC 2026] Processing [2]: dask/array/tests/test_fft.py
+[Thu Nov 12 17:14:28 UTC 2026] Processing [3]: dask/array/tests/test_xarray.py
+[Thu Nov 12 17:14:28 UTC 2026] Processing [0]: dask/tests/test_cache.py
+[Thu Nov 12 17:14:29 UTC 2026] Exit 5 (>1). Retrying [3] attempt 1/2: dask/array/tests/test_xarray.py
+[Thu Nov 12 17:14:29 UTC 2026] Finished processing [0] with exit 0: dask/tests/test_cache.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 dask/tests/test_multiprocessing.py | cut -d" " -f1); line=$(echo 4 dask/tests/test_multiprocessing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:29 UTC 2026] Processing [4]: dask/tests/test_multiprocessing.py
+[Thu Nov 12 17:14:30 UTC 2026] Finished processing [2] with exit 0: dask/array/tests/test_fft.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 dask/array/tests/test_stats.py | cut -d" " -f1); line=$(echo 5 dask/array/tests/test_stats.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:31 UTC 2026] Processing [5]: dask/array/tests/test_stats.py
+[Thu Nov 12 17:14:31 UTC 2026] Exit 5 (>1). Retrying [3] attempt 2/2: dask/array/tests/test_xarray.py
+[Thu Nov 12 17:14:33 UTC 2026] Finished processing [3] with exit 5: dask/array/tests/test_xarray.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 dask/array/tests/test_slicing.py | cut -d" " -f1); line=$(echo 6 dask/array/tests/test_slicing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:34 UTC 2026] Processing [6]: dask/array/tests/test_slicing.py
+[Thu Nov 12 17:14:34 UTC 2026] Finished processing [5] with exit 1: dask/array/tests/test_stats.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 dask/tests/test_highgraph.py | cut -d" " -f1); line=$(echo 7 dask/tests/test_highgraph.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:34 UTC 2026] Processing [7]: dask/tests/test_highgraph.py
+[Thu Nov 12 17:14:37 UTC 2026] Finished processing [4] with exit 0: dask/tests/test_multiprocessing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 dask/tests/test_system.py | cut -d" " -f1); line=$(echo 8 dask/tests/test_system.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:37 UTC 2026] Finished processing [1] with exit 0: dask/array/tests/test_routines.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 dask/array/tests/test_image.py | cut -d" " -f1); line=$(echo 9 dask/array/tests/test_image.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:37 UTC 2026] Processing [8]: dask/tests/test_system.py
+[Thu Nov 12 17:14:37 UTC 2026] Processing [9]: dask/array/tests/test_image.py
+[Thu Nov 12 17:14:37 UTC 2026] Finished processing [7] with exit 0: dask/tests/test_highgraph.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 dask/tests/test_config.py | cut -d" " -f1); line=$(echo 10 dask/tests/test_config.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:38 UTC 2026] Processing [10]: dask/tests/test_config.py
+[Thu Nov 12 17:14:38 UTC 2026] Finished processing [6] with exit 0: dask/array/tests/test_slicing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 dask/array/tests/test_dispatch.py | cut -d" " -f1); line=$(echo 11 dask/array/tests/test_dispatch.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:38 UTC 2026] Finished processing [8] with exit 0: dask/tests/test_system.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 dask/tests/test_core.py | cut -d" " -f1); line=$(echo 12 dask/tests/test_core.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:38 UTC 2026] Processing [11]: dask/array/tests/test_dispatch.py
+[Thu Nov 12 17:14:38 UTC 2026] Processing [12]: dask/tests/test_core.py
+[Thu Nov 12 17:14:39 UTC 2026] Finished processing [10] with exit 1: dask/tests/test_config.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 13 dask/tests/test_utils.py | cut -d" " -f1); line=$(echo 13 dask/tests/test_utils.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:39 UTC 2026] Processing [13]: dask/tests/test_utils.py
+[Thu Nov 12 17:14:39 UTC 2026] Finished processing [12] with exit 0: dask/tests/test_core.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 14 dask/tests/test_base.py | cut -d" " -f1); line=$(echo 14 dask/tests/test_base.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:39 UTC 2026] Processing [14]: dask/tests/test_base.py
+[Thu Nov 12 17:14:39 UTC 2026] Finished processing [9] with exit 0: dask/array/tests/test_image.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 15 dask/array/tests/test_atop.py | cut -d" " -f1); line=$(echo 15 dask/array/tests/test_atop.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:39 UTC 2026] Processing [15]: dask/array/tests/test_atop.py
+[Thu Nov 12 17:14:40 UTC 2026] Finished processing [11] with exit 0: dask/array/tests/test_dispatch.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 16 dask/array/tests/test_svg.py | cut -d" " -f1); line=$(echo 16 dask/array/tests/test_svg.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:40 UTC 2026] Processing [16]: dask/array/tests/test_svg.py
+[Thu Nov 12 17:14:41 UTC 2026] Finished processing [13] with exit 0: dask/tests/test_utils.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 17 dask/array/tests/test_testing.py | cut -d" " -f1); line=$(echo 17 dask/array/tests/test_testing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:41 UTC 2026] Processing [17]: dask/array/tests/test_testing.py
+[Thu Nov 12 17:14:41 UTC 2026] Finished processing [15] with exit 0: dask/array/tests/test_atop.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 18 dask/array/tests/test_random.py | cut -d" " -f1); line=$(echo 18 dask/array/tests/test_random.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:41 UTC 2026] Processing [18]: dask/array/tests/test_random.py
+[Thu Nov 12 17:14:41 UTC 2026] Finished processing [16] with exit 0: dask/array/tests/test_svg.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 19 dask/array/tests/test_reductions.py | cut -d" " -f1); line=$(echo 19 dask/array/tests/test_reductions.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:41 UTC 2026] Processing [19]: dask/array/tests/test_reductions.py
+[Thu Nov 12 17:14:42 UTC 2026] Finished processing [17] with exit 0: dask/array/tests/test_testing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 20 dask/array/tests/test_cupy.py | cut -d" " -f1); line=$(echo 20 dask/array/tests/test_cupy.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:42 UTC 2026] Processing [20]: dask/array/tests/test_cupy.py
+[Thu Nov 12 17:14:45 UTC 2026] Exit 5 (>1). Retrying [20] attempt 1/2: dask/array/tests/test_cupy.py
+[Thu Nov 12 17:14:47 UTC 2026] Exit 5 (>1). Retrying [20] attempt 2/2: dask/array/tests/test_cupy.py
+[Thu Nov 12 17:14:47 UTC 2026] Finished processing [19] with exit 0: dask/array/tests/test_reductions.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 21 dask/array/tests/test_linalg.py | cut -d" " -f1); line=$(echo 21 dask/array/tests/test_linalg.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:47 UTC 2026] Processing [21]: dask/array/tests/test_linalg.py
+[Thu Nov 12 17:14:47 UTC 2026] Finished processing [14] with exit 0: dask/tests/test_base.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 22 dask/array/tests/test_gufunc.py | cut -d" " -f1); line=$(echo 22 dask/array/tests/test_gufunc.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:47 UTC 2026] Finished processing [18] with exit 0: dask/array/tests/test_random.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 23 dask/tests/test_dot.py | cut -d" " -f1); line=$(echo 23 dask/tests/test_dot.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:47 UTC 2026] Processing [22]: dask/array/tests/test_gufunc.py
+[Thu Nov 12 17:14:47 UTC 2026] Processing [23]: dask/tests/test_dot.py
+[Thu Nov 12 17:14:48 UTC 2026] Finished processing [20] with exit 5: dask/array/tests/test_cupy.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 24 dask/array/tests/test_array_function.py | cut -d" " -f1); line=$(echo 24 dask/array/tests/test_array_function.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:48 UTC 2026] Processing [24]: dask/array/tests/test_array_function.py
+[Thu Nov 12 17:14:51 UTC 2026] Finished processing [22] with exit 1: dask/array/tests/test_gufunc.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 25 dask/array/tests/test_linearoperator.py | cut -d" " -f1); line=$(echo 25 dask/array/tests/test_linearoperator.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:51 UTC 2026] Processing [25]: dask/array/tests/test_linearoperator.py
+[Thu Nov 12 17:14:51 UTC 2026] Finished processing [23] with exit 0: dask/tests/test_dot.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 26 dask/array/tests/test_rechunk.py | cut -d" " -f1); line=$(echo 26 dask/array/tests/test_rechunk.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:51 UTC 2026] Processing [26]: dask/array/tests/test_rechunk.py
+[Thu Nov 12 17:14:52 UTC 2026] Finished processing [24] with exit 1: dask/array/tests/test_array_function.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 27 dask/array/tests/test_masked.py | cut -d" " -f1); line=$(echo 27 dask/array/tests/test_masked.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:52 UTC 2026] Processing [27]: dask/array/tests/test_masked.py
+[Thu Nov 12 17:14:52 UTC 2026] Finished processing [25] with exit 0: dask/array/tests/test_linearoperator.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 28 dask/tests/test_datasets.py | cut -d" " -f1); line=$(echo 28 dask/tests/test_datasets.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:53 UTC 2026] Processing [28]: dask/tests/test_datasets.py
+[Thu Nov 12 17:14:54 UTC 2026] Finished processing [28] with exit 0: dask/tests/test_datasets.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 29 dask/array/tests/test_ufunc.py | cut -d" " -f1); line=$(echo 29 dask/array/tests/test_ufunc.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:54 UTC 2026] Processing [29]: dask/array/tests/test_ufunc.py
+[Thu Nov 12 17:14:54 UTC 2026] Finished processing [26] with exit 0: dask/array/tests/test_rechunk.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 30 dask/tests/test_distributed.py | cut -d" " -f1); line=$(echo 30 dask/tests/test_distributed.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:54 UTC 2026] Processing [30]: dask/tests/test_distributed.py
+[Thu Nov 12 17:14:55 UTC 2026] Finished processing [21] with exit 0: dask/array/tests/test_linalg.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 31 dask/tests/test_hashing.py | cut -d" " -f1); line=$(echo 31 dask/tests/test_hashing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:55 UTC 2026] Processing [31]: dask/tests/test_hashing.py
+[Thu Nov 12 17:14:55 UTC 2026] Exit 5 (>1). Retrying [30] attempt 1/2: dask/tests/test_distributed.py
+[Thu Nov 12 17:14:55 UTC 2026] Finished processing [31] with exit 0: dask/tests/test_hashing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 32 dask/array/tests/test_numpy_compat.py | cut -d" " -f1); line=$(echo 32 dask/array/tests/test_numpy_compat.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:56 UTC 2026] Processing [32]: dask/array/tests/test_numpy_compat.py
+[Thu Nov 12 17:14:56 UTC 2026] Exit 5 (>1). Retrying [30] attempt 2/2: dask/tests/test_distributed.py
+[Thu Nov 12 17:14:56 UTC 2026] Finished processing [29] with exit 0: dask/array/tests/test_ufunc.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 33 dask/tests/test_rewrite.py | cut -d" " -f1); line=$(echo 33 dask/tests/test_rewrite.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:56 UTC 2026] Finished processing [30] with exit 5: dask/tests/test_distributed.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 34 dask/array/tests/test_percentiles.py | cut -d" " -f1); line=$(echo 34 dask/array/tests/test_percentiles.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:57 UTC 2026] Processing [33]: dask/tests/test_rewrite.py
+[Thu Nov 12 17:14:57 UTC 2026] Processing [34]: dask/array/tests/test_percentiles.py
+[Thu Nov 12 17:14:57 UTC 2026] Finished processing [32] with exit 0: dask/array/tests/test_numpy_compat.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 35 dask/tests/test_callbacks.py | cut -d" " -f1); line=$(echo 35 dask/tests/test_callbacks.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:57 UTC 2026] Finished processing [33] with exit 0: dask/tests/test_rewrite.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 36 dask/array/tests/test_creation.py | cut -d" " -f1); line=$(echo 36 dask/array/tests/test_creation.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:57 UTC 2026] Processing [35]: dask/tests/test_callbacks.py
+[Thu Nov 12 17:14:57 UTC 2026] Processing [36]: dask/array/tests/test_creation.py
+[Thu Nov 12 17:14:58 UTC 2026] Finished processing [27] with exit 0: dask/array/tests/test_masked.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 37 dask/tests/test_local.py | cut -d" " -f1); line=$(echo 37 dask/tests/test_local.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:58 UTC 2026] Processing [37]: dask/tests/test_local.py
+[Thu Nov 12 17:14:58 UTC 2026] Finished processing [34] with exit 0: dask/array/tests/test_percentiles.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 38 dask/tests/test_delayed.py | cut -d" " -f1); line=$(echo 38 dask/tests/test_delayed.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:58 UTC 2026] Finished processing [35] with exit 0: dask/tests/test_callbacks.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 39 dask/array/tests/test_chunk.py | cut -d" " -f1); line=$(echo 39 dask/array/tests/test_chunk.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:58 UTC 2026] Processing [38]: dask/tests/test_delayed.py
+[Thu Nov 12 17:14:58 UTC 2026] Processing [39]: dask/array/tests/test_chunk.py
+[Thu Nov 12 17:14:59 UTC 2026] Finished processing [37] with exit 0: dask/tests/test_local.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 40 dask/array/tests/test_optimization.py | cut -d" " -f1); line=$(echo 40 dask/array/tests/test_optimization.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:14:59 UTC 2026] Processing [40]: dask/array/tests/test_optimization.py
+[Thu Nov 12 17:15:00 UTC 2026] Finished processing [39] with exit 0: dask/array/tests/test_chunk.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 41 dask/tests/test_threaded.py | cut -d" " -f1); line=$(echo 41 dask/tests/test_threaded.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:00 UTC 2026] Finished processing [38] with exit 0: dask/tests/test_delayed.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 42 dask/array/tests/test_wrap.py | cut -d" " -f1); line=$(echo 42 dask/array/tests/test_wrap.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:00 UTC 2026] Processing [41]: dask/tests/test_threaded.py
+[Thu Nov 12 17:15:00 UTC 2026] Processing [42]: dask/array/tests/test_wrap.py
+[Thu Nov 12 17:15:01 UTC 2026] Finished processing [40] with exit 0: dask/array/tests/test_optimization.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 43 dask/array/tests/test_overlap.py | cut -d" " -f1); line=$(echo 43 dask/array/tests/test_overlap.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:01 UTC 2026] Processing [43]: dask/array/tests/test_overlap.py
+[Thu Nov 12 17:15:02 UTC 2026] Finished processing [42] with exit 0: dask/array/tests/test_wrap.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 44 dask/tests/test_sizeof.py | cut -d" " -f1); line=$(echo 44 dask/tests/test_sizeof.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:02 UTC 2026] Processing [44]: dask/tests/test_sizeof.py
+[Thu Nov 12 17:15:02 UTC 2026] Finished processing [41] with exit 0: dask/tests/test_threaded.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 45 dask/array/tests/test_reshape.py | cut -d" " -f1); line=$(echo 45 dask/array/tests/test_reshape.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:02 UTC 2026] Processing [45]: dask/array/tests/test_reshape.py
+[Thu Nov 12 17:15:03 UTC 2026] Finished processing [44] with exit 0: dask/tests/test_sizeof.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 46 dask/tests/test_optimization.py | cut -d" " -f1); line=$(echo 46 dask/tests/test_optimization.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:03 UTC 2026] Processing [46]: dask/tests/test_optimization.py
+[Thu Nov 12 17:15:03 UTC 2026] Finished processing [36] with exit 0: dask/array/tests/test_creation.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 47 dask/array/tests/test_array_core.py | cut -d" " -f1); line=$(echo 47 dask/array/tests/test_array_core.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:03 UTC 2026] Processing [47]: dask/array/tests/test_array_core.py
+[Thu Nov 12 17:15:04 UTC 2026] Finished processing [45] with exit 0: dask/array/tests/test_reshape.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 48 dask/array/tests/test_sparse.py | cut -d" " -f1); line=$(echo 48 dask/array/tests/test_sparse.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:04 UTC 2026] Finished processing [43] with exit 0: dask/array/tests/test_overlap.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 49 dask/array/tests/test_array_utils.py | cut -d" " -f1); line=$(echo 49 dask/array/tests/test_array_utils.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:04 UTC 2026] Processing [48]: dask/array/tests/test_sparse.py
+[Thu Nov 12 17:15:04 UTC 2026] Processing [49]: dask/array/tests/test_array_utils.py
+[Thu Nov 12 17:15:04 UTC 2026] Finished processing [46] with exit 0: dask/tests/test_optimization.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 50 dask/tests/test_context.py | cut -d" " -f1); line=$(echo 50 dask/tests/test_context.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:04 UTC 2026] Processing [50]: dask/tests/test_context.py
+[Thu Nov 12 17:15:06 UTC 2026] Finished processing [50] with exit 0: dask/tests/test_context.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 51 dask/tests/test_order.py | cut -d" " -f1); line=$(echo 51 dask/tests/test_order.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -n0 -rA -W "ignore::DeprecationWarning"  --continue-on-collection-errors --color=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 17:15:06 UTC 2026] Processing [51]: dask/tests/test_order.py
+[Thu Nov 12 17:15:08 UTC 2026] Finished processing [49] with exit 1: dask/array/tests/test_array_utils.py
+[Thu Nov 12 17:15:09 UTC 2026] Finished processing [51] with exit 0: dask/tests/test_order.py
+[Thu Nov 12 17:15:13 UTC 2026] Finished processing [47] with exit 0: dask/array/tests/test_array_core.py
+[Thu Nov 12 17:15:20 UTC 2026] Finished processing [48] with exit 1: dask/array/tests/test_sparse.py
++ [[ -s /tmp/single_thread_tests.txt ]]

@@ -1,0 +1,241 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   astropy/coordinates/angles/formats.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit b390e46707090d7ba45700dc433d4d5543ff7429
+Author: Automated Test <automated@test.com>
+Date:   Fri Jul 25 18:38:32 2025 +0000
+
+    Fix environment
+
+diff --git a/pyproject.toml b/pyproject.toml
+index cab828b6cd..a5bad2a241 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -123,7 +123,7 @@ volint = "astropy.io.votable.volint:main"
+ wcslint = "astropy.wcs.wcslint:main"
+ 
+ [build-system]
+-requires = ["setuptools",
++requires = ["setuptools==68.0.0",
+             "setuptools_scm>=6.2",
+             "cython>=3.0.0,<3.1.0",
+             "numpy>=2.0.0rc1", # see https://github.com/astropy/astropy/issues/16257
++ pip install -e '.[dev_all]'
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: still running...
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.23 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from astropy==7.0.0.dev27+gb390e4670.d20261115) (1.25.2)
+Requirement already satisfied: pyerfa>=2.0.1.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from astropy==7.0.0.dev27+gb390e4670.d20261115) (2.0.1.5)
+Requirement already satisfied: astropy-iers-data>=0.2024.4.1.0.33.14 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from astropy==7.0.0.dev27+gb390e4670.d20261115) (0.2025.7.21.0.41.39)
+Requirement already satisfied: PyYAML>=3.13 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from astropy==7.0.0.dev27+gb390e4670.d20261115) (6.0.1)
+Requirement already satisfied: packaging>=19.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from astropy==7.0.0.dev27+gb390e4670.d20261115) (23.1)
+WARNING: astropy 7.0.0.dev27+gb390e4670.d20261115 does not provide the extra 'dev-all'
+Building wheels for collected packages: astropy
+  Building editable for astropy (pyproject.toml): started
+  Building editable for astropy (pyproject.toml): still running...
+  Building editable for astropy (pyproject.toml): still running...
+  Building editable for astropy (pyproject.toml): still running...
+  Building editable for astropy (pyproject.toml): finished with status 'done'
+  Created wheel for astropy: filename=astropy-7.0.0.dev27+gb390e4670.d20261115-0.editable-cp311-cp311-linux_x86_64.whl size=38902 sha256=cf7f2d41c1f4b049ed930069690fe5fe617f7b46f0d539f722ab9fbd941a8c32
+  Stored in directory: /tmp/pip-ephem-wheel-cache-xiewtihz/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built astropy
+Installing collected packages: astropy
+  Attempting uninstall: astropy
+    Found existing installation: astropy 7.0.0.dev27+gb390e4670.d20261114
+    Uninstalling astropy-7.0.0.dev27+gb390e4670.d20261114:
+      Successfully uninstalled astropy-7.0.0.dev27+gb390e4670.d20261114
+Successfully installed astropy-7.0.0.dev27+gb390e4670.d20261115
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 astropy/coordinates/tests/test_earth.py | cut -d" " -f1); line=$(echo 0 astropy/coordinates/tests/test_earth.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 astropy/coordinates/tests/test_solar_system.py | cut -d" " -f1); line=$(echo 1 astropy/coordinates/tests/test_solar_system.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 astropy/coordinates/tests/accuracy/test_ecliptic.py | cut -d" " -f1); line=$(echo 2 astropy/coordinates/tests/accuracy/test_ecliptic.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 astropy/coordinates/tests/test_api_ape5.py | cut -d" " -f1); line=$(echo 3 astropy/coordinates/tests/test_api_ape5.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:07 UTC 2026] Processing [3]: astropy/coordinates/tests/test_api_ape5.py
+[Sun Nov 15 00:29:07 UTC 2026] Processing [0]: astropy/coordinates/tests/test_earth.py
+[Sun Nov 15 00:29:07 UTC 2026] Processing [2]: astropy/coordinates/tests/accuracy/test_ecliptic.py
+[Sun Nov 15 00:29:07 UTC 2026] Processing [1]: astropy/coordinates/tests/test_solar_system.py
+[Sun Nov 15 00:29:13 UTC 2026] Finished processing [3] with exit 0: astropy/coordinates/tests/test_api_ape5.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 astropy/coordinates/tests/test_celestial_transformations.py | cut -d" " -f1); line=$(echo 4 astropy/coordinates/tests/test_celestial_transformations.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:13 UTC 2026] Finished processing [2] with exit 1: astropy/coordinates/tests/accuracy/test_ecliptic.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 astropy/coordinates/tests/test_distance.py | cut -d" " -f1); line=$(echo 5 astropy/coordinates/tests/test_distance.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:13 UTC 2026] Processing [4]: astropy/coordinates/tests/test_celestial_transformations.py
+[Sun Nov 15 00:29:13 UTC 2026] Finished processing [0] with exit 1: astropy/coordinates/tests/test_earth.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 astropy/coordinates/tests/test_arrays.py | cut -d" " -f1); line=$(echo 6 astropy/coordinates/tests/test_arrays.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:13 UTC 2026] Processing [5]: astropy/coordinates/tests/test_distance.py
+[Sun Nov 15 00:29:13 UTC 2026] Processing [6]: astropy/coordinates/tests/test_arrays.py
+[Sun Nov 15 00:29:13 UTC 2026] Finished processing [1] with exit 1: astropy/coordinates/tests/test_solar_system.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 astropy/coordinates/tests/test_sites.py | cut -d" " -f1); line=$(echo 7 astropy/coordinates/tests/test_sites.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:14 UTC 2026] Processing [7]: astropy/coordinates/tests/test_sites.py
+[Sun Nov 15 00:29:15 UTC 2026] Finished processing [5] with exit 0: astropy/coordinates/tests/test_distance.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 astropy/coordinates/tests/test_sky_coord_velocities.py | cut -d" " -f1); line=$(echo 8 astropy/coordinates/tests/test_sky_coord_velocities.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:15 UTC 2026] Finished processing [6] with exit 0: astropy/coordinates/tests/test_arrays.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 astropy/coordinates/tests/test_angles.py | cut -d" " -f1); line=$(echo 9 astropy/coordinates/tests/test_angles.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:15 UTC 2026] Processing [8]: astropy/coordinates/tests/test_sky_coord_velocities.py
+[Sun Nov 15 00:29:15 UTC 2026] Processing [9]: astropy/coordinates/tests/test_angles.py
+[Sun Nov 15 00:29:15 UTC 2026] Finished processing [4] with exit 1: astropy/coordinates/tests/test_celestial_transformations.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 astropy/coordinates/tests/test_sky_coord.py | cut -d" " -f1); line=$(echo 10 astropy/coordinates/tests/test_sky_coord.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:15 UTC 2026] Finished processing [7] with exit 0: astropy/coordinates/tests/test_sites.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 astropy/coordinates/tests/accuracy/test_altaz_icrs.py | cut -d" " -f1); line=$(echo 11 astropy/coordinates/tests/accuracy/test_altaz_icrs.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:16 UTC 2026] Processing [10]: astropy/coordinates/tests/test_sky_coord.py
+[Sun Nov 15 00:29:16 UTC 2026] Processing [11]: astropy/coordinates/tests/accuracy/test_altaz_icrs.py
+[Sun Nov 15 00:29:18 UTC 2026] Finished processing [8] with exit 0: astropy/coordinates/tests/test_sky_coord_velocities.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 astropy/coordinates/tests/test_intermediate_transformations.py | cut -d" " -f1); line=$(echo 12 astropy/coordinates/tests/test_intermediate_transformations.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest -rA -vv -o console_output_style=classic --tb=no $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Sun Nov 15 00:29:18 UTC 2026] Processing [12]: astropy/coordinates/tests/test_intermediate_transformations.py
+[Sun Nov 15 00:29:22 UTC 2026] Finished processing [11] with exit 1: astropy/coordinates/tests/accuracy/test_altaz_icrs.py
+[Sun Nov 15 01:12:42 UTC 2026] Finished processing [12] with exit 1: astropy/coordinates/tests/test_intermediate_transformations.py
+[Sun Nov 15 01:12:44 UTC 2026] Finished processing [10] with exit 1: astropy/coordinates/tests/test_sky_coord.py
+[Sun Nov 15 01:12:57 UTC 2026] Finished processing [9] with exit 0: astropy/coordinates/tests/test_angles.py
++ [[ -s /tmp/single_thread_tests.txt ]]

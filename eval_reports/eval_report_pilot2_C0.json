@@ -1,0 +1,9 @@
+{
+  "total_instances": 498,
+  "overall_score": 0.5998,
+  "proportion_incorrect": 0.9779,
+  "proportion_correct_but_no_speedup": 0.004,
+  "proportion_correct_with_speedup_but_human_no_speedup": 0.004,
+  "proportion_human_speedup_or_better": 0.9498,
+  "report": "eval_report_pilot2_C0.csv"
+}

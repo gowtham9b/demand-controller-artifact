@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 65 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  32.3%     7.693    7.850       2  pandas/core/ops/missing.py:77 mask_zero_div_zero
+ 2   0.6%     0.136    0.211       1  pandas/core/algorithms.py:1854 <listcomp>
+ 3   0.3%     0.060    0.803       4  pandas/core/internals/managers.py:681 _slice_take_blocks_ax0
+ 4   0.2%     0.041    0.058     147  pandas/core/dtypes/generic.py:43 _check
+ 5   0.1%     0.033    0.130       2  pandas/core/indexes/base.py:382 __new__
+ 6   0.1%     0.027    0.621       5  pandas/core/array_algos/take.py:111 _take_nd_ndarray
+ 7   0.1%     0.027    0.642       4  pandas/core/indexes/base.py:3524 get_indexer
+ 8   0.1%     0.026    0.134       9  pandas/core/indexes/base.py:4895 equals
+Outside the repository: 61.8% of self time. Largest: <built-in method _operator.floordiv> 53.7%; <pandas._libs.algos.take_2d_axis1_int64_int64> 2.2%; /dcwork/workload.py:18 workload 0.9%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

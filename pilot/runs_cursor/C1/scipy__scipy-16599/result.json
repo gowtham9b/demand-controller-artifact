@@ -1,0 +1,11 @@
+{
+  "instance_id": "scipy__scipy-16599",
+  "condition": "C1",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 67.84052777290344,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 2275
+}

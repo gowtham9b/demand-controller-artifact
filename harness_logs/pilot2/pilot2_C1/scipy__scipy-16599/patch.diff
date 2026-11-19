@@ -1,0 +1,48 @@
+diff --git a/scipy/stats/_continuous_distns.py b/scipy/stats/_continuous_distns.py
+index 1c38ef1a4..7aa78de6c 100644
+--- a/scipy/stats/_continuous_distns.py
++++ b/scipy/stats/_continuous_distns.py
+@@ -8540,6 +8540,11 @@ class truncnorm_gen(rv_continuous):
+             a, b = np.broadcast_arrays(a, b)
+             # a and b now have the same shape.
+ 
++            if size == a.shape and a.ndim > 0:
++                # One variate per parameter pair: vectorized fast path
++                # (same random stream as the per-element loop below).
++                return self._rvs_vectorized(a, b, random_state)
++
+             # `shp` is the shape of the blocks of random variates that are
+             # generated for each combination of parameters associated with
+             # broadcasting a and b.
+@@ -8580,6 +8585,31 @@ class truncnorm_gen(rv_continuous):
+             out = out.item()
+         return out
+ 
++    def _rvs_vectorized(self, a, b, random_state):
++        a = np.asarray(a, dtype=float)
++        b = np.asarray(b, dtype=float)
++        shape = a.shape
++        af, bf = a.ravel(), b.ravel()
++        U = random_state.uniform(low=0, high=1, size=af.size)
++        out = np.empty(af.size)
++        with np.errstate(all='ignore'):
++            delta = np.atleast_1d(_truncnorm_get_delta(af, bf))
++            fast = (delta > 0) & (U > 0) & (U < 1)
++            fa = fast & (af > 0)
++            fb = fast & ~(af > 0)
++            if fa.any():
++                sa, sb = _norm_sf(af[fa]), _norm_sf(bf[fa])
++                q = U[fa]
++                out[fa] = _norm_isf(q * sb + sa * (1.0 - q))
++            if fb.any():
++                na, nb = _norm_cdf(af[fb]), _norm_cdf(bf[fb])
++                q = U[fb]
++                out[fb] = _norm_ppf(q * nb + na * (1.0 - q))
++        for i in np.nonzero(~fast)[0]:
++            out[i] = _truncnorm_ppf_scalar(U[i], af[i], bf[i])
++        out = np.minimum(np.maximum(out, af), bf)
++        return out.reshape(shape)
++
+     def _rvs_scalar(self, a, b, numsamples=None, random_state=None):
+         if not numsamples:
+             numsamples = 1

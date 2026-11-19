@@ -1,0 +1,31 @@
+diff --git a/pandas/core/arrays/interval.py b/pandas/core/arrays/interval.py
+index d007bb112c..c7955e05d6 100644
+--- a/pandas/core/arrays/interval.py
++++ b/pandas/core/arrays/interval.py
+@@ -763,6 +763,26 @@ class IntervalArray(IntervalMixin, ExtensionArray):
+     def isna(self) -> np.ndarray:
+         return isna(self._left)
+ 
++    def argsort(self, ascending=True, kind="quicksort", na_position="last", *args, **kwargs):
++        left = self._left
++        right = self._right
++        if (
++            ascending is True
++            and na_position == "last"
++            and not args
++            and not kwargs
++            and isinstance(left, np.ndarray)
++            and isinstance(right, np.ndarray)
++            and left.dtype.kind in "iuf"
++            and right.dtype.kind in "iuf"
++            and not (left.dtype.kind == "f" and np.isnan(left).any())
++            and not (right.dtype.kind == "f" and np.isnan(right).any())
++        ):
++            return np.lexsort((right, left))
++        return super().argsort(
++            ascending=ascending, kind=kind, na_position=na_position, *args, **kwargs
++        )
++
+     def shift(self, periods: int = 1, fill_value: object = None) -> "IntervalArray":
+         if not len(self) or periods == 0:
+             return self.copy()

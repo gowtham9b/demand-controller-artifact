@@ -1,0 +1,896 @@
+{
+  "rule": "gold passes all baseline-passing PASS_TO_PASS tests and improves >= 1.05x (amended)",
+  "final": [
+    "astropy__astropy-16295",
+    "astropy__astropy-6940",
+    "dask__dask-7172",
+    "dask__dask-5884",
+    "matplotlib__matplotlib-23287",
+    "matplotlib__matplotlib-22108",
+    "numpy__numpy-21832",
+    "numpy__numpy-21394",
+    "pandas-dev__pandas-43281",
+    "pandas-dev__pandas-26697",
+    "pandas-dev__pandas-37971",
+    "pandas-dev__pandas-52054",
+    "pydata__xarray-7374",
+    "pydata__xarray-9001",
+    "scipy__scipy-11757",
+    "scipy__scipy-16599",
+    "sympy__sympy-24485",
+    "sympy__sympy-14772"
+  ],
+  "replacements": [
+    {
+      "repo": "dask/dask",
+      "dropped": "dask__dask-7023",
+      "why": "improvement 0.943 < 1.05"
+    }
+  ],
+  "gold": {
+    "astropy__astropy-16295": {
+      "repo": "astropy/astropy",
+      "instance_id": "astropy__astropy-16295",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 25.172039699609254,
+      "n_pass_to_pass": 765,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 758,
+        "n_pass_to_pass_not_passing": 7,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 758,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.9908496732026144,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "astropy__astropy-6940": {
+      "repo": "astropy/astropy",
+      "instance_id": "astropy__astropy-6940",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 2.4777216952592194,
+      "n_pass_to_pass": 1034,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 1034,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 1034,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "dask__dask-7023": {
+      "repo": "dask/dask",
+      "instance_id": "dask__dask-7023",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 0.9432251747873767,
+      "n_pass_to_pass": 3617,
+      "passes_rule": false
+    },
+    "dask__dask-5884": {
+      "repo": "dask/dask",
+      "instance_id": "dask__dask-5884",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.383141954194052,
+      "n_pass_to_pass": 611,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 611,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 611,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "matplotlib__matplotlib-23287": {
+      "repo": "matplotlib/matplotlib",
+      "instance_id": "matplotlib__matplotlib-23287",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "infra",
+          "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 4.954926639156048,
+      "n_pass_to_pass": 3951,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "infra",
+            "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+          ],
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 3951,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 3951,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "matplotlib__matplotlib-22108": {
+      "repo": "matplotlib/matplotlib",
+      "instance_id": "matplotlib__matplotlib-22108",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "infra",
+          "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.7987524306904956,
+      "n_pass_to_pass": 4888,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "infra",
+            "correctness crash: 74 required tests without result; /testbed/lib/matplotlib/tests/test_agg.py (exit 137); /testbed/lib/matplotlib/tests/test_usetex.py (exit 137); /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+          ],
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 4886,
+        "n_pass_to_pass_not_passing": 2,
+        "n_pass_to_pass_without_result": 2,
+        "crashed_files": []
+      },
+      "n_required_tests": 4886,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.9995908346972177,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "numpy__numpy-21832": {
+      "repo": "numpy/numpy",
+      "instance_id": "numpy__numpy-21832",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.0898770250846173,
+      "n_pass_to_pass": 6449,
+      "baseline": {
+        "status": "infra",
+        "reason": "correctness crash: 1017 required tests without result; /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)",
+        "rescore_history": [
+          [
+            "infra",
+            "correctness crash: 1019 required tests without result; /testbed/numpy/core/tests/test_multiarray.py (exit 133); /testbed/numpy/core/tests/test_array_coercion.py (exit 133)"
+          ],
+          [
+            "infra",
+            "correctness crash: 1017 required tests without result; /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+          ]
+        ],
+        "n_pass_to_pass_passing": 5431,
+        "n_pass_to_pass_not_passing": 1018,
+        "n_pass_to_pass_without_result": 1017,
+        "crashed_files": [
+          "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+          "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+        ]
+      },
+      "n_required_tests": 5431,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.842146069158009,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [
+        "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+        "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+      ],
+      "passes_rule": true
+    },
+    "numpy__numpy-21394": {
+      "repo": "numpy/numpy",
+      "instance_id": "numpy__numpy-21394",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.0996096050590225,
+      "n_pass_to_pass": 6373,
+      "baseline": {
+        "status": "infra",
+        "reason": "correctness crash: 1201 required tests without result; /testbed/numpy/f2py/tests/test_compile_function.py (exit 137); /testbed/numpy/lib/tests/test_io.py (exit 137); /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)",
+        "rescore_history": [
+          [
+            "infra",
+            "correctness crash: 1007 required tests without result; /testbed/numpy/core/tests/test_multiarray.py (exit 133); /testbed/numpy/core/tests/test_array_coercion.py (exit 133)"
+          ],
+          [
+            "infra",
+            "correctness crash: 1201 required tests without result; /testbed/numpy/f2py/tests/test_compile_function.py (exit 137); /testbed/numpy/lib/tests/test_io.py (exit 137); /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+          ]
+        ],
+        "n_pass_to_pass_passing": 5172,
+        "n_pass_to_pass_not_passing": 1201,
+        "n_pass_to_pass_without_result": 1201,
+        "crashed_files": [
+          "/testbed/numpy/f2py/tests/test_compile_function.py (exit 137)",
+          "/testbed/numpy/lib/tests/test_io.py (exit 137)",
+          "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+          "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+        ]
+      },
+      "n_required_tests": 5172,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.811862545112192,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [
+        "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+        "/testbed/numpy/core/tests/test_multiarray.py (exit 133)",
+        "/testbed/numpy/lib/tests/test_io.py (exit 137)"
+      ],
+      "passes_rule": true
+    },
+    "pandas-dev__pandas-43281": {
+      "repo": "pandas-dev/pandas",
+      "instance_id": "pandas-dev__pandas-43281",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.0754266620966118,
+      "n_pass_to_pass": 17507,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 17506,
+        "n_pass_to_pass_not_passing": 1,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 17506,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.9999428799908608,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "pandas-dev__pandas-26697": {
+      "repo": "pandas-dev/pandas",
+      "instance_id": "pandas-dev__pandas-26697",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 227.92957637901108,
+      "n_pass_to_pass": 49119,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 49115,
+        "n_pass_to_pass_not_passing": 4,
+        "n_pass_to_pass_without_result": 4,
+        "crashed_files": []
+      },
+      "n_required_tests": 49115,
+      "gold_raw_correct": false,
+      "gold_raw_correctness_pct": 0.999918565117368,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "pandas-dev__pandas-37971": {
+      "repo": "pandas-dev/pandas",
+      "instance_id": "pandas-dev__pandas-37971",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 19.87129820727593,
+      "n_pass_to_pass": 8067,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 8067,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 8067,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "pandas-dev__pandas-52054": {
+      "repo": "pandas-dev/pandas",
+      "instance_id": "pandas-dev__pandas-52054",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.3287174017941503,
+      "n_pass_to_pass": 136503,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 136503,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 136503,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "pydata__xarray-7374": {
+      "repo": "pydata/xarray",
+      "instance_id": "pydata__xarray-7374",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.3595336480582583,
+      "n_pass_to_pass": 14879,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 14879,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 14879,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "pydata__xarray-9001": {
+      "repo": "pydata/xarray",
+      "instance_id": "pydata__xarray-9001",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 2.7772393877462163,
+      "n_pass_to_pass": 15976,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 15976,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 15976,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "scipy__scipy-11757": {
+      "repo": "scipy/scipy",
+      "instance_id": "scipy__scipy-11757",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 2.5019847876949908,
+      "n_pass_to_pass": 39,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 39,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 39,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "scipy__scipy-16599": {
+      "repo": "scipy/scipy",
+      "instance_id": "scipy__scipy-16599",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 4.131078529845135,
+      "n_pass_to_pass": 432,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 432,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 432,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "sympy__sympy-24485": {
+      "repo": "sympy/sympy",
+      "instance_id": "sympy__sympy-24485",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 12.946025028362497,
+      "n_pass_to_pass": 1873,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 1873,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 1873,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "sympy__sympy-14772": {
+      "repo": "sympy/sympy",
+      "instance_id": "sympy__sympy-14772",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 104.93690084049817,
+      "n_pass_to_pass": 38,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 38,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 38,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    },
+    "dask__dask-7172": {
+      "repo": "dask/dask",
+      "instance_id": "dask__dask-7172",
+      "status": "scored",
+      "reason": "",
+      "rescore_history": [
+        [
+          "scored",
+          ""
+        ],
+        [
+          "rejudged with baseline-relative required tests",
+          ""
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "improvement": 1.4073576532826626,
+      "n_pass_to_pass": 16,
+      "baseline": {
+        "status": "scored",
+        "reason": "",
+        "rescore_history": [
+          [
+            "scored",
+            ""
+          ]
+        ],
+        "n_pass_to_pass_passing": 16,
+        "n_pass_to_pass_not_passing": 0,
+        "n_pass_to_pass_without_result": 0,
+        "crashed_files": []
+      },
+      "n_required_tests": 16,
+      "gold_raw_correct": true,
+      "gold_raw_correctness_pct": 1.0,
+      "gold_rel_correct": true,
+      "gold_rel_correctness_pct": 1.0,
+      "gold_required_failed": [],
+      "gold_required_missing": [],
+      "gold_crashed_files": [],
+      "passes_rule": true
+    }
+  }
+}

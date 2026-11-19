@@ -1,0 +1,75 @@
+diff --git a/pandas/core/ops/missing.py b/pandas/core/ops/missing.py
+index ea62237655..edcc169a8d 100644
+--- a/pandas/core/ops/missing.py
++++ b/pandas/core/ops/missing.py
+@@ -74,6 +74,24 @@ def fill_zeros(result, x, y):
+     return result
+ 
+ 
++def _mask_zero_div_zero_full(x, y, result, zmask):
++    zneg_mask = zmask & np.signbit(y)
++    zpos_mask = zmask & ~zneg_mask
++
++    nan_mask = zmask & (x == 0)
++    with np.errstate(invalid="ignore"):
++        neginf_mask = (zpos_mask & (x < 0)) | (zneg_mask & (x > 0))
++        posinf_mask = (zpos_mask & (x > 0)) | (zneg_mask & (x < 0))
++
++    if nan_mask.any() or neginf_mask.any() or posinf_mask.any():
++        result = result.astype("float64", copy=False)
++
++        result[nan_mask] = np.nan
++        result[posinf_mask] = np.inf
++        result[neginf_mask] = -np.inf
++    return result
++
++
+ def mask_zero_div_zero(x, y, result):
+     """
+     Set results of  0 // 0 to np.nan, regardless of the dtypes
+@@ -116,23 +134,31 @@ def mask_zero_div_zero(x, y, result):
+         return result
+ 
+     if zmask.any():
+-
+-        # Flip sign if necessary for -0.0
+-        zneg_mask = zmask & np.signbit(y)
+-        zpos_mask = zmask & ~zneg_mask
+-
+-        nan_mask = zmask & (x == 0)
++        shape = result.shape
++        if zmask.shape != shape or np.ndim(x) != result.ndim:
++            try:
++                zmask = np.broadcast_to(zmask, shape)
++                x = np.broadcast_to(x, shape)
++                y = np.broadcast_to(y, shape)
++            except ValueError:
++                return _mask_zero_div_zero_full(x, y, result, zmask)
++        # only look at the (typically few) positions where the divisor is zero
++        idx = zmask.nonzero()
++        xs = x[idx]
++        ys = y[idx]
++
++        zneg = np.signbit(ys)
++        zpos = ~zneg
+         with np.errstate(invalid="ignore"):
+-            neginf_mask = (zpos_mask & (x < 0)) | (zneg_mask & (x > 0))
+-            posinf_mask = (zpos_mask & (x > 0)) | (zneg_mask & (x < 0))
++            nan_m = xs == 0
++            neginf_m = (zpos & (xs < 0)) | (zneg & (xs > 0))
++            posinf_m = (zpos & (xs > 0)) | (zneg & (xs < 0))
+ 
+-        if nan_mask.any() or neginf_mask.any() or posinf_mask.any():
+-            # Fill negative/0 with -inf, positive/0 with +inf, 0/0 with NaN
++        if nan_m.any() or neginf_m.any() or posinf_m.any():
+             result = result.astype("float64", copy=False)
+-
+-            result[nan_mask] = np.nan
+-            result[posinf_mask] = np.inf
+-            result[neginf_mask] = -np.inf
++            vals = np.where(nan_m, np.nan, np.where(posinf_m, np.inf, -np.inf))
++            sel = nan_m | neginf_m | posinf_m
++            result[tuple(i[sel] for i in idx)] = vals[sel]
+ 
+     return result
+ 

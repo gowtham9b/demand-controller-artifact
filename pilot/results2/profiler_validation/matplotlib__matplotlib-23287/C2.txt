@@ -1,0 +1,6 @@
+Ranked hotspots for workload() (cProfile, 50 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  39.5%     0.006    0.014       1  lib/matplotlib/backends/backend_pdf.py:371 __init__
+ 2  21.1%     0.003    0.004       2  lib/matplotlib/backends/backend_pdf.py:394 hexify
+Outside the repository: 39.4% of self time. Largest: <method 'sub' of 're.Pattern' objects> 16.5%; <built-in method builtins.isinstance> 8.5%; /dcwork/workload.py:6 workload 8.2%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

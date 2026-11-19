@@ -1,0 +1,24 @@
+diff --git a/lib/matplotlib/colors.py b/lib/matplotlib/colors.py
+index 300e33bc9..8acedaf5e 100644
+--- a/lib/matplotlib/colors.py
++++ b/lib/matplotlib/colors.py
+@@ -260,6 +260,19 @@ def _to_rgba_no_colorcycle(c, alpha=None):
+             return c, c, c, alpha if alpha is not None else 1.
+         raise ValueError(f"Invalid RGBA argument: {orig_c!r}")
+     # tuple color.
++    if type(c) in (tuple, list) and len(c) in (3, 4) and all(
++            type(e) is float or type(e) is int for e in c):
++        n = len(c)
++        if n == 3 and alpha is None:
++            alpha = 1
++        if alpha is not None:
++            c = tuple(c[:3]) + (alpha,)
++        else:
++            c = tuple(c)
++        if any(elem < 0 or elem > 1 for elem in c):
++            raise ValueError("RGBA values should be within 0-1 range")
++        return tuple(float(e) for e in c[:3]) + (
++            (c[3] if alpha is not None else float(c[3])),)
+     c = np.array(c)
+     if not np.can_cast(c.dtype, float, "same_kind") or c.ndim != 1:
+         # Test the dtype explicitly as `map(float, ...)`, `np.array(...,

@@ -1,0 +1,15 @@
+astropy__astropy-7010
+dask__dask-7172
+dask__dask-5890
+matplotlib__matplotlib-15834
+matplotlib__matplotlib-17177
+numpy__numpy-25788
+numpy__numpy-11720
+pandas-dev__pandas-37130
+pandas-dev__pandas-43285
+pandas-dev__pandas-43010
+pandas-dev__pandas-43160
+scipy__scipy-18850
+scipy__scipy-20325
+sympy__sympy-15736
+sympy__sympy-18591

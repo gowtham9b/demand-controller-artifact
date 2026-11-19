@@ -1,0 +1,262 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   numpy/lib/function_base.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 21a88ea02d747d1a205214df086cff0046b31172
+Author: Automated Test <automated@test.com>
+Date:   Thu Jul 24 16:50:17 2025 +0000
+
+    Fix environment
+
+diff --git a/branding/logo/logoguidelines.md b/branding/logo/logoguidelines.md
+deleted file mode 100644
+index 0c37e3dd4..000000000
+--- a/branding/logo/logoguidelines.md
++++ /dev/null
+@@ -1,18 +0,0 @@
+-# NumPy Logo Guidelines
+-These guidelines are meant to help keep the NumPy logo consistent and recognizable across all its uses. They also provide a common language for referring to the logos and their components.
+-
+-The primary logo is the horizontal option (logomark and text next to each other) and the secondary logo is the stacked version (logomark over text). I’ve also provided the logomark on its own (meaning it doesn’t have text). When in doubt, it’s preferable to use primary or secondary options over the logomark alone.
+-
+-## Color
+-The full color options are a combo of two shades of blue, rgb(77, 171, 207) and rgb(77, 119, 207), while light options are rgb(255, 255, 255) and dark options are rgb(1, 50, 67).
+-
+-Whenever possible, use the full color logos. One color logos (light or dark) are to be used when full color will not have enough contrast, usually when logos must be on colored backgrounds.
+-
+-## Minimum Size
+-Please do not make the primary logo smaller than 50px wide, secondary logo smaller than 35px wide, or logomark smaller than 20px wide.
+-
+-## Logo Integrity
+-A few other notes to keep in mind when using the logo:
+-- Make sure to scale the logo proportionally.
+-- Maintain a good amount of space around the logo. Don’t let it overlap with text, images, or other elements.
+-- Do not try and recreate or modify the logo. For example, do not use the logomark and then try to write NumPy in another font.
+diff --git a/branding/logo/logomark/numpylogoicon.png b/branding/logo/logomark/numpylogoicon.png
+deleted file mode 100644
+index 4d663fe0a..000000000
+Binary files a/branding/logo/logomark/numpylogoicon.png and /dev/null differ
+diff --git a/branding/logo/logomark/numpylogoicon.svg b/branding/logo/logomark/numpylogoicon.svg
+deleted file mode 100644
+index 50810223b..000000000
+--- a/branding/logo/logomark/numpylogoicon.svg
++++ /dev/null
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:rgb(77, 171, 207);}.cls-2{fill:rgb(77, 119, 207);}</style></defs><g id="Layer_1" data-name="Layer 1"><polygon class="cls-1" points="220.93 127.14 151.77 92.23 75.87 130.11 146.9 165.78 220.93 127.14"/><polygon class="cls-1" points="252.63 143.14 325.14 179.74 249.91 217.52 178.77 181.79 252.63 143.14"/><polygon class="cls-1" points="349.47 92.76 423.96 130.11 357.34 163.57 284.68 126.92 349.47 92.76"/><polygon class="cls-1" points="317.41 76.67 250.35 43.05 184.01 76.15 253.11 111 317.41 76.67"/><polygon class="cls-1" points="264.98 365.44 264.98 456.95 346.22 416.41 346.13 324.86 264.98 365.44"/><polygon class="cls-1" points="346.1 292.91 346.01 202.32 264.98 242.6 264.98 333.22 346.1 292.91"/><polygon class="cls-1" points="443.63 275.93 443.63 367.8 374.34 402.38 374.29 310.93 443.63 275.93"/><polygon class="cls-1" points="443.63 243.81 443.63 153.79 374.21 188.3 374.27 279.07 443.63 243.81"/><path class="cls-2" d="M236.3,242.6l-54.72-27.51V334s-66.92-142.39-73.12-155.18c-.8-1.65-4.09-3.46-4.93-3.9-12-6.3-47.16-24.11-47.16-24.11V360.89l48.64,26V277.08s66.21,127.23,66.88,128.62,7.32,14.8,14.42,19.51c9.46,6.26,50,30.64,50,30.64Z"/></g></svg>
+\ No newline at end of file
+diff --git a/branding/logo/logomark/numpylogoicondark.png b/branding/logo/logomark/numpylogoicondark.png
+deleted file mode 100644
+index eea3f3288..000000000
+Binary files a/branding/logo/logomark/numpylogoicondark.png and /dev/null differ
+diff --git a/branding/logo/logomark/numpylogoiconlight.png b/branding/logo/logomark/numpylogoiconlight.png
+deleted file mode 100644
+index a81b175a6..000000000
+Binary files a/branding/logo/logomark/numpylogoiconlight.png and /dev/null differ
+diff --git a/branding/logo/primary/numpylogo.png b/branding/logo/primary/numpylogo.png
+deleted file mode 100644
+index 8187b49c1..000000000
+Binary files a/branding/logo/primary/numpylogo.png and /dev/null differ
+diff --git a/branding/logo/primary/numpylogo.svg b/branding/logo/primary/numpylogo.svg
+deleted file mode 100644
+index 63d61c50f..000000000
+--- a/branding/logo/primary/numpylogo.svg
++++ /dev/null
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 721.86 324.74"><defs><style>.cls-1{fill:rgb(77, 119, 207);}.cls-2{fill:rgb(77, 171, 207);}</style></defs><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M299.23,125a5.76,5.76,0,0,1,1.62.45,5.58,5.58,0,0,1,1.38.93,17,17,0,0,1,1.49,1.62l41.51,52.47c-.17-1.67-.28-3.31-.36-4.88s-.12-3.07-.12-4.47V124.83h17.87v87.38H352.06a9.68,9.68,0,0,1-3.95-.72,8.47,8.47,0,0,1-3.12-2.64l-41.21-52c.13,1.51.22,3,.3,4.46s.13,2.83.13,4.11v46.84H286.33V124.83H297A17.21,17.21,0,0,1,299.23,125Z"/><path class="cls-1" d="M392,150v39.46q0,4.62,2.1,7.14a7.62,7.62,0,0,0,6.18,2.52,13.26,13.26,0,0,0,5.73-1.26,21.37,21.37,0,0,0,5.19-3.54V150h18.59v62.19H418.28a4.39,4.39,0,0,1-4.57-3.12l-1.13-3.6a37.32,37.32,0,0,1-3.72,3.16,23.32,23.32,0,0,1-4.11,2.39A24.55,24.55,0,0,1,400,212.6a25,25,0,0,1-5.51.57,21.75,21.75,0,0,1-9-1.77,18.67,18.67,0,0,1-6.63-4.94,21.68,21.68,0,0,1-4.08-7.5,31,31,0,0,1-1.38-9.48V150Z"/><path class="cls-1" d="M441.78,212.21V150H453.3a5.13,5.13,0,0,1,2.91.78,4.21,4.21,0,0,1,1.65,2.34l1,3.36a33.22,33.22,0,0,1,3.23-3,20.83,20.83,0,0,1,3.63-2.34,19.68,19.68,0,0,1,9.15-2.13,14.6,14.6,0,0,1,9.33,2.91,18.14,18.14,0,0,1,5.6,7.76,18.71,18.71,0,0,1,3.81-4.92,20.42,20.42,0,0,1,4.86-3.29,23.69,23.69,0,0,1,5.51-1.86,28.63,28.63,0,0,1,5.8-.6,26.3,26.3,0,0,1,9.47,1.59,18.05,18.05,0,0,1,6.93,4.62,20.15,20.15,0,0,1,4.23,7.44,32,32,0,0,1,1.44,10v39.52h-18.6V172.69q0-9.66-8.27-9.65a8.46,8.46,0,0,0-6.27,2.49q-2.49,2.47-2.49,7.16v39.52H477.65V172.69q0-5.34-2.1-7.5c-1.4-1.44-3.46-2.15-6.18-2.15a10.53,10.53,0,0,0-4.77,1.13,17.72,17.72,0,0,0-4.23,3.06v45Z"/><path class="cls-1" d="M562.93,183v29.21H542.66V124.83h30.82A50.86,50.86,0,0,1,589.35,127a30.49,30.49,0,0,1,10.91,6,23.36,23.36,0,0,1,6.33,9.06,30.63,30.63,0,0,1,2,11.27,33.11,33.11,0,0,1-2.1,12,24.08,24.08,0,0,1-6.42,9.36,30,30,0,0,1-10.94,6.08A49.9,49.9,0,0,1,573.48,183Zm0-15.29h10.55c5.28,0,9.08-1.25,11.4-3.78s3.48-6,3.48-10.55a15.79,15.79,0,0,0-.9-5.46,11.11,11.11,0,0,0-2.73-4.23,12.41,12.41,0,0,0-4.62-2.73,20.71,20.71,0,0,0-6.63-1H562.93Z"/><path class="cls-1" d="M644.61,228.35a6.69,6.69,0,0,1-2,2.72,6.62,6.62,0,0,1-3.84.87H624.82l12-25.18L612,150h16.43a5.25,5.25,0,0,1,3.36,1,5.15,5.15,0,0,1,1.68,2.28l10.19,26.81A59,59,0,0,1,646,187.5c.4-1.28.84-2.54,1.32-3.77s.94-2.5,1.38-3.78l9.24-26.69a4.5,4.5,0,0,1,1.89-2.31,5.4,5.4,0,0,1,3-.93h15Z"/><polygon class="cls-2" points="132.38 96.4 95.25 77.66 54.49 98 92.63 117.15 132.38 96.4"/><polygon class="cls-2" points="149.41 104.99 188.34 124.65 147.95 144.93 109.75 125.75 149.41 104.99"/><polygon class="cls-2" points="201.41 77.94 241.41 98 205.63 115.96 166.62 96.28 201.41 77.94"/><polygon class="cls-2" points="184.19 69.3 148.18 51.24 112.56 69.02 149.67 87.73 184.19 69.3"/><polygon class="cls-2" points="156.04 224.36 156.04 273.5 199.66 251.73 199.62 202.57 156.04 224.36"/><polygon class="cls-2" points="199.6 185.41 199.55 136.77 156.04 158.4 156.04 207.06 199.6 185.41"/><polygon class="cls-2" points="251.97 176.3 251.97 225.63 214.76 244.19 214.73 195.09 251.97 176.3"/><polygon class="cls-2" points="251.97 159.05 251.97 110.71 214.69 129.24 214.72 177.98 251.97 159.05"/><path class="cls-1" d="M140.64,158.4l-29.38-14.78v63.84S75.32,131,72,124.13c-.43-.89-2.19-1.86-2.64-2.1C62.88,118.65,44,109.09,44,109.09V221.92l26.12,14v-59s35.55,68.32,35.92,69.07,3.92,7.94,7.74,10.47c5.07,3.37,26.84,16.46,26.84,16.46Z"/></g></svg>
+\ No newline at end of file
+diff --git a/branding/logo/primary/numpylogodark.png b/branding/logo/primary/numpylogodark.png
+deleted file mode 100644
+index e6d20af6b..000000000
+Binary files a/branding/logo/primary/numpylogodark.png and /dev/null differ
+diff --git a/branding/logo/primary/numpylogolight.png b/branding/logo/primary/numpylogolight.png
+deleted file mode 100644
+index 8500d1c10..000000000
+Binary files a/branding/logo/primary/numpylogolight.png and /dev/null differ
+diff --git a/branding/logo/secondary/numpylogo2.png b/branding/logo/secondary/numpylogo2.png
+deleted file mode 100644
+index 000a197b3..000000000
+Binary files a/branding/logo/secondary/numpylogo2.png and /dev/null differ
+diff --git a/branding/logo/secondary/numpylogo2.svg b/branding/logo/secondary/numpylogo2.svg
+deleted file mode 100644
+index 20385487c..000000000
+--- a/branding/logo/secondary/numpylogo2.svg
++++ /dev/null
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:rgb(77, 119, 207);}.cls-2{fill:rgb(77, 171, 207);}</style></defs><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M69.36,351.63a5.46,5.46,0,0,1,1.59.44,5.58,5.58,0,0,1,1.37.92,17.85,17.85,0,0,1,1.48,1.6l41,51.84c-.16-1.66-.28-3.27-.36-4.82s-.12-3-.12-4.42V351.51H132v86.32H121.55a9.69,9.69,0,0,1-3.91-.71,8.35,8.35,0,0,1-3.08-2.61l-40.7-51.42q.18,2.25.3,4.41c.07,1.44.11,2.79.11,4.06v46.27H56.62V351.51H67.16A17,17,0,0,1,69.36,351.63Z"/><path class="cls-1" d="M161,376.39v39q0,4.56,2.07,7.05a7.54,7.54,0,0,0,6.11,2.49,13,13,0,0,0,5.65-1.25,21.12,21.12,0,0,0,5.13-3.49V376.39h18.37v61.44H187a4.31,4.31,0,0,1-4.5-3.08l-1.13-3.56a35.28,35.28,0,0,1-3.67,3.12,22.21,22.21,0,0,1-4.06,2.37,24.63,24.63,0,0,1-4.65,1.54,25.07,25.07,0,0,1-5.45.56,21.61,21.61,0,0,1-8.92-1.75,18.31,18.31,0,0,1-6.55-4.88,21.4,21.4,0,0,1-4-7.41,30.59,30.59,0,0,1-1.37-9.36v-39Z"/><path class="cls-1" d="M210.19,437.83V376.39h11.37a5.1,5.1,0,0,1,2.87.77,4.09,4.09,0,0,1,1.63,2.32l1,3.31a33.63,33.63,0,0,1,3.2-2.93A20,20,0,0,1,238,376a19.66,19.66,0,0,1,4.89-.56,14.39,14.39,0,0,1,9.21,2.87,17.82,17.82,0,0,1,5.54,7.67,18.28,18.28,0,0,1,3.77-4.86,20.07,20.07,0,0,1,4.79-3.25,22.73,22.73,0,0,1,5.45-1.84,28,28,0,0,1,5.72-.59,25.87,25.87,0,0,1,9.36,1.57,17.7,17.7,0,0,1,6.85,4.56,20,20,0,0,1,4.18,7.35,31.93,31.93,0,0,1,1.42,9.86v39H280.81v-39q0-9.54-8.18-9.54a8.4,8.4,0,0,0-6.19,2.46c-1.64,1.64-2.46,4-2.46,7.08v39H245.62v-39c0-3.52-.7-6-2.08-7.41s-3.42-2.13-6.1-2.13a10.4,10.4,0,0,0-4.71,1.12,17.42,17.42,0,0,0-4.18,3v44.43Z"/><path class="cls-1" d="M329.86,409v28.85h-20V351.51h30.45A50.26,50.26,0,0,1,356,353.67a30.21,30.21,0,0,1,10.79,6,23.05,23.05,0,0,1,6.24,8.95,30.12,30.12,0,0,1,2,11.13,32.77,32.77,0,0,1-2.07,11.85,23.87,23.87,0,0,1-6.34,9.24,29.85,29.85,0,0,1-10.82,6A49.24,49.24,0,0,1,340.29,409Zm0-15.11h10.43q7.81,0,11.26-3.73T355,379.71a15.67,15.67,0,0,0-.89-5.39,10.94,10.94,0,0,0-2.7-4.17,12,12,0,0,0-4.56-2.7,20.26,20.26,0,0,0-6.55-.95H329.86Z"/><path class="cls-1" d="M410.56,453.77a5.24,5.24,0,0,1-5.81,3.55H391l11.85-24.87-24.53-56.06h16.23a5.21,5.21,0,0,1,3.32.95,5.1,5.1,0,0,1,1.66,2.25l10.07,26.49a57.53,57.53,0,0,1,2.31,7.34c.4-1.26.83-2.51,1.3-3.73s.93-2.46,1.37-3.73l9.12-26.37a4.58,4.58,0,0,1,1.87-2.28,5.34,5.34,0,0,1,3-.92h14.81Z"/><polygon class="cls-2" points="229.82 96.34 181.83 72.11 129.15 98.4 178.44 123.16 229.82 96.34"/><polygon class="cls-2" points="251.82 107.45 302.15 132.85 249.94 159.07 200.56 134.27 251.82 107.45"/><polygon class="cls-2" points="319.04 72.48 370.73 98.4 324.5 121.63 274.07 96.19 319.04 72.48"/><polygon class="cls-2" points="296.78 61.32 250.24 37.98 204.2 60.95 252.16 85.14 296.78 61.32"/><polygon class="cls-2" points="260.39 261.73 260.39 325.25 316.78 297.11 316.72 233.57 260.39 261.73"/><polygon class="cls-2" points="316.7 211.39 316.63 148.52 260.39 176.47 260.39 239.37 316.7 211.39"/><polygon class="cls-2" points="384.39 199.61 384.39 263.37 336.3 287.37 336.26 223.9 384.39 199.61"/><polygon class="cls-2" points="384.39 177.31 384.39 114.84 336.21 138.79 336.25 201.78 384.39 177.31"/><path class="cls-1" d="M240.49,176.47l-38-19.09v82.5s-46.44-98.82-50.75-107.7c-.55-1.15-2.83-2.4-3.42-2.71-8.36-4.37-32.73-16.73-32.73-16.73V258.57l33.76,18.05V200.4s45.95,88.31,46.42,89.27,5.08,10.27,10,13.54c6.57,4.35,34.7,21.27,34.7,21.27Z"/></g></svg>
+\ No newline at end of file
+diff --git a/branding/logo/secondary/numpylogo2dark.png b/branding/logo/secondary/numpylogo2dark.png
+deleted file mode 100644
+index 3c866703c..000000000
+Binary files a/branding/logo/secondary/numpylogo2dark.png and /dev/null differ
+diff --git a/branding/logo/secondary/numpylogo2light.png b/branding/logo/secondary/numpylogo2light.png
+deleted file mode 100644
+index 98f00bc42..000000000
+Binary files a/branding/logo/secondary/numpylogo2light.png and /dev/null differ
++ pip install --no-build-isolation -e .
+Obtaining file:///testbed
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.22.0.dev0+1678.g21a88ea02
+    Uninstalling numpy-1.22.0.dev0+1678.g21a88ea02:
+      Successfully uninstalled numpy-1.22.0.dev0+1678.g21a88ea02
+  DEPRECATION: Legacy editable install of numpy==1.22.0.dev0+1678.g21a88ea02 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for numpy
+Successfully installed numpy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
++ awk '{ print NR-1 " " $0 }'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 /testbed/numpy/lib/tests/test_function_base.py | cut -d" " -f1); line=$(echo 0 /testbed/numpy/lib/tests/test_function_base.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 /testbed/numpy/core/tests/test_regression.py | cut -d" " -f1); line=$(echo 1 /testbed/numpy/core/tests/test_regression.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 /testbed/numpy/lib/tests/test_histograms.py | cut -d" " -f1); line=$(echo 2 /testbed/numpy/lib/tests/test_histograms.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 23:25:45 UTC 2026] Processing [2]: /testbed/numpy/lib/tests/test_histograms.py
+[Thu Nov 12 23:25:45 UTC 2026] Processing [1]: /testbed/numpy/core/tests/test_regression.py
+[Thu Nov 12 23:25:45 UTC 2026] Processing [0]: /testbed/numpy/lib/tests/test_function_base.py
+[Thu Nov 12 23:25:47 UTC 2026] Finished processing [2] with exit 0: /testbed/numpy/lib/tests/test_histograms.py
+[Thu Nov 12 23:25:47 UTC 2026] Finished processing [1] with exit 0: /testbed/numpy/core/tests/test_regression.py
+[Thu Nov 12 23:25:48 UTC 2026] Finished processing [0] with exit 1: /testbed/numpy/lib/tests/test_function_base.py
++ [[ -s /tmp/single_thread_tests.txt ]]

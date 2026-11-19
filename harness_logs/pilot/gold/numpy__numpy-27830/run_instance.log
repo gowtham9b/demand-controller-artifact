@@ -1,0 +1,26 @@
+2026-11-12 08:08:48,411 - INFO - Test spec version: 2.1
+2026-11-12 08:08:48,411 - INFO - Using DockerHub image: ghcr.io/swefficiency/swefficiency-images:numpy__numpy-27830
+2026-11-12 08:10:16,805 - INFO - Creating container for numpy__numpy-27830...
+2026-11-12 08:10:17,072 - INFO - Container for numpy__numpy-27830 created: 82cb5d809e35528f985b3c91fe4fbe5ec18c3cf3b569f31556b1fdd7bd5b9b8e
+2026-11-12 08:10:17,140 - INFO - Container for numpy__numpy-27830 started: 82cb5d809e35528f985b3c91fe4fbe5ec18c3cf3b569f31556b1fdd7bd5b9b8e
+2026-11-12 08:10:18,059 - INFO - Intermediate patch for numpy__numpy-27830 written to logs/run_evaluation/pilot/gold/numpy__numpy-27830/patch.diff, now applying to container...
+2026-11-12 08:10:18,157 - INFO - Perf workload script for numpy__numpy-27830 from logs/run_evaluation/pilot/gold/numpy__numpy-27830/workload.py; copying to container...
+2026-11-12 08:10:18,256 - INFO - Perf script for numpy__numpy-27830 written to logs/run_evaluation/pilot/gold/numpy__numpy-27830/perf.sh; copying to container...
+2026-11-12 08:10:18,356 - INFO - Perf profiling script for numpy__numpy-27830 written to logs/run_evaluation/pilot/gold/numpy__numpy-27830/perf_profiling.sh; copying to container...
+2026-11-12 08:12:26,647 - INFO - Pre-edit perf runtime: 63.43 seconds
+2026-11-12 08:12:26,647 - INFO - Pre-edit perf output for numpy__numpy-27830 written to logs/run_evaluation/pilot/gold/numpy__numpy-27830/perf_output_preedit.txt
+2026-11-12 08:12:26,656 - ERROR - Error in evaluating model for numpy__numpy-27830: Perf tags not found in output.
+Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 610, in run_instance
+    preedit_runtime_mean, preedit_runtime_sd = parse_perf_output(
+                                               ^^^^^^^^^^^^^^^^^^
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/test_spec.py", line 1166, in parse_perf_output
+    raise ValueError("Perf tags not found in output.")
+ValueError: Perf tags not found in output.
+
+Check (logs/run_evaluation/pilot/gold/numpy__numpy-27830/run_instance.log) for more information.
+2026-11-12 08:12:26,656 - INFO - Attempting to stop container sweb.eval.numpy__numpy-27830.pilot...
+2026-11-12 08:12:26,741 - INFO - Attempting to remove container sweb.eval.numpy__numpy-27830.pilot...
+2026-11-12 08:12:27,122 - INFO - Container sweb.eval.numpy__numpy-27830.pilot removed.
+2026-11-12 08:12:27,122 - INFO - Attempting to remove image ghcr.io/swefficiency/swefficiency-images:numpy__numpy-27830...
+2026-11-12 08:12:29,335 - INFO - Image ghcr.io/swefficiency/swefficiency-images:numpy__numpy-27830 removed.

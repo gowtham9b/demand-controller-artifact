@@ -1,0 +1,10 @@
+/testbed/pandas/tests/groupby/test_categorical.py
+/testbed/pandas/tests/groupby/test_groupby.py
+/testbed/pandas/tests/groupby/test_groupby_subclass.py
+/testbed/pandas/tests/test_multilevel.py
+/testbed/pandas/tests/groupby/transform/test_transform.py
+/testbed/pandas/tests/series/methods/test_get_numeric_data.py
+/testbed/pandas/tests/generic/test_series.py
+/testbed/pandas/tests/groupby/test_allowlist.py
+/testbed/pandas/tests/apply/test_frame_transform.py
+/testbed/pandas/tests/frame/test_reductions.py

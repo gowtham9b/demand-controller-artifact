@@ -1,0 +1,100 @@
+diff --git a/swefficiency/harness/cpu_assignment.py b/swefficiency/harness/cpu_assignment.py
+index fc75e47..4ec950c 100644
+--- a/swefficiency/harness/cpu_assignment.py
++++ b/swefficiency/harness/cpu_assignment.py
+@@ -92,6 +92,19 @@ def allocate_whole_cores(
+ 
+     cores_needed_per_worker = vcpus_per_worker // threads_per_core
+ 
++    if not os.path.isdir(SYS_CPU):
++        # Non-Linux host (e.g. Docker Desktop on macOS): the host topology is not
++        # the Docker VM's. Hand out disjoint blocks of VM CPUs, skipping the first
++        # `vcpus_per_worker` for the daemon and agent processes.
++        return [
++            {
++                "cpuset_cpus": ",".join(str(vcpus_per_worker * (i + 1) + j) for j in range(vcpus_per_worker)),
++                "cpuset_mems": "0",
++                "nano_cpus": int(1e9 * vcpus_per_worker),
++            }
++            for i in range(num_workers)
++        ]
++
+     cores = discover_physical_cores()
+     if reserve_cores > 0:
+         # drop the first N cores (ordered by (node, cpu)) to keep for the host
+diff --git a/swefficiency/harness/docker_build.py b/swefficiency/harness/docker_build.py
+index f68daa0..220b5e9 100644
+--- a/swefficiency/harness/docker_build.py
++++ b/swefficiency/harness/docker_build.py
+@@ -15,6 +15,7 @@
+ from __future__ import annotations
+ 
+ import logging
++import os
+ import re
+ import traceback
+ from concurrent.futures import ThreadPoolExecutor, as_completed
+@@ -827,9 +828,9 @@ def create_container_from_image(
+             platform=test_spec.platform,
+             network_mode="host" if USE_HOST_NETWORK else None,
+             # Memory limits.
+-            mem_limit="32g",
+-            mem_reservation="16g",
+-            memswap_limit="32g",
++            mem_limit=os.environ.get("SWEF_MEM_LIMIT", "32g"),
++            mem_reservation=os.environ.get("SWEF_MEM_RESERVATION", "16g"),
++            memswap_limit=os.environ.get("SWEF_MEM_LIMIT", "32g"),
+             oom_kill_disable=True,  # TODO: Revisit this.
+             oom_score_adj=1000,
+             **extra_args,
+diff --git a/swefficiency/harness/run_validation.py b/swefficiency/harness/run_validation.py
+index 9b34f74..43857bd 100644
+--- a/swefficiency/harness/run_validation.py
++++ b/swefficiency/harness/run_validation.py
+@@ -335,6 +335,26 @@ def run_instance(
+ 
+         logger.info(f"Container for {instance_id} started: {container.id}")
+ 
++        extra_ca = os.environ.get("SWEF_EXTRA_CA")
++        if extra_ca:
++            # Networks that intercept TLS (e.g. corporate proxies) need their root CA
++            # trusted inside the container for workloads and rebuilds that download.
++            # copy_to_container writes and deletes <src>.tar next to the source, so a
++            # shared source races between parallel workers; copy it per instance first.
++            # It also keeps the source file name: the destination is /tmp/extra-ca.pem.
++            local_ca = Path(log_dir / "extra-ca.pem")
++            shutil.copyfile(extra_ca, local_ca)
++            copy_to_container(container, local_ca, Path("/tmp/extra-ca.pem"))
++            container.exec_run(["bash", "-c", (
++                "cat /tmp/extra-ca.pem >> /etc/ssl/certs/ca-certificates.crt; "
++                "echo 'ca_certificate = /etc/ssl/certs/ca-certificates.crt' >> /etc/wgetrc; "
++                "printf '[global]\\ncert = /etc/ssl/certs/ca-certificates.crt\\n' > /etc/pip.conf; "
++                "for py in /opt/miniconda3/envs/*/bin/python /opt/miniconda3/bin/python; do "
++                "$py -c 'import certifi; print(certifi.where())' 2>/dev/null; "
++                "$py -c 'import pip._vendor.certifi as c; print(c.where())' 2>/dev/null; "
++                "done | sort -u | while read f; do cat /tmp/extra-ca.pem >> \"$f\"; done"
++            )], user="root")
++
+         # Copy model prediction as patch file to container
+         patch_file = Path(log_dir / "patch.diff")
+ 
+diff --git a/swefficiency/harness/test_spec.py b/swefficiency/harness/test_spec.py
+index a222eac..69465c5 100644
+--- a/swefficiency/harness/test_spec.py
++++ b/swefficiency/harness/test_spec.py
+@@ -1434,10 +1434,13 @@ def make_test_spec(instance: SWEfficiencyInstance, observed_versions=None) -> Te
+         instance, specs, env_name, repo_directory, base_commit, test_patch
+     )
+     correctness_script_list = get_correctness_script_list(
+-        instance, specs, env_name, repo_directory, base_commit, test_patch
++        instance, specs, env_name, repo_directory, base_commit, test_patch,
++        parallel_workers=int(os.environ.get("SWEF_TEST_WORKERS", "4")),
+     )
+ 
+-    if platform.machine() in {"aarch64", "arm64"}:
++    if os.environ.get("SWEF_FORCE_X86") == "1":
++        arch = "x86_64"
++    elif platform.machine() in {"aarch64", "arm64"}:
+         # use arm64 unless explicitly specified
+         arch = "arm64" if instance_id not in USE_X86 else "x86_64"
+     else:

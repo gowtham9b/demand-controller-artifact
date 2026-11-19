@@ -1,0 +1,22 @@
+diff --git a/dask/array/percentile.py b/dask/array/percentile.py
+index d08eb3e19..30aff9d88 100644
+--- a/dask/array/percentile.py
++++ b/dask/array/percentile.py
+@@ -219,9 +219,15 @@ def merge_percentiles(finalq, qs, vals, interpolation="lower", Ns=None):
+ 
+     # transform qs and Ns into number of observations between percentiles
+     counts = []
++    fast = type(finalq) is np.ndarray
+     for q, N in zip(qs, Ns):
+-        count = empty_like_safe(finalq, shape=len(q))
+-        count[1:] = np.diff(array_safe(q, like=q[0]))
++        if fast and type(q[0]) is not np.ndarray and not hasattr(q[0], "__array_function__"):
++            count = np.empty_like(finalq, shape=len(q))
++            qa = np.array(q)
++        else:
++            count = empty_like_safe(finalq, shape=len(q))
++            qa = array_safe(q, like=q[0])
++        count[1:] = qa[1:] - qa[:-1]
+         count[0] = q[0]
+         count *= N
+         counts.append(count)

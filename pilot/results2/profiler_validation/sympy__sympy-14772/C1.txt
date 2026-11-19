@@ -1,0 +1,6 @@
+cProfile of workload(): 49 calls, 1.910s profiled (times are totals over all calls, sorted by cumulative time)
+   ncalls  tottime  cumtime  filename:lineno(function)
+       49   0.0001   1.9062  /dcwork/workload.py:13(workload)
+       49   0.0107   1.9061  /testbed/sympy/crypto/crypto.py:2054(_legendre)
+       49   1.8954   1.8954  ~:0(<built-in method builtins.pow>)
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

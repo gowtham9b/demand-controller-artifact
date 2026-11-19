@@ -1,0 +1,25 @@
+diff --git a/scipy/spatial/_spherical_voronoi.py b/scipy/spatial/_spherical_voronoi.py
+index 86d073514..49b7f9e23 100644
+--- a/scipy/spatial/_spherical_voronoi.py
++++ b/scipy/spatial/_spherical_voronoi.py
+@@ -305,7 +305,8 @@ class SphericalVoronoi:
+ 
+         # Calculate the angle subtended by arcs
+         cosine = np.einsum('ij,ij->i', arcs[:, 0], arcs[:, 1])
+-        sine = np.abs(np.linalg.det(arcs))
++        sine = np.abs(arcs[:, 0, 0] * arcs[:, 1, 1]
++                      - arcs[:, 0, 1] * arcs[:, 1, 0])
+         theta = np.arctan2(sine, cosine)
+ 
+         # Get areas using A = r * theta
+@@ -314,8 +315,8 @@ class SphericalVoronoi:
+         # Correct arcs which go the wrong way (single-hemisphere inputs)
+         signs = np.sign(np.einsum('ij,ij->i', arcs[:, 0],
+                                               self.vertices - self.center))
+-        indices = np.where(signs < 0)
+-        areas[indices] = 2 * np.pi * self.radius - areas[indices]
++        neg = signs < 0
++        areas[neg] = 2 * np.pi * self.radius - areas[neg]
+         return areas
+ 
+     def calculate_areas(self):

@@ -1,0 +1,35 @@
+{
+  "instance_id": "sympy__sympy-14772",
+  "condition": "C1",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 19.25539779663086,
+  "seconds": 43.61560416221619,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602554.607679,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 3.7574121952056885,
+      "chars": 424,
+      "iters": 46,
+      "n_funcs": 4
+    }
+  ],
+  "patch_chars": 371,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 43.61560416221619
+    }
+  ]
+}

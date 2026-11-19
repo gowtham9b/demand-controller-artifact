@@ -1,0 +1,26 @@
+2026-11-12 08:39:26,472 - INFO - Test spec version: 1.9
+2026-11-12 08:39:26,473 - INFO - Using DockerHub image: ghcr.io/swefficiency/swefficiency-images:scipy__scipy-16599
+2026-11-12 08:39:27,679 - INFO - Creating container for scipy__scipy-16599...
+2026-11-12 08:39:27,733 - INFO - Container for scipy__scipy-16599 created: c53143258f1ba2d9448bd5639a5d6c949dbc26f558d8d9076e73fdc5e6e16994
+2026-11-12 08:39:27,804 - INFO - Container for scipy__scipy-16599 started: c53143258f1ba2d9448bd5639a5d6c949dbc26f558d8d9076e73fdc5e6e16994
+2026-11-12 08:39:28,720 - INFO - Intermediate patch for scipy__scipy-16599 written to logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/patch.diff, now applying to container...
+2026-11-12 08:39:28,822 - INFO - Perf workload script for scipy__scipy-16599 from logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/workload.py; copying to container...
+2026-11-12 08:39:28,921 - INFO - Perf script for scipy__scipy-16599 written to logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/perf.sh; copying to container...
+2026-11-12 08:39:29,025 - INFO - Perf profiling script for scipy__scipy-16599 written to logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/perf_profiling.sh; copying to container...
+2026-11-12 08:46:20,958 - INFO - Pre-edit perf runtime: 179.87 seconds
+2026-11-12 08:46:20,959 - INFO - Pre-edit perf output for scipy__scipy-16599 written to logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/perf_output_preedit.txt
+2026-11-12 08:46:20,963 - ERROR - Error in evaluating model for scipy__scipy-16599: Perf tags not found in output.
+Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 610, in run_instance
+    preedit_runtime_mean, preedit_runtime_sd = parse_perf_output(
+                                               ^^^^^^^^^^^^^^^^^^
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/test_spec.py", line 1166, in parse_perf_output
+    raise ValueError("Perf tags not found in output.")
+ValueError: Perf tags not found in output.
+
+Check (logs/run_evaluation/pilot/pilot_C0/scipy__scipy-16599/run_instance.log) for more information.
+2026-11-12 08:46:20,963 - INFO - Attempting to stop container sweb.eval.scipy__scipy-16599.pilot...
+2026-11-12 08:46:21,065 - INFO - Attempting to remove container sweb.eval.scipy__scipy-16599.pilot...
+2026-11-12 08:46:21,530 - INFO - Container sweb.eval.scipy__scipy-16599.pilot removed.
+2026-11-12 08:46:21,530 - INFO - Attempting to remove image ghcr.io/swefficiency/swefficiency-images:scipy__scipy-16599...
+2026-11-12 08:46:22,423 - INFO - Image ghcr.io/swefficiency/swefficiency-images:scipy__scipy-16599 removed.

@@ -1,0 +1,2 @@
+sympy__sympy-10621
+ghcr.io/swefficiency/swefficiency-images:sympy__sympy-10621

@@ -1,0 +1,22 @@
+diff --git a/numpy/core/function_base.py b/numpy/core/function_base.py
+index e940ac230..d8455c915 100644
+--- a/numpy/core/function_base.py
++++ b/numpy/core/function_base.py
+@@ -136,7 +136,7 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     # In-place multiplication y *= delta/div is faster, but prevents the multiplicant
+     # from overriding what class is produced, and thus prevents, e.g. use of Quantities,
+     # see gh-7142. Hence, we multiply in place only for standard scalar types.
+-    _mult_inplace = _nx.isscalar(delta)
++    _mult_inplace = isinstance(delta, _nx.generic) or _nx.isscalar(delta)
+     if div > 0:
+         step = delta / div
+         if _nx.any(step == 0):
+@@ -166,7 +166,7 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     if axis != 0:
+         y = _nx.moveaxis(y, 0, axis)
+ 
+-    if _nx.issubdtype(dtype, _nx.integer):
++    if issubclass(_nx.dtype(dtype).type, _nx.integer):
+         _nx.floor(y, out=y)
+ 
+     if retstep:

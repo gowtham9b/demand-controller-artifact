@@ -1,0 +1,26 @@
+2026-11-12 11:20:25,925 - INFO - Test spec version: 1.5
+2026-11-12 11:20:25,926 - INFO - Using DockerHub image: ghcr.io/swefficiency/swefficiency-images:pandas-dev__pandas-52054
+2026-11-12 11:28:33,705 - INFO - Creating container for pandas-dev__pandas-52054...
+2026-11-12 11:28:33,774 - INFO - Container for pandas-dev__pandas-52054 created: a112e99bf327ae0d1c9e10bd97ec111f2522c003f1e755d086826918313abc56
+2026-11-12 11:28:33,887 - INFO - Container for pandas-dev__pandas-52054 started: a112e99bf327ae0d1c9e10bd97ec111f2522c003f1e755d086826918313abc56
+2026-11-12 11:28:34,965 - INFO - Intermediate patch for pandas-dev__pandas-52054 written to logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/patch.diff, now applying to container...
+2026-11-12 11:28:35,076 - INFO - Perf workload script for pandas-dev__pandas-52054 from logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/workload.py; copying to container...
+2026-11-12 11:28:35,184 - INFO - Perf script for pandas-dev__pandas-52054 written to logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/perf.sh; copying to container...
+2026-11-12 11:28:35,290 - INFO - Perf profiling script for pandas-dev__pandas-52054 written to logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/perf_profiling.sh; copying to container...
+2026-11-12 11:36:17,149 - INFO - Pre-edit perf runtime: 53.63 seconds
+2026-11-12 11:36:17,150 - INFO - Pre-edit perf output for pandas-dev__pandas-52054 written to logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/perf_output_preedit.txt
+2026-11-12 11:36:17,155 - ERROR - Error in evaluating model for pandas-dev__pandas-52054: Perf tags not found in output.
+Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 610, in run_instance
+    preedit_runtime_mean, preedit_runtime_sd = parse_perf_output(
+                                               ^^^^^^^^^^^^^^^^^^
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/test_spec.py", line 1166, in parse_perf_output
+    raise ValueError("Perf tags not found in output.")
+ValueError: Perf tags not found in output.
+
+Check (logs/run_evaluation/pilot/pilot_C2/pandas-dev__pandas-52054/run_instance.log) for more information.
+2026-11-12 11:36:17,155 - INFO - Attempting to stop container sweb.eval.pandas-dev__pandas-52054.pilot...
+2026-11-12 11:36:17,277 - INFO - Attempting to remove container sweb.eval.pandas-dev__pandas-52054.pilot...
+2026-11-12 11:36:17,894 - INFO - Container sweb.eval.pandas-dev__pandas-52054.pilot removed.
+2026-11-12 11:36:17,894 - INFO - Attempting to remove image ghcr.io/swefficiency/swefficiency-images:pandas-dev__pandas-52054...
+2026-11-12 11:36:23,544 - INFO - Image ghcr.io/swefficiency/swefficiency-images:pandas-dev__pandas-52054 removed.

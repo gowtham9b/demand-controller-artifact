@@ -1,0 +1,12 @@
+diff --git a/sympy/core/assumptions.py b/sympy/core/assumptions.py
+index 613dd65f80..519fb51dd0 100644
+--- a/sympy/core/assumptions.py
++++ b/sympy/core/assumptions.py
+@@ -585,7 +585,6 @@ def _ask(fact, obj):
+         # call to shuffle. These are pushed to the back of the queue meaning
+         # that the inference graph is traversed in breadth-first order.
+         new_facts_to_check = list(_assume_rules.prereq[fact_i] - facts_queued)
+-        shuffle(new_facts_to_check)
+         facts_to_check.extend(new_facts_to_check)
+         facts_queued.update(new_facts_to_check)
+ 

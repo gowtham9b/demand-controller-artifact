@@ -1,0 +1,25 @@
+{
+  "instance_id": "dask__dask-5884",
+  "condition": "C0",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 42.66746711730957,
+  "seconds": 58.086905002593994,
+  "profile_calls": 0,
+  "auto_profile_calls": 0,
+  "agent_profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 2262,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 58.086905002593994
+    }
+  ]
+}

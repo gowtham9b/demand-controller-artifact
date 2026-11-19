@@ -1,0 +1,31 @@
+diff --git a/astropy/coordinates/baseframe.py b/astropy/coordinates/baseframe.py
+index 703ec2aad..c933b8ef7 100644
+--- a/astropy/coordinates/baseframe.py
++++ b/astropy/coordinates/baseframe.py
+@@ -552,6 +552,17 @@ class BaseCoordinateFrame(ShapedLikeNDArray, metaclass=FrameMeta):
+ 
+     @classmethod
+     def _get_representation_info(cls):
++        key = (tuple(r.REPRESENTATION_CLASSES.values()),
++               tuple(r.DIFFERENTIAL_CLASSES.values()))
++        cache = cls.__dict__.get('_repr_info_cache')
++        if cache is not None and cache[0] == key:
++            return cache[1]
++        result = cls._compute_representation_info()
++        cls._repr_info_cache = (key, result)
++        return result
++
++    @classmethod
++    def _compute_representation_info(cls):
+         # This exists as a class method only to support handling frame inputs
+         # without units, which are deprecated and will be removed.  This can be
+         # moved into the representation_info property at that time.
+@@ -1239,6 +1250,8 @@ class BaseCoordinateFrame(ShapedLikeNDArray, metaclass=FrameMeta):
+         return self.__getattribute__(attr)  # Raise AttributeError.
+ 
+     def __setattr__(self, attr, value):
++        if attr.startswith('_'):
++            return super().__setattr__(attr, value)
+         repr_attr_names = set()
+         if hasattr(self, 'representation_info'):
+             for representation_attr in self.representation_info.values():

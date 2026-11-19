@@ -1,0 +1,11 @@
+cProfile of workload(): 5000 calls, 0.042s profiled (times are totals over all calls, sorted by cumulative time)
+   ncalls  tottime  cumtime  filename:lineno(function)
+     5000   0.0030   0.0381  /dcwork/workload.py:13(workload)
+     5000   0.0173   0.0351  /testbed/lib/matplotlib/transforms.py:1995(rotate)
+     5000   0.0098   0.0098  ~:0(<built-in method numpy.array>)
+     5000   0.0034   0.0050  /testbed/lib/matplotlib/transforms.py:170(invalidate)
+     5000   0.0016   0.0016  /testbed/lib/matplotlib/transforms.py:180(_invalidate_internal)
+     5000   0.0012   0.0012  /opt/miniconda3/envs/testbed/lib/python3.11/site-packages/numpy/core/multiarray.py:741(dot)
+     5000   0.0010   0.0010  ~:0(<built-in method math.sin>)
+     5000   0.0009   0.0009  ~:0(<built-in method math.cos>)
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

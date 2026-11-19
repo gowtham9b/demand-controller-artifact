@@ -1,0 +1,20 @@
+diff --git a/pandas/core/indexes/range.py b/pandas/core/indexes/range.py
+index 14ebc3c7e8..31c68bb06d 100644
+--- a/pandas/core/indexes/range.py
++++ b/pandas/core/indexes/range.py
+@@ -346,10 +346,11 @@ class RangeIndex(Int64Index):
+     @Appender(_index_shared_docs['get_loc'])
+     def get_loc(self, key, method=None, tolerance=None):
+         if is_integer(key) and method is None and tolerance is None:
+-            try:
+-                return self._range.index(key)
+-            except ValueError:
+-                raise KeyError(key)
++            key = int(key)
++            r = self._range
++            if key in r:
++                return (key - r.start) // r.step
++            raise KeyError(key)
+         return super().get_loc(key, method=method, tolerance=tolerance)
+ 
+     def tolist(self):

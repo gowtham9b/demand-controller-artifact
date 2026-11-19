@@ -1,0 +1,17 @@
+{
+  "instance_id": "pydata__xarray-7374",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": false,
+  "infra_failure": "cursor-agent install not verified:\ntry 1: exit 127: curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the webpage mentioned above.\n\ntry 2: exit 127: curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the webpage mentioned above.\n\ntry 3: exit 127: curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the webpage mentioned above.\n",
+  "exit_status": "",
+  "error": "",
+  "agent_version": "",
+  "agent_seconds": 0.0,
+  "seconds": 65.7851128578186,
+  "profile_calls": 0,
+  "auto_profile_calls": 0,
+  "agent_profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 0
+}

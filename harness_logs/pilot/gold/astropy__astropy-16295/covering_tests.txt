@@ -1,0 +1,13 @@
+astropy/coordinates/tests/accuracy/test_ecliptic.py
+astropy/coordinates/tests/test_sky_coord_velocities.py
+astropy/coordinates/tests/accuracy/test_altaz_icrs.py
+astropy/coordinates/tests/test_solar_system.py
+astropy/coordinates/tests/test_distance.py
+astropy/coordinates/tests/test_arrays.py
+astropy/coordinates/tests/test_api_ape5.py
+astropy/coordinates/tests/test_celestial_transformations.py
+astropy/coordinates/tests/test_intermediate_transformations.py
+astropy/coordinates/tests/test_earth.py
+astropy/coordinates/tests/test_sites.py
+astropy/coordinates/tests/test_angles.py
+astropy/coordinates/tests/test_sky_coord.py

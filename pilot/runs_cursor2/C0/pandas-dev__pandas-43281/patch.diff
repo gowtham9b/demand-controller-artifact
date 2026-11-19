@@ -1,0 +1,29 @@
+diff --git a/pandas/core/ops/missing.py b/pandas/core/ops/missing.py
+index ea62237655..d1af1a62ef 100644
+--- a/pandas/core/ops/missing.py
++++ b/pandas/core/ops/missing.py
+@@ -117,6 +117,24 @@ def mask_zero_div_zero(x, y, result):
+ 
+     if zmask.any():
+ 
++        if zmask.shape == result.shape and zmask.ndim > 0:
++            # Only operate on the (typically few) positions where y == 0
++            idx = zmask.nonzero()
++            xz = np.broadcast_to(x, zmask.shape)[idx]
++            yz = np.broadcast_to(y, zmask.shape)[idx]
++            zneg = np.signbit(yz)
++            zpos = ~zneg
++            nan_m = xz == 0
++            with np.errstate(invalid="ignore"):
++                neginf_m = (zpos & (xz < 0)) | (zneg & (xz > 0))
++                posinf_m = (zpos & (xz > 0)) | (zneg & (xz < 0))
++            if nan_m.any() or neginf_m.any() or posinf_m.any():
++                result = result.astype("float64", copy=False)
++                result[tuple(i[nan_m] for i in idx)] = np.nan
++                result[tuple(i[posinf_m] for i in idx)] = np.inf
++                result[tuple(i[neginf_m] for i in idx)] = -np.inf
++            return result
++
+         # Flip sign if necessary for -0.0
+         zneg_mask = zmask & np.signbit(y)
+         zpos_mask = zmask & ~zneg_mask

@@ -1,0 +1,11 @@
+{
+  "instance_id": "dask__dask-5890",
+  "condition": "C0",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 225.11842799186707,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 853
+}

@@ -1,0 +1,5 @@
+Ranked hotspots for workload() (cProfile, 10 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1   0.0%     0.037  193.655       1  pandas/core/indexes/range.py:346 get_loc
+Outside the repository: 100.0% of self time. Largest: <method 'index' of 'range' objects> 100.0%; /dcwork/workload.py:10 workload 0.0%; <pandas._libs.lib.is_integer> 0.0%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

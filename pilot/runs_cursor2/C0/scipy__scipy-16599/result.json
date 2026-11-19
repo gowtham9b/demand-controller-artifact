@@ -1,0 +1,25 @@
+{
+  "instance_id": "scipy__scipy-16599",
+  "condition": "C0",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 67.93972301483154,
+  "seconds": 91.93187212944031,
+  "profile_calls": 0,
+  "auto_profile_calls": 0,
+  "agent_profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 2215,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 91.93187212944031
+    }
+  ]
+}

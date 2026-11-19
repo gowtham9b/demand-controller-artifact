@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 7 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1   9.8%    54.063  108.489   24000  xarray/core/variable.py:239 as_compatible_data
+ 2   6.9%    38.036   52.806   16000  xarray/core/indexing.py:517 shape
+ 3   6.4%    34.916  216.931   22000  xarray/core/variable.py:345 __init__
+ 4   4.2%    22.831  353.911    2000  xarray/conventions.py:289 decode_cf_variable
+ 5   3.8%    21.056   33.710   14000  xarray/coding/variables.py:107 unpack_for_decoding
+ 6   3.5%    19.496   67.334   22000  xarray/core/variable.py:658 _parse_dimensions
+ 7   3.2%    17.753   64.847   34000  xarray/core/utils.py:551 ndim
+ 8   2.1%    11.323   38.401    2000  xarray/coding/variables.py:189 <setcomp>
+Outside the repository: 25.2% of self time. Largest: <built-in method builtins.isinstance> 4.7%; /opt/miniconda3/envs/testbed/lib/python3.10/copy.py:66 copy 2.3%; /opt/miniconda3/envs/testbed/lib/python3.10/site-packages/numpy/core/numerictypes.py:356 issubdtype 2.0%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

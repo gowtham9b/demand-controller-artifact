@@ -1,0 +1,617 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/esmf-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/esmpy-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/esmf-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/esmpy-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/esmf-activate.sh
++++ '[' -n '' ']'
++++ '[' -f /opt/miniconda3/envs/testbed/lib/esmf.mk ']'
++++ export ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
++++ ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/esmpy-activate.sh
++++ '[' -n /opt/miniconda3/envs/testbed/lib/esmf.mk ']'
++++ export _CONDA_SET_ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
++++ _CONDA_SET_ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
++++ '[' -f /opt/miniconda3/envs/testbed/lib/esmf.mk ']'
++++ export ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
++++ ESMFMKFILE=/opt/miniconda3/envs/testbed/lib/esmf.mk
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/gdal ']'
++++ export GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ export GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ '[' '!' -d /opt/miniconda3/envs/testbed/lib/gdalplugins ']'
++++ export CPL_ZIP_ENCODING=UTF-8
++++ CPL_ZIP_ENCODING=UTF-8
++++ '[' -n '5.1.16(1)-release' ']'
++++ '[' -f /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo ']'
++++ source /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo
+++++ function_exists _get_comp_words_by_ref
+++++ declare -f -F _get_comp_words_by_ref
+++++ return 1
+++++ return 0
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/epsg_csv ']'
++++ '[' -d /opt/miniconda3/envs/testbed/Library/share/epsg_csv ']'
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/proj ']'
++++ export PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ '[' -f /opt/miniconda3/envs/testbed/share/proj/copyright_and_licenses.csv ']'
++++ export PROJ_NETWORK=ON
++++ PROJ_NETWORK=ON
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/udunits ']'
++++ export UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++++ UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 17933e7654d5502c2a580b1433c585241f915c18
+Author: Illviljan <14371165+Illviljan@users.noreply.github.com>
+Date:   Wed Jan 11 19:56:24 2023 +0100
+
+    Add lazy backend ASV test (#7426)
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * move _skip_slow to setup
+    
+    * Add timing for all engines.
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+    
+    * Update dataset_io.py
+
+diff --git a/asv_bench/benchmarks/dataset_io.py b/asv_bench/benchmarks/dataset_io.py
+index 6c2e15c5..0af8084d 100644
+--- a/asv_bench/benchmarks/dataset_io.py
++++ b/asv_bench/benchmarks/dataset_io.py
+@@ -1,11 +1,14 @@
++from __future__ import annotations
++
+ import os
++from dataclasses import dataclass
+ 
+ import numpy as np
+ import pandas as pd
+ 
+ import xarray as xr
+ 
+-from . import _skip_slow, randint, randn, requires_dask
++from . import _skip_slow, parameterized, randint, randn, requires_dask
+ 
+ try:
+     import dask
+@@ -16,6 +19,8 @@ except ImportError:
+ 
+ os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
+ 
++_ENGINES = tuple(xr.backends.list_engines().keys() - {"store"})
++
+ 
+ class IOSingleNetCDF:
+     """
+@@ -28,10 +33,6 @@ class IOSingleNetCDF:
+     number = 5
+ 
+     def make_ds(self):
+-        # TODO: Lazily skipped in CI as it is very demanding and slow.
+-        # Improve times and remove errors.
+-        _skip_slow()
+-
+         # single Dataset
+         self.ds = xr.Dataset()
+         self.nt = 1000
+@@ -95,6 +96,10 @@ class IOSingleNetCDF:
+ 
+ class IOWriteSingleNetCDF3(IOSingleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
++
+         self.format = "NETCDF3_64BIT"
+         self.make_ds()
+ 
+@@ -107,6 +112,9 @@ class IOWriteSingleNetCDF3(IOSingleNetCDF):
+ 
+ class IOReadSingleNetCDF4(IOSingleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         self.make_ds()
+ 
+@@ -128,6 +136,9 @@ class IOReadSingleNetCDF4(IOSingleNetCDF):
+ 
+ class IOReadSingleNetCDF3(IOReadSingleNetCDF4):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         self.make_ds()
+ 
+@@ -149,6 +160,9 @@ class IOReadSingleNetCDF3(IOReadSingleNetCDF4):
+ 
+ class IOReadSingleNetCDF4Dask(IOSingleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -189,6 +203,9 @@ class IOReadSingleNetCDF4Dask(IOSingleNetCDF):
+ 
+ class IOReadSingleNetCDF3Dask(IOReadSingleNetCDF4Dask):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -230,10 +247,6 @@ class IOMultipleNetCDF:
+     number = 5
+ 
+     def make_ds(self, nfiles=10):
+-        # TODO: Lazily skipped in CI as it is very demanding and slow.
+-        # Improve times and remove errors.
+-        _skip_slow()
+-
+         # multiple Dataset
+         self.ds = xr.Dataset()
+         self.nt = 1000
+@@ -298,6 +311,10 @@ class IOMultipleNetCDF:
+ 
+ class IOWriteMultipleNetCDF3(IOMultipleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
++
+         self.make_ds()
+         self.format = "NETCDF3_64BIT"
+ 
+@@ -314,6 +331,9 @@ class IOWriteMultipleNetCDF3(IOMultipleNetCDF):
+ 
+ class IOReadMultipleNetCDF4(IOMultipleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -330,6 +350,9 @@ class IOReadMultipleNetCDF4(IOMultipleNetCDF):
+ 
+ class IOReadMultipleNetCDF3(IOReadMultipleNetCDF4):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -346,6 +369,9 @@ class IOReadMultipleNetCDF3(IOReadMultipleNetCDF4):
+ 
+ class IOReadMultipleNetCDF4Dask(IOMultipleNetCDF):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -400,6 +426,9 @@ class IOReadMultipleNetCDF4Dask(IOMultipleNetCDF):
+ 
+ class IOReadMultipleNetCDF3Dask(IOReadMultipleNetCDF4Dask):
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
+ 
+         requires_dask()
+ 
+@@ -435,10 +464,6 @@ class IOReadMultipleNetCDF3Dask(IOReadMultipleNetCDF4Dask):
+ def create_delayed_write():
+     import dask.array as da
+ 
+-    # TODO: Lazily skipped in CI as it is very demanding and slow.
+-    # Improve times and remove errors.
+-    _skip_slow()
+-
+     vals = da.random.random(300, chunks=(1,))
+     ds = xr.Dataset({"vals": (["a"], vals)})
+     return ds.to_netcdf("file.nc", engine="netcdf4", compute=False)
+@@ -450,7 +475,12 @@ class IOWriteNetCDFDask:
+     number = 5
+ 
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
++
+         requires_dask()
++
+         self.write = create_delayed_write()
+ 
+     def time_write(self):
+@@ -459,15 +489,17 @@ class IOWriteNetCDFDask:
+ 
+ class IOWriteNetCDFDaskDistributed:
+     def setup(self):
++        # TODO: Lazily skipped in CI as it is very demanding and slow.
++        # Improve times and remove errors.
++        _skip_slow()
++
++        requires_dask()
++
+         try:
+             import distributed
+         except ImportError:
+             raise NotImplementedError()
+ 
+-        # TODO: Lazily skipped in CI as it is very demanding and slow.
+-        # Improve times and remove errors.
+-        _skip_slow()
+-
+         self.client = distributed.Client()
+         self.write = create_delayed_write()
+ 
+@@ -476,3 +508,145 @@ class IOWriteNetCDFDaskDistributed:
+ 
+     def time_write(self):
+         self.write.compute()
++
++
++class IOReadSingleFile(IOSingleNetCDF):
++    def setup(self, *args, **kwargs):
++        self.make_ds()
++
++        self.filepaths = {}
++        for engine in _ENGINES:
++            self.filepaths[engine] = f"test_single_file_with_{engine}.nc"
++            self.ds.to_netcdf(self.filepaths[engine], engine=engine)
++
++    @parameterized(["engine", "chunks"], (_ENGINES, [None, {}]))
++    def time_read_dataset(self, engine, chunks):
++        xr.open_dataset(self.filepaths[engine], engine=engine, chunks=chunks)
++
++
++class IOReadCustomEngine:
++    def setup(self, *args, **kwargs):
++        """
++        The custom backend does the bare mininum to be considered a lazy backend. But
++        the data in it is still in memory so slow file reading shouldn't affect the
++        results.
++        """
++        requires_dask()
++
++        @dataclass
++        class PerformanceBackendArray(xr.backends.BackendArray):
++            filename_or_obj: str | os.PathLike | None
++            shape: tuple[int, ...]
++            dtype: np.dtype
++            lock: xr.backends.locks.SerializableLock
++
++            def __getitem__(self, key: tuple):
++                return xr.core.indexing.explicit_indexing_adapter(
++                    key,
++                    self.shape,
++                    xr.core.indexing.IndexingSupport.BASIC,
++                    self._raw_indexing_method,
++                )
++
++            def _raw_indexing_method(self, key: tuple):
++                raise NotImplementedError
++
++        @dataclass
++        class PerformanceStore(xr.backends.common.AbstractWritableDataStore):
++            manager: xr.backends.CachingFileManager
++            mode: str | None = None
++            lock: xr.backends.locks.SerializableLock | None = None
++            autoclose: bool = False
++
++            def __post_init__(self):
++                self.filename = self.manager._args[0]
++
++            @classmethod
++            def open(
++                cls,
++                filename: str | os.PathLike | None,
++                mode: str = "r",
++                lock: xr.backends.locks.SerializableLock | None = None,
++                autoclose: bool = False,
++            ):
++                if lock is None:
++                    if mode == "r":
++                        locker = xr.backends.locks.SerializableLock()
++                    else:
++                        locker = xr.backends.locks.SerializableLock()
++                else:
++                    locker = lock
++
++                manager = xr.backends.CachingFileManager(
++                    xr.backends.DummyFileManager,
++                    filename,
++                    mode=mode,
++                )
++                return cls(manager, mode=mode, lock=locker, autoclose=autoclose)
++
++            def load(self) -> tuple:
++                """
++                Load a bunch of test data quickly.
++
++                Normally this method would've opened a file and parsed it.
++                """
++                n_variables = 2000
++
++                # Important to have a shape and dtype for lazy loading.
++                shape = (1,)
++                dtype = np.dtype(int)
++                variables = {
++                    f"long_variable_name_{v}": xr.Variable(
++                        data=PerformanceBackendArray(
++                            self.filename, shape, dtype, self.lock
++                        ),
++                        dims=("time",),
++                        fastpath=True,
++                    )
++                    for v in range(0, n_variables)
++                }
++                attributes = {}
++
++                return variables, attributes
++
++        class PerformanceBackend(xr.backends.BackendEntrypoint):
++            def open_dataset(
++                self,
++                filename_or_obj: str | os.PathLike | None,
++                drop_variables: tuple[str] = None,
++                *,
++                mask_and_scale=True,
++                decode_times=True,
++                concat_characters=True,
++                decode_coords=True,
++                use_cftime=None,
++                decode_timedelta=None,
++                lock=None,
++                **kwargs,
++            ) -> xr.Dataset:
++                filename_or_obj = xr.backends.common._normalize_path(filename_or_obj)
++                store = PerformanceStore.open(filename_or_obj, lock=lock)
++
++                store_entrypoint = xr.backends.store.StoreBackendEntrypoint()
++
++                ds = store_entrypoint.open_dataset(
++                    store,
++                    mask_and_scale=mask_and_scale,
++                    decode_times=decode_times,
++                    concat_characters=concat_characters,
++                    decode_coords=decode_coords,
++                    drop_variables=drop_variables,
++                    use_cftime=use_cftime,
++                    decode_timedelta=decode_timedelta,
++                )
++                return ds
++
++        self.engine = PerformanceBackend
++
++    @parameterized(["chunks"], ([None, {}]))
++    def time_open_dataset(self, chunks):
++        """
++        Time how fast xr.open_dataset is without the slow data reading part.
++        Test with and without dask.
++        """
++        xr.open_dataset(None, engine=self.engine, chunks=chunks)
++ pip install -e . --no-build-isolation
+Obtaining file:///testbed
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.20 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (1.24.0)
+Requirement already satisfied: pandas>=1.3 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (1.5.3)
+Requirement already satisfied: packaging>=21.3 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (23.1)
+Requirement already satisfied: python-dateutil>=2.8.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=1.3->xarray==0.0.0) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=1.3->xarray==0.0.0) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from python-dateutil>=2.8.1->pandas>=1.3->xarray==0.0.0) (1.16.0)
+Installing collected packages: xarray
+  Attempting uninstall: xarray
+    Found existing installation: xarray 0.0.0
+    Uninstalling xarray-0.0.0:
+      Successfully uninstalled xarray-0.0.0
+  DEPRECATION: Legacy editable install of xarray==0.0.0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for xarray
+Successfully installed xarray
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ echo PERF_START:
+PERF_START:
++ python /tmp/workload.py
+Mean: 0.1063864208400264
+Std Dev: 0.0034425040328778687
+PERF_END:
++ echo PERF_END:

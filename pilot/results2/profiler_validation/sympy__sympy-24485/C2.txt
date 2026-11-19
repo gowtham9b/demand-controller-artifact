@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 6 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  36.5%   180.682  495.092    3015  sympy/core/assumptions.py:510 _ask
+ 2   3.3%    16.523   23.890    6010  sympy/core/expr.py:851 _eval_is_extended_positive_negative
+ 3   1.4%     7.104  495.180    7034  sympy/core/assumptions.py:498 getit
+ 4   0.7%     3.692   10.056       2  sympy/core/mul.py:467 _gather
+ 5   0.7%     3.547   12.749     999  sympy/core/basic.py:205 compare
+ 6   0.5%     2.673   27.150       1  sympy/core/mul.py:197 flatten
+ 7   0.4%     2.172    5.979    1998  sympy/core/symbol.py:340 _hashable_content
+ 8   0.4%     2.130   14.142    3006  sympy/core/expr.py:893 _eval_is_extended_negative
+Outside the repository: 51.4% of self time. Largest: /opt/miniconda3/envs/testbed/lib/python3.8/random.py:293 shuffle 18.8%; /opt/miniconda3/envs/testbed/lib/python3.8/random.py:250 _randbelow_with_getrandbits 11.1%; <method 'get' of 'dict' objects> 4.5%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

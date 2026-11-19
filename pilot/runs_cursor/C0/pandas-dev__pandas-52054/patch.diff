@@ -1,0 +1,24 @@
+diff --git a/pandas/core/internals/construction.py b/pandas/core/internals/construction.py
+index b114b8a1aa..d808cb0ab0 100644
+--- a/pandas/core/internals/construction.py
++++ b/pandas/core/internals/construction.py
+@@ -293,7 +293,18 @@ def ndarray_to_mgr(
+ 
+     elif isinstance(values, (np.ndarray, ExtensionArray, ABCSeries, Index)):
+         # drop subclass info
+-        values = np.array(values, copy=copy_on_sanitize)
++        if (
++            copy_on_sanitize
++            and dtype is not None
++            and isinstance(values, np.ndarray)
++            and values.dtype != dtype
++            and values.dtype.kind in "iuf"
++            and getattr(dtype, "kind", None) in "iuf"
++        ):
++            # the dtype conversion below already produces a new array
++            values = np.asarray(values)
++        else:
++            values = np.array(values, copy=copy_on_sanitize)
+         values = _ensure_2d(values)
+ 
+     else:

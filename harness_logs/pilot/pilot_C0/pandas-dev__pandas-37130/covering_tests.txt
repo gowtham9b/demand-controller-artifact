@@ -1,0 +1,10 @@
+/testbed/pandas/tests/indexes/ranges/test_range.py
+/testbed/pandas/tests/frame/methods/test_drop_duplicates.py
+/testbed/pandas/tests/io/json/test_compression.py
+/testbed/pandas/tests/indexes/test_common.py
+/testbed/pandas/tests/series/indexing/test_indexing.py
+/testbed/pandas/tests/frame/indexing/test_indexing.py
+/testbed/pandas/tests/io/json/test_readlines.py
+/testbed/pandas/tests/io/pytables/test_store.py
+/testbed/pandas/tests/frame/test_query_eval.py
+/testbed/pandas/tests/indexing/test_iloc.py

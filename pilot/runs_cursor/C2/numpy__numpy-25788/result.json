@@ -1,0 +1,11 @@
+{
+  "instance_id": "numpy__numpy-25788",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 93.03825998306274,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 1023
+}

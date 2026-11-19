@@ -1,0 +1,13 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..3696389c 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3301,6 +3301,8 @@ def block(arrays, allow_unknown_chunksizes=False):
+     def atleast_nd(x, ndim):
+         x = asanyarray(x)
+         diff = max(ndim - x.ndim, 0)
++        if diff == 0:
++            return x
+         return x[(None,) * diff + (Ellipsis,)]
+ 
+     def format_index(index):

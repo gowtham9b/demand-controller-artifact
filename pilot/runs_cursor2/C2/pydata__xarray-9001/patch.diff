@@ -1,0 +1,26 @@
+diff --git a/xarray/core/variable.py b/xarray/core/variable.py
+index 2bcee559..105400a8 100644
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -217,6 +217,9 @@ def _as_nanosecond_precision(data):
+         return data
+ 
+ 
++_NS_DTYPES = (np.dtype("datetime64[ns]"), np.dtype("timedelta64[ns]"))
++
++
+ def _possibly_convert_objects(values):
+     """Convert arrays of datetime.datetime and datetime.timedelta objects into
+     datetime64 and timedelta64, according to the pandas convention. For the time
+@@ -318,6 +321,11 @@ def as_compatible_data(
+     data = np.asarray(data)
+ 
+     if isinstance(data, np.ndarray) and data.dtype.kind in "OMm":
++        if data.dtype in _NS_DTYPES:
++            # already nanosecond precision; no conversion needed
++            if not data.flags.writeable:
++                data = data.copy()
++            return _maybe_wrap_data(data)
+         data = _possibly_convert_objects(data)
+     return _maybe_wrap_data(data)
+ 

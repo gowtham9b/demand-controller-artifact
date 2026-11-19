@@ -1,0 +1,3 @@
+/testbed/numpy/core/tests/test_regression.py
+/testbed/numpy/lib/tests/test_function_base.py
+/testbed/numpy/lib/tests/test_histograms.py

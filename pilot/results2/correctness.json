@@ -1,0 +1,726 @@
+{
+ "gold": {
+  "astropy__astropy-16295": {
+   "raw_correct": false,
+   "raw_pct": 0.9908496732026144,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 758,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "astropy__astropy-6940": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1034,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-7172": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 16,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-5884": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 611,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-23287": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 3951,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-22108": {
+   "raw_correct": false,
+   "raw_pct": 0.9995908346972177,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 4886,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "numpy__numpy-21832": {
+   "raw_correct": false,
+   "raw_pct": 0.842146069158009,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5431,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "numpy__numpy-21394": {
+   "raw_correct": false,
+   "raw_pct": 0.811862545112192,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5172,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)",
+    "/testbed/numpy/lib/tests/test_io.py (exit 137)"
+   ]
+  },
+  "pandas-dev__pandas-43281": {
+   "raw_correct": false,
+   "raw_pct": 0.9999428799908608,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 17506,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-26697": {
+   "raw_correct": false,
+   "raw_pct": 0.999918565117368,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 49115,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-37971": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 8067,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-52054": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 136503,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pydata__xarray-7374": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 14879,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pydata__xarray-9001": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 15976,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-11757": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 39,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-16599": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 432,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-24485": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1873,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-14772": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 38,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  }
+ },
+ "C0": {
+  "astropy__astropy-16295": {
+   "raw_correct": false,
+   "raw_pct": 0.9908496732026144,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 758,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "astropy__astropy-6940": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1034,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-7172": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 16,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-5884": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 611,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-23287": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 3951,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-22108": {
+   "raw_correct": false,
+   "raw_pct": 0.9995908346972177,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 4886,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "numpy__numpy-21832": {
+   "raw_correct": false,
+   "raw_pct": 0.842146069158009,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5431,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "numpy__numpy-21394": {
+   "raw_correct": false,
+   "raw_pct": 0.811862545112192,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5172,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)",
+    "/testbed/numpy/lib/tests/test_io.py (exit 137)",
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)"
+   ]
+  },
+  "pandas-dev__pandas-43281": {
+   "raw_correct": false,
+   "raw_pct": 0.9999428799908608,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 17506,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-26697": {
+   "raw_correct": false,
+   "raw_pct": 0.999918565117368,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 49115,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-37971": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 8067,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-52054": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 136503,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pydata__xarray-9001": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 15976,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-11757": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 39,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-16599": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 432,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-24485": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1873,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-14772": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 38,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  }
+ },
+ "C1": {
+  "astropy__astropy-16295": {
+   "raw_correct": false,
+   "raw_pct": 0.9908496732026144,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 758,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "astropy__astropy-6940": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1034,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-7172": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 16,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-5884": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 611,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-23287": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 3951,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-22108": {
+   "raw_correct": false,
+   "raw_pct": 0.9995908346972177,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 4886,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "numpy__numpy-21832": {
+   "raw_correct": false,
+   "raw_pct": 0.842146069158009,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5431,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "numpy__numpy-21394": {
+   "raw_correct": false,
+   "raw_pct": 0.8421465557822062,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5172,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "pandas-dev__pandas-43281": {
+   "raw_correct": false,
+   "raw_pct": 0.9999428799908608,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 17506,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-26697": {
+   "raw_correct": false,
+   "raw_pct": 0.999918565117368,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 49115,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-37971": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 8067,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-52054": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 136503,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pydata__xarray-9001": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 15976,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-11757": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 39,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-16599": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 432,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-24485": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1873,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-14772": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 38,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  }
+ },
+ "C2": {
+  "astropy__astropy-16295": {
+   "raw_correct": false,
+   "raw_pct": 0.9908496732026144,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 758,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "astropy__astropy-6940": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1034,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-7172": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 16,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "dask__dask-5884": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 611,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-23287": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 3951,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "matplotlib__matplotlib-22108": {
+   "raw_correct": false,
+   "raw_pct": 0.9995908346972177,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 4886,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "numpy__numpy-21832": {
+   "raw_correct": false,
+   "raw_pct": 0.842146069158009,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5431,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "numpy__numpy-21394": {
+   "raw_correct": false,
+   "raw_pct": 0.8421465557822062,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 5172,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": [
+    "/testbed/numpy/core/tests/test_array_coercion.py (exit 133)",
+    "/testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+   ]
+  },
+  "pandas-dev__pandas-43281": {
+   "raw_correct": false,
+   "raw_pct": 0.9999428799908608,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 17506,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-26697": {
+   "raw_correct": false,
+   "raw_pct": 0.999918565117368,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 49115,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-37971": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 8067,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pandas-dev__pandas-52054": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 136503,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "pydata__xarray-9001": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 15976,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-11757": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 39,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "scipy__scipy-16599": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 432,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-24485": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 1873,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  },
+  "sympy__sympy-14772": {
+   "raw_correct": true,
+   "raw_pct": 1.0,
+   "rel_correct": true,
+   "rel_pct": 1.0,
+   "n_required": 38,
+   "required_failed": [],
+   "required_missing": [],
+   "crashed_files": []
+  }
+ }
+}

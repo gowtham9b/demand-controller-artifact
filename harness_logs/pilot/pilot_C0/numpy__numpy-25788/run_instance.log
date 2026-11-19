@@ -1,0 +1,63 @@
+2026-11-12 08:55:49,437 - INFO - Test spec version: 1.26
+2026-11-12 08:55:49,437 - INFO - Using DockerHub image: ghcr.io/swefficiency/swefficiency-images:numpy__numpy-25788
+2026-11-12 08:56:54,963 - INFO - Creating container for numpy__numpy-25788...
+2026-11-12 08:56:55,029 - INFO - Container for numpy__numpy-25788 created: a0b173d82d547945435982a4825e4fc1c013b4c9c3dfe03cf445957f4c8aa10a
+2026-11-12 08:56:55,102 - INFO - Container for numpy__numpy-25788 started: a0b173d82d547945435982a4825e4fc1c013b4c9c3dfe03cf445957f4c8aa10a
+2026-11-12 08:56:56,057 - INFO - Intermediate patch for numpy__numpy-25788 written to logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/patch.diff, now applying to container...
+2026-11-12 08:56:56,160 - INFO - Covering tests numpy__numpy-25788 written to logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/covering_tests.txt; copying to container...
+2026-11-12 08:56:56,258 - INFO - Single threaded tests numpy__numpy-25788 written to logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/single_thread_tests.txt; copying to container...
+2026-11-12 08:56:59,830 - INFO - >>>>> Applied Patch:
+applied: numpy/_core/numeric.py
+
+2026-11-12 08:57:24,436 - INFO - Revert command output:
+
+2026-11-12 08:57:24,438 - INFO - Introspection guard script for numpy__numpy-25788 written to logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/introspection_patch_check.py; copying to container...
+2026-11-12 08:57:24,546 - INFO - Introspection guard bash script for numpy__numpy-25788 written to logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/introspection_guard.sh; copying to container...
+2026-11-12 08:58:04,838 - INFO - Failed to run introspection guard:
+rror: Killed signal terminated program cc1plus
+      compilation terminated.
+      [10/148] Compiling C++ object numpy/_core/libx86_simd_qsort_16bit.dispatch.h_AVX512_ICL.a.p/src_npysort_x86_simd_qsort_16bit.dispatch.cpp.o
+      [11/148] Compiling C++ object numpy/_core/libx86_simd_qsort_16bit.dispatch.h_AVX512_SPR.a.p/src_npysort_x86_simd_qsort_16bit.dispatch.cpp.o
+      [12/148] Compiling C++ object numpy/_core/libx86_simd_qsort.dispatch.h_AVX2.a.p/src_npysort_x86_simd_qsort.dispatch.cpp.o
+      [13/148] Compiling C++ object numpy/_core/libx86_simd_argsort.dispatch.h_AVX2.a.p/src_npysort_x86_simd_argsort.dispatch.cpp.o
+      ninja: build stopped: subcommand failed.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+2026-11-12 08:58:04,839 - INFO - Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 954, in run_instance
+    raise EvaluationError(
+swefficiency.harness.run_validation.EvaluationError: Evaluation error for numpy__numpy-25788: Failed to run introspection guard:
+rror: Killed signal terminated program cc1plus
+      compilation terminated.
+      [10/148] Compiling C++ object numpy/_core/libx86_simd_qsort_16bit.dispatch.h_AVX512_ICL.a.p/src_npysort_x86_simd_qsort_16bit.dispatch.cpp.o
+      [11/148] Compiling C++ object numpy/_core/libx86_simd_qsort_16bit.dispatch.h_AVX512_SPR.a.p/src_npysort_x86_simd_qsort_16bit.dispatch.cpp.o
+      [12/148] Compiling C++ object numpy/_core/libx86_simd_qsort.dispatch.h_AVX2.a.p/src_npysort_x86_simd_qsort.dispatch.cpp.o
+      [13/148] Compiling C++ object numpy/_core/libx86_simd_argsort.dispatch.h_AVX2.a.p/src_npysort_x86_simd_argsort.dispatch.cpp.o
+      ninja: build stopped: subcommand failed.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+Check (logs/run_evaluation/pilot/pilot_C0/numpy__numpy-25788/run_instance.log) for more information.
+
+2026-11-12 08:58:04,839 - INFO - Attempting to stop container sweb.eval.numpy__numpy-25788.pilot...
+2026-11-12 08:58:04,919 - INFO - Attempting to remove container sweb.eval.numpy__numpy-25788.pilot...
+2026-11-12 08:58:05,339 - INFO - Container sweb.eval.numpy__numpy-25788.pilot removed.
+2026-11-12 08:58:05,339 - INFO - Attempting to remove image ghcr.io/swefficiency/swefficiency-images:numpy__numpy-25788...
+2026-11-12 08:58:07,064 - INFO - Image ghcr.io/swefficiency/swefficiency-images:numpy__numpy-25788 removed.

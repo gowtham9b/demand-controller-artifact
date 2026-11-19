@@ -1,0 +1,25 @@
+diff --git a/pandas/io/formats/style.py b/pandas/io/formats/style.py
+index 5d523f59a4..b23a311a0d 100644
+--- a/pandas/io/formats/style.py
++++ b/pandas/io/formats/style.py
+@@ -1022,13 +1022,16 @@ class Styler(StylerRenderer):
+                 "with non-unique index or columns."
+             )
+ 
+-        for cn in attrs.columns:
+-            for rn, c in attrs[[cn]].itertuples():
++        rows = [self.index.get_loc(rn) for rn in attrs.index]
++        values = attrs.to_numpy(dtype=object)
++        for k, cn in enumerate(attrs.columns):
++            j = self.columns.get_loc(cn)
++            col = values[:, k]
++            for r, c in enumerate(col):
+                 if not c or pd.isna(c):
+                     continue
+                 css_list = maybe_convert_css_to_tuples(c)
+-                i, j = self.index.get_loc(rn), self.columns.get_loc(cn)
+-                self.ctx[(i, j)].extend(css_list)
++                self.ctx[(rows[r], j)].extend(css_list)
+ 
+     def _update_ctx_header(self, attrs: DataFrame, axis: int) -> None:
+         """

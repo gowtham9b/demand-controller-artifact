@@ -1,0 +1,26 @@
+/Users/gowtham/workspace/paper-revisions/demand-controller/harness/.venv/bin/swefficiency eval --run_id pilot2 --num_workers 1 --instances_regex ^(matplotlib__matplotlib-22108|matplotlib__matplotlib-23287|numpy__numpy-21394|scipy__scipy-16599)$ --prediction_path /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C0.jsonl
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-16 09:10:30,720 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-16 09:10:30,721 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-16 09:10:47,183 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-16 09:10:47,184 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Found 4 instances matching regex pattern '^(matplotlib__matplotlib-22108|matplotlib__matplotlib-23287|numpy__numpy-21394|scipy__scipy-16599)$'
+Starting evaluation with 1 workers...
+Predictions path: /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C0.jsonl
+Running on 4 filtered instances
+Run ID: pilot2
+Loading model predictions from /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C0.jsonl...
+Original dataset size: 4
+Filtered dataset size: 4
+Filtered dataset to 4 instances with predictions.
+Running 4 unevaluated instances...
+Running 4 instances...
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [12:27<37:23, 747.98s/it] 50%|█████     | 2/4 [26:46<26:46, 803.13s/it] 75%|███████▌  | 3/4 [1:01:15<20:25, 1225.14s/it]100%|██████████| 4/4 [1:16:06<00:00, 1141.59s/it]100%|██████████| 4/4 [1:16:06<00:00, 1141.59s/it]
+All instances run.
+Results saved to logs/run_evaluation/pilot2/pilot2_C0/validation_report_pilot2.json
+Cleaning cached images...
+Removed 0 images.
+Evaluation completed successfully!

@@ -1,0 +1,26 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..2c2b6bfc 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3298,10 +3298,18 @@ def block(arrays, allow_unknown_chunksizes=False):
+     # See numpy license at https://github.com/numpy/numpy/blob/master/LICENSE.txt
+     # or NUMPY_LICENSE.txt within this directory
+ 
++    _nd_cache = {}
++
+     def atleast_nd(x, ndim):
+-        x = asanyarray(x)
+-        diff = max(ndim - x.ndim, 0)
+-        return x[(None,) * diff + (Ellipsis,)]
++        key = id(x)
++        hit = _nd_cache.get(key)
++        if hit is not None and hit[0] is x:
++            return hit[1]
++        y = asanyarray(x)
++        diff = max(ndim - y.ndim, 0)
++        out = y[(None,) * diff + (Ellipsis,)]
++        _nd_cache[key] = (x, out)
++        return out
+ 
+     def format_index(index):
+         return "arrays" + "".join("[{}]".format(i) for i in index)

@@ -1,0 +1,20 @@
+{
+  "instance_id": "pandas-dev__pandas-43160",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 356.2294189929962,
+  "profile_calls": 1,
+  "profile_events": [
+    {
+      "t": 1794476601.1214669,
+      "status": "ok",
+      "seconds": 11.619539260864258,
+      "chars": 1022,
+      "iters": 50,
+      "n_funcs": 55
+    }
+  ],
+  "patch_chars": 745
+}

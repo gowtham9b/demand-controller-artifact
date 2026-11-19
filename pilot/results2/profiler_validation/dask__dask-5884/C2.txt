@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 1 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1   6.7%   138.139  159.420  116780  dask/array/core.py:1140 shape
+ 2   5.4%   111.249  223.031   12968  dask/array/core.py:933 blockdims_from_blockshape
+ 3   4.8%    97.879  565.927    6456  dask/array/slicing.py:765 normalize_index
+ 4   4.5%    91.839  511.421    6516  dask/array/core.py:2329 normalize_chunks
+ 5   4.4%    90.159  101.727   25824  dask/array/slicing.py:821 check_index
+ 6   3.3%    68.595  761.372    6456  dask/array/core.py:1487 __getitem__
+ 7   2.9%    60.063  117.092   32420  dask/array/core.py:3178 <genexpr>
+ 8   2.0%    41.775   66.402   25824  dask/array/slicing.py:729 normalize_slice
+Outside the repository: 27.6% of self time. Largest: <built-in method builtins.isinstance> 7.6%; <built-in method _abc._abc_instancecheck> 3.2%; /opt/miniconda3/envs/testbed/lib/python3.7/abc.py:137 __instancecheck__ 2.2%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

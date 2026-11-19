@@ -1,0 +1,19 @@
+diff --git a/numpy/linalg/linalg.py b/numpy/linalg/linalg.py
+index 7ce854197..5a8add888 100644
+--- a/numpy/linalg/linalg.py
++++ b/numpy/linalg/linalg.py
+@@ -2519,8 +2519,12 @@ def norm(x, ord=None, axis=None, keepdims=False):
+             (ord == 2 and ndim == 1)):
+ 
+             x = x.ravel(order='K')
+-            if isComplexType(x.dtype.type):
+-                sqnorm = dot(x.real, x.real) + dot(x.imag, x.imag)
++            if issubclass(x.dtype.type, complexfloating):
++                if x.flags.c_contiguous and x.dtype.isnative:
++                    xf = x.view(x.real.dtype)
++                    sqnorm = dot(xf, xf)
++                else:
++                    sqnorm = dot(x.real, x.real) + dot(x.imag, x.imag)
+             else:
+                 sqnorm = dot(x, x)
+             ret = sqrt(sqnorm)

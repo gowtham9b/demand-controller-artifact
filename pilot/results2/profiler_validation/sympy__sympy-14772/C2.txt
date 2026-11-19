@@ -1,0 +1,5 @@
+Ranked hotspots for workload() (cProfile, 49 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1   0.6%     0.218   38.900       1  sympy/crypto/crypto.py:2054 _legendre
+Outside the repository: 99.4% of self time. Largest: <built-in method builtins.pow> 99.4%; /dcwork/workload.py:13 workload 0.0%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

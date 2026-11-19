@@ -1,0 +1,36 @@
+/Users/gowtham/workspace/paper-revisions/demand-controller/harness/.venv/bin/swefficiency eval --run_id pilot2 --num_workers 3 --instances_regex ^(astropy__astropy-16295|astropy__astropy-6940|dask__dask-5884|dask__dask-7172|matplotlib__matplotlib-22108|matplotlib__matplotlib-23287|numpy__numpy-21394|numpy__numpy-21832|pandas-dev__pandas-26697|pandas-dev__pandas-37971|pandas-dev__pandas-43281|pandas-dev__pandas-52054|pydata__xarray-9001|scipy__scipy-11757|scipy__scipy-16599|sympy__sympy-14772|sympy__sympy-24485)$ --prediction_path /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C1.jsonl
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-16 10:27:33,336 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-16 10:27:33,337 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-16 10:27:49,197 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-16 10:27:49,198 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Found 17 instances matching regex pattern '^(astropy__astropy-16295|astropy__astropy-6940|dask__dask-5884|dask__dask-7172|matplotlib__matplotlib-22108|matplotlib__matplotlib-23287|numpy__numpy-21394|numpy__numpy-21832|pandas-dev__pandas-26697|pandas-dev__pandas-37971|pandas-dev__pandas-43281|pandas-dev__pandas-52054|pydata__xarray-9001|scipy__scipy-11757|scipy__scipy-16599|sympy__sympy-14772|sympy__sympy-24485)$'
+Starting evaluation with 3 workers...
+Predictions path: /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C1.jsonl
+Running on 17 filtered instances
+Run ID: pilot2
+Loading model predictions from /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/predictions2_C1.jsonl...
+Original dataset size: 17
+Filtered dataset size: 17
+Filtered dataset to 17 instances with predictions.
+Running 17 unevaluated instances...
+Running 17 instances...
+  0%|          | 0/17 [00:00<?, ?it/s]  6%|▌         | 1/17 [09:46<2:36:20, 586.30s/it] 12%|█▏        | 2/17 [15:38<1:57:16, 469.07s/it] 18%|█▊        | 3/17 [16:56<1:19:04, 338.92s/it] 24%|██▎       | 4/17 [17:07<55:39, 256.92s/it]   29%|██▉       | 5/17 [20:50<50:01, 250.14s/it] 35%|███▌      | 6/17 [26:58<49:26, 269.70s/it] 41%|████      | 7/17 [32:19<46:11, 277.13s/it] 47%|████▋     | 8/17 [33:42<37:55, 252.79s/it] 53%|█████▎    | 9/17 [35:28<31:31, 236.50s/it] 59%|█████▉    | 10/17 [37:57<26:34, 227.79s/it] 65%|██████▍   | 11/17 [39:50<21:44, 217.36s/it] 71%|███████   | 12/17 [40:28<16:51, 202.34s/it] 76%|███████▋  | 13/17 [43:34<13:24, 201.11s/it] 82%|████████▏ | 14/17 [51:18<10:59, 219.89s/it] 88%|████████▊ | 15/17 [53:47<07:10, 215.18s/it] 94%|█████████▍| 16/17 [55:48<03:29, 209.25s/it]100%|██████████| 17/17 [1:28:33<00:00, 312.53s/it]100%|██████████| 17/17 [1:28:33<00:00, 312.53s/it]
+Error in evaluating model for scipy__scipy-16599: Perf tags not found in output.
+Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 611, in run_instance
+    preedit_runtime_mean, preedit_runtime_sd = parse_perf_output(
+                                               ^^^^^^^^^^^^^^^^^^
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/test_spec.py", line 1166, in parse_perf_output
+    raise ValueError("Perf tags not found in output.")
+ValueError: Perf tags not found in output.
+
+Check (logs/run_evaluation/pilot2/pilot2_C1/scipy__scipy-16599/run_instance.log) for more information.
+All instances run.
+Results saved to logs/run_evaluation/pilot2/pilot2_C1/validation_report_pilot2.json
+Cleaning cached images...
+Removed 0 images.
+Evaluation completed successfully!

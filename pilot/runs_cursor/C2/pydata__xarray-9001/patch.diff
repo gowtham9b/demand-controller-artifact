@@ -1,0 +1,17 @@
+diff --git a/xarray/core/variable.py b/xarray/core/variable.py
+index 2bcee559..b7b6ed5d 100644
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -229,6 +229,12 @@ def _possibly_convert_objects(values):
+     within the valid date range for ns precision, as pandas will raise an error
+     if they are not.
+     """
++    if values.dtype.kind in "mM" and values.dtype.name in (
++        "datetime64[ns]",
++        "timedelta64[ns]",
++    ):
++        # already nanosecond precision: nothing to convert
++        return values
+     as_series = pd.Series(values.ravel(), copy=False)
+     if as_series.dtype.kind in "mM":
+         as_series = _as_nanosecond_precision(as_series)

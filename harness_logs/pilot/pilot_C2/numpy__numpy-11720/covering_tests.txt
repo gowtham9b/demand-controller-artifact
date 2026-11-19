@@ -1,0 +1,8 @@
+/testbed/numpy/core/tests/test_numeric.py
+/testbed/numpy/polynomial/tests/test_legendre.py
+/testbed/numpy/polynomial/tests/test_hermite_e.py
+/testbed/numpy/polynomial/tests/test_laguerre.py
+/testbed/numpy/core/tests/test_einsum.py
+/testbed/numpy/polynomial/tests/test_polynomial.py
+/testbed/numpy/polynomial/tests/test_chebyshev.py
+/testbed/numpy/polynomial/tests/test_hermite.py

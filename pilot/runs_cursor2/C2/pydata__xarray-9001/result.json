@@ -1,0 +1,35 @@
+{
+  "instance_id": "pydata__xarray-9001",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 128.52022194862366,
+  "seconds": 149.69865703582764,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602889.591321,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 5.407081127166748,
+      "chars": 1146,
+      "iters": 2,
+      "n_funcs": 196
+    }
+  ],
+  "patch_chars": 967,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 149.69865703582764
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+diff --git a/scipy/stats/_binned_statistic.py b/scipy/stats/_binned_statistic.py
+index 23facdd07..260b41a07 100644
+--- a/scipy/stats/_binned_statistic.py
++++ b/scipy/stats/_binned_statistic.py
+@@ -583,10 +583,20 @@ def binned_statistic_dd(sample, values, statistic='mean',
+         result.fill(0)
+         flatcount = np.bincount(binnumbers, None)
+         a = flatcount.nonzero()
+-        for i in np.unique(binnumbers):
++        if np.iscomplexobj(values):
++            for i in np.unique(binnumbers):
++                for vv in builtins.range(Vdim):
++                    result[vv, i] = np.std(values[vv, binnumbers == i])
++        else:
++            cnt = flatcount[a]
+             for vv in builtins.range(Vdim):
+-                # NOTE: take std dev by bin, np.std() is 2-pass and stable
+-                result[vv, i] = np.std(values[vv, binnumbers == i])
++                # two-pass (stable) standard deviation, vectorized by bin
++                vals = values[vv].astype(float)
++                mean = np.zeros(len(flatcount))
++                mean[a] = np.bincount(binnumbers, vals)[a] / cnt
++                dev = vals - mean[binnumbers]
++                var = np.bincount(binnumbers, dev * dev)[a] / cnt
++                result[vv, a] = np.sqrt(var)
+     elif statistic == 'count':
+         result.fill(0)
+         flatcount = np.bincount(binnumbers, None)

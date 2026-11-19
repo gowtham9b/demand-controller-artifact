@@ -1,0 +1,52 @@
+diff --git a/scipy/stats/_continuous_distns.py b/scipy/stats/_continuous_distns.py
+index 1c38ef1a4..d358c31aa 100644
+--- a/scipy/stats/_continuous_distns.py
++++ b/scipy/stats/_continuous_distns.py
+@@ -8540,6 +8540,10 @@ class truncnorm_gen(rv_continuous):
+             a, b = np.broadcast_arrays(a, b)
+             # a and b now have the same shape.
+ 
++            if a.ndim >= 1 and tuple(size) == a.shape:
++                # one variate per parameter pair
++                return self._rvs_vectorized(a, b, random_state)
++
+             # `shp` is the shape of the blocks of random variates that are
+             # generated for each combination of parameters associated with
+             # broadcasting a and b.
+@@ -8580,6 +8584,36 @@ class truncnorm_gen(rv_continuous):
+             out = out.item()
+         return out
+ 
++    def _rvs_vectorized(self, a, b, random_state):
++        # One variate per (a, b) pair; same random stream as the scalar loop.
++        shape = a.shape
++        a, b = a.ravel(), b.ravel()
++        n = a.shape[0]
++        U = random_state.uniform(low=0, high=1, size=n)
++        out = np.empty(n)
++        a = np.asarray(a, dtype=float)
++        b = np.asarray(b, dtype=float)
++        inner = (U > 0) & (U < 1)
++        tail = (a > TRUNCNORM_TAIL_X) | (b < -TRUNCNORM_TAIL_X)
++        pos = a > 0
++        with np.errstate(all='ignore'):
++            sa, sb = _norm_sf(a), _norm_sf(b)
++            na, nb = _norm_cdf(a), _norm_cdf(b)
++            delta = np.where(pos, sa - sb, nb - na)
++        delta = np.where(tail, 0, np.maximum(delta, 0))
++        fast = inner & (delta > 0)
++        if fast.any():
++            with np.errstate(all='ignore'):
++                u = U
++                x_pos = _norm_isf(u * sb + sa * (1.0 - u))
++                x_neg = _norm_ppf(u * nb + na * (1.0 - u))
++            x = np.where(pos, x_pos, x_neg)
++            x = np.minimum(np.maximum(x, a), b)
++            out[fast] = x[fast]
++        for i in np.flatnonzero(~fast):
++            out[i] = _truncnorm_ppf_scalar(U[i], a[i], b[i])
++        return out.reshape(shape)
++
+     def _rvs_scalar(self, a, b, numsamples=None, random_state=None):
+         if not numsamples:
+             numsamples = 1

@@ -1,0 +1,36 @@
+diff --git a/sympy/ntheory/factor_.py b/sympy/ntheory/factor_.py
+index 9083b52e01..a233df1ea3 100644
+--- a/sympy/ntheory/factor_.py
++++ b/sympy/ntheory/factor_.py
+@@ -2213,6 +2213,8 @@ def mersenne_prime_exponent(nth):
+         raise ValueError("There are only 51 perfect numbers; nth must be less than or equal to 51")
+     return MERSENNE_PRIME_EXPONENTS[n - 1]
+ 
++_MERSENNE_SET = frozenset(MERSENNE_PRIME_EXPONENTS)
++
+ 
+ def is_perfect(n):
+     """Returns True if ``n`` is a perfect number, else False.
+@@ -2238,6 +2240,13 @@ def is_perfect(n):
+     """
+     from sympy.core.power import integer_log
+ 
++    if type(n) is int and n > 0:
++        from math import isqrt
++        r = isqrt(1 + 8*n)
++        if r*r != 1 + 8*n or (1 + r) % 4:
++            return False
++        n = (1 + r) >> 2
++        return not (n & (n - 1)) and (n.bit_length()) in _MERSENNE_SET
+     r, b = integer_nthroot(1 + 8*n, 2)
+     if not b:
+         return False
+@@ -2270,6 +2279,8 @@ def is_mersenne_prime(n):
+     """
+     from sympy.core.power import integer_log
+ 
++    if type(n) is int and n > 0:
++        return not (n & (n + 1)) and n.bit_length() in _MERSENNE_SET
+     r, b = integer_log(n + 1, 2)
+     return b and r in MERSENNE_PRIME_EXPONENTS
+ 

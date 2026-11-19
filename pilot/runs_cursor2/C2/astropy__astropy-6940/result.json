@@ -1,0 +1,35 @@
+{
+  "instance_id": "astropy__astropy-6940",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 23.28567337989807,
+  "seconds": 42.24479818344116,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602152.91577,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 1.9804770946502686,
+      "chars": 1061,
+      "iters": 500,
+      "n_funcs": 107
+    }
+  ],
+  "patch_chars": 1250,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 42.24479818344116
+    }
+  ]
+}

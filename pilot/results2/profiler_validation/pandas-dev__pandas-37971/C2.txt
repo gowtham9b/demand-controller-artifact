@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 32 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  24.2%    13.351   13.455       1  pandas/core/arrays/interval.py:1207 __array__
+ 2   0.3%     0.150   40.824       1  pandas/core/sorting.py:327 nargsort
+ 3   0.1%     0.064    0.117       2  pandas/core/dtypes/missing.py:202 _isna_ndarraylike
+ 4   0.1%     0.064   54.583       1  pandas/core/arrays/base.py:525 argsort
+ 5   0.0%     0.014    0.164       2  pandas/core/dtypes/missing.py:133 _isna
+ 6   0.0%     0.014    0.023       1  pandas/compat/numpy/function.py:139 validate_argsort_with_ascending
+ 7   0.0%     0.009    0.022       3  pandas/core/dtypes/common.py:1470 is_extension_array_dtype
+ 8   0.0%     0.009    0.013       8  pandas/core/dtypes/generic.py:10 _check
+Outside the repository: 75.1% of self time. Largest: <method 'argsort' of 'numpy.ndarray' objects> 73.5%; /dcwork/workload.py:10 workload 1.2%; <built-in method numpy.array> 0.2%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

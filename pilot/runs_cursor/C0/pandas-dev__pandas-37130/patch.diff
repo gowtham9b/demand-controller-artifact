@@ -1,0 +1,20 @@
+diff --git a/pandas/core/indexes/range.py b/pandas/core/indexes/range.py
+index 14098ddadb..016b5c6851 100644
+--- a/pandas/core/indexes/range.py
++++ b/pandas/core/indexes/range.py
+@@ -392,6 +392,15 @@ class RangeIndex(Int64Index):
+     def __iter__(self):
+         yield from self._range
+ 
++    def _cmp_method(self, other, op):
++        if (
++            isinstance(other, RangeIndex)
++            and (op is operator.eq or op is operator.ne)
++            and self._range == other._range
++        ):
++            return np.full(len(self), op is operator.eq, dtype=bool)
++        return super()._cmp_method(other, op)
++
+     @doc(Int64Index._shallow_copy)
+     def _shallow_copy(self, values=None, name: Label = no_default):
+         name = self.name if name is no_default else name

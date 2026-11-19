@@ -1,0 +1,59 @@
+{
+  "final": [
+    "astropy__astropy-16295",
+    "astropy__astropy-6940",
+    "dask__dask-7023",
+    "dask__dask-5884",
+    "matplotlib__matplotlib-23287",
+    "matplotlib__matplotlib-22108",
+    "numpy__numpy-21832",
+    "numpy__numpy-25788",
+    "pandas-dev__pandas-43281",
+    "pandas-dev__pandas-26697",
+    "pandas-dev__pandas-37971",
+    "pandas-dev__pandas-52054",
+    "pydata__xarray-7374",
+    "pydata__xarray-9001",
+    "scipy__scipy-11757",
+    "scipy__scipy-16599",
+    "sympy__sympy-24485",
+    "sympy__sympy-14772"
+  ],
+  "replacements": [
+    {
+      "repo": "numpy/numpy",
+      "dropped": "numpy__numpy-21394",
+      "measured_improvement": 1.0483736180068761
+    },
+    {
+      "repo": "numpy/numpy",
+      "dropped": "numpy__numpy-27830",
+      "measured_improvement": null
+    },
+    {
+      "repo": "numpy/numpy",
+      "dropped": "numpy__numpy-18203",
+      "measured_improvement": 1.0193441960240517
+    }
+  ],
+  "gold_improvement_here": {
+    "astropy__astropy-16295": 22.854131453051597,
+    "astropy__astropy-6940": 2.6114374552023696,
+    "dask__dask-7023": 1.4600935476860792,
+    "dask__dask-5884": 1.337880814689648,
+    "matplotlib__matplotlib-23287": 4.858934492398274,
+    "matplotlib__matplotlib-22108": 1.893509792533057,
+    "numpy__numpy-21832": 1.0940603549484342,
+    "numpy__numpy-25788": 3.140191989702789,
+    "pandas-dev__pandas-43281": 1.564789722702024,
+    "pandas-dev__pandas-26697": 416.85964866031327,
+    "pandas-dev__pandas-37971": 22.750673826500144,
+    "pandas-dev__pandas-52054": 1.347901752710494,
+    "pydata__xarray-7374": 1.357758230497178,
+    "pydata__xarray-9001": 2.925993803703381,
+    "scipy__scipy-11757": 2.226837923856846,
+    "scipy__scipy-16599": 4.177326414238436,
+    "sympy__sympy-24485": 12.06372772473141,
+    "sympy__sympy-14772": 115.89503814799514
+  }
+}

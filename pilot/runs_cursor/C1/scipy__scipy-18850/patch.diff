@@ -1,0 +1,17 @@
+diff --git a/scipy/spatial/_spherical_voronoi.py b/scipy/spatial/_spherical_voronoi.py
+index 86d073514..11b061b96 100644
+--- a/scipy/spatial/_spherical_voronoi.py
++++ b/scipy/spatial/_spherical_voronoi.py
+@@ -305,7 +305,11 @@ class SphericalVoronoi:
+ 
+         # Calculate the angle subtended by arcs
+         cosine = np.einsum('ij,ij->i', arcs[:, 0], arcs[:, 1])
+-        sine = np.abs(np.linalg.det(arcs))
++        if arcs.shape[2] == 2:
++            sine = np.abs(arcs[:, 0, 0] * arcs[:, 1, 1]
++                          - arcs[:, 0, 1] * arcs[:, 1, 0])
++        else:
++            sine = np.abs(np.linalg.det(arcs))
+         theta = np.arctan2(sine, cosine)
+ 
+         # Get areas using A = r * theta

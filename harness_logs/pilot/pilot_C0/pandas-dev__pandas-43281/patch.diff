@@ -1,0 +1,38 @@
+diff --git a/pandas/core/ops/missing.py b/pandas/core/ops/missing.py
+index ea62237655..d31a5415a6 100644
+--- a/pandas/core/ops/missing.py
++++ b/pandas/core/ops/missing.py
+@@ -117,6 +117,33 @@ def mask_zero_div_zero(x, y, result):
+ 
+     if zmask.any():
+ 
++        if (
++            zmask.ndim > 0
++            and zmask.shape == result.shape
++            and isinstance(x, np.ndarray)
++            and x.dtype.kind in "iuf"
++            and isinstance(y, np.ndarray)
++            and y.dtype.kind in "iuf"
++        ):
++            # sparse path: only operate on the positions where y == 0
++            idx = np.nonzero(zmask)
++            xs = np.broadcast_to(x, zmask.shape)[idx]
++            ys = np.broadcast_to(y, zmask.shape)[idx]
++            nan_m = xs == 0
++            neg_y = np.signbit(ys)
++            with np.errstate(invalid="ignore"):
++                neginf_m = (~neg_y & (xs < 0)) | (neg_y & (xs > 0))
++                posinf_m = (~neg_y & (xs > 0)) | (neg_y & (xs < 0))
++            if nan_m.any() or neginf_m.any() or posinf_m.any():
++                result = result.astype("float64", copy=False)
++                idx_n = tuple(i[nan_m] for i in idx)
++                idx_p = tuple(i[posinf_m] for i in idx)
++                idx_m = tuple(i[neginf_m] for i in idx)
++                result[idx_n] = np.nan
++                result[idx_p] = np.inf
++                result[idx_m] = -np.inf
++            return result
++
+         # Flip sign if necessary for -0.0
+         zneg_mask = zmask & np.signbit(y)
+         zpos_mask = zmask & ~zneg_mask

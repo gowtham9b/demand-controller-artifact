@@ -1,0 +1,26 @@
+diff --git a/astropy/coordinates/baseframe.py b/astropy/coordinates/baseframe.py
+index 703ec2aad..6ac6c9c56 100644
+--- a/astropy/coordinates/baseframe.py
++++ b/astropy/coordinates/baseframe.py
+@@ -1239,10 +1239,18 @@ class BaseCoordinateFrame(ShapedLikeNDArray, metaclass=FrameMeta):
+         return self.__getattribute__(attr)  # Raise AttributeError.
+ 
+     def __setattr__(self, attr, value):
+-        repr_attr_names = set()
+-        if hasattr(self, 'representation_info'):
+-            for representation_attr in self.representation_info.values():
++        cls = type(self)
++        key = (len(r.REPRESENTATION_CLASSES), len(r.DIFFERENTIAL_CLASSES),
++               id(cls._frame_specific_representation_info),
++               len(cls._frame_specific_representation_info))
++        cache = cls.__dict__.get('_repr_names_cache')
++        if cache is not None and cache[0] == key:
++            repr_attr_names = cache[1]
++        else:
++            repr_attr_names = set()
++            for representation_attr in cls._get_representation_info().values():
+                 repr_attr_names.update(representation_attr['names'])
++            type.__setattr__(cls, '_repr_names_cache', (key, repr_attr_names))
+ 
+         if attr in repr_attr_names:
+             raise AttributeError(

@@ -1,0 +1,17 @@
+/testbed/pandas/tests/resample/test_timedelta.py
+/testbed/pandas/tests/arrays/integer/test_arithmetic.py
+/testbed/pandas/tests/arithmetic/test_numeric.py
+/testbed/pandas/tests/reshape/test_pivot.py
+/testbed/pandas/tests/arrays/sparse/test_libsparse.py
+/testbed/pandas/tests/extension/test_numpy.py
+/testbed/pandas/tests/indexes/datetimes/test_datetime.py
+/testbed/pandas/tests/arrays/test_numpy.py
+/testbed/pandas/tests/computation/test_eval.py
+/testbed/pandas/tests/test_expressions.py
+/testbed/pandas/tests/tseries/frequencies/test_inference.py
+/testbed/pandas/tests/series/test_ufunc.py
+/testbed/pandas/tests/series/test_arithmetic.py
+/testbed/pandas/tests/io/json/test_pandas.py
+/testbed/pandas/tests/io/test_stata.py
+/testbed/pandas/tests/frame/test_arithmetic.py
+/testbed/pandas/tests/generic/test_finalize.py

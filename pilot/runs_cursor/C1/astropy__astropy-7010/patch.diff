@@ -1,0 +1,40 @@
+diff --git a/astropy/units/quantity.py b/astropy/units/quantity.py
+index 1c6862140..0404dcf87 100644
+--- a/astropy/units/quantity.py
++++ b/astropy/units/quantity.py
+@@ -1659,6 +1659,10 @@ class Quantity(np.ndarray, metaclass=InheritDocstrings):
+         return self._new_view(out_array)
+ 
+ 
++# Last unit validated per SpecificTypeQuantity subclass (fast path).
++_VALID_UNITS = {}
++
++
+ class SpecificTypeQuantity(Quantity):
+     """Superclass for Quantities of specific physical type.
+ 
+@@ -1686,17 +1690,23 @@ class SpecificTypeQuantity(Quantity):
+     __array_priority__ = Quantity.__array_priority__ + 10
+ 
+     def __quantity_subclass__(self, unit):
++        if unit is self._unit and unit is not None:
++            return type(self), True
+         if unit.is_equivalent(self._equivalent_unit):
+             return type(self), True
+         else:
+             return super().__quantity_subclass__(unit)[0], False
+ 
+     def _set_unit(self, unit):
+-        if unit is None or not unit.is_equivalent(self._equivalent_unit):
++        if unit is not None and unit is _VALID_UNITS.get(type(self)):
++            pass
++        elif unit is None or not unit.is_equivalent(self._equivalent_unit):
+             raise UnitTypeError(
+                 "{0} instances require units equivalent to '{1}'"
+                 .format(type(self).__name__, self._equivalent_unit) +
+                 (", but no unit was given." if unit is None else
+                  ", so cannot set it to '{0}'.".format(unit)))
++        else:
++            _VALID_UNITS[type(self)] = unit
+ 
+         super()._set_unit(unit)

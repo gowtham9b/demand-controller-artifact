@@ -1,0 +1,570 @@
+{
+  "C0": {
+    "astropy__astropy-16295": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "astropy__astropy-6940": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-7172": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-5884": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-23287": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-22108": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 56 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137); /testbed/lib/matplotlib/tests/test_agg.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21832": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21394": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 1 required tests without result; /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-43281": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-26697": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-37971": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-52054": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pydata__xarray-9001": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-11757": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-16599": {
+      "rounds": [
+        [
+          "infra",
+          "signature 'Killed signal'"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-24485": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-14772": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    }
+  },
+  "C1": {
+    "astropy__astropy-16295": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "astropy__astropy-6940": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-7172": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-5884": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-23287": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-22108": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 56 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137); /testbed/lib/matplotlib/tests/test_agg.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21832": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21394": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 1 required tests without result; /testbed/numpy/core/tests/test_multiarray.py (exit 133); /testbed/numpy/core/tests/test_array_coercion.py (exit 133)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-43281": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-26697": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-37971": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-52054": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pydata__xarray-9001": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-11757": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-16599": {
+      "rounds": [
+        [
+          "infra",
+          "signature 'Killed signal'"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-24485": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-14772": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    }
+  },
+  "C2": {
+    "astropy__astropy-16295": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "astropy__astropy-6940": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-7172": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "dask__dask-5884": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-23287": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 37 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "matplotlib__matplotlib-22108": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 56 required tests without result; /testbed/lib/matplotlib/tests/test_simplification.py (exit 137); /testbed/lib/matplotlib/tests/test_agg.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21832": {
+      "rounds": [
+        [
+          "infra",
+          "correctness crash: 1 required tests without result; /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/core/tests/test_multiarray.py (exit 133)"
+        ],
+        [
+          "infra",
+          "correctness crash: 193 required tests without result; /testbed/numpy/core/tests/test_multiarray.py (exit 133); /testbed/numpy/core/tests/test_array_coercion.py (exit 133); /testbed/numpy/lib/tests/test_io.py (exit 137)"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "numpy__numpy-21394": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-43281": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-26697": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-37971": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pandas-dev__pandas-52054": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "pydata__xarray-9001": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-11757": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "scipy__scipy-16599": {
+      "rounds": [
+        [
+          "infra",
+          "signature 'Killed signal'"
+        ],
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-24485": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    },
+    "sympy__sympy-14772": {
+      "rounds": [
+        [
+          "scored",
+          ""
+        ]
+      ],
+      "final": "scored",
+      "reason": ""
+    }
+  }
+}

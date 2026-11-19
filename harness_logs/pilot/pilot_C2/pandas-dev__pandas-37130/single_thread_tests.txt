@@ -1,0 +1,3 @@
+/testbed/pandas/tests/io/json/test_readlines.py
+/testbed/pandas/tests/io/json/test_compression.py
+/testbed/pandas/tests/io/pytables/test_store.py

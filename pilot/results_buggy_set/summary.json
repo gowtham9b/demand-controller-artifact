@@ -1,0 +1,100 @@
+{
+  "n_tasks": 15,
+  "conditions": {
+    "C0": {
+      "overall_score": 0.6347561685927887,
+      "ci95": [
+        0.4688578040802954,
+        0.9006025338480268
+      ],
+      "incorrect": 0.2,
+      "correct_no_speedup": 0.06666666666666667,
+      "faster_than_baseline": 0.6666666666666666,
+      "matched_expert": 0.3333333333333333,
+      "empty_patch": 0.0,
+      "mean_profile_calls": 0.0,
+      "self_profiled_share": 0.26666666666666666,
+      "refusal_tasks": 0,
+      "mean_tool_calls": 4.933333333333334,
+      "mean_input_tokens": 79551.4,
+      "mean_output_tokens": 1354.6666666666667,
+      "mean_minutes": 2.2161636601554022,
+      "exit_status": {
+        "completed": 15
+      }
+    },
+    "C1": {
+      "overall_score": 0.5967158592677383,
+      "ci95": [
+        0.4467299735096245,
+        0.8557330688212336
+      ],
+      "incorrect": 0.26666666666666666,
+      "correct_no_speedup": 0.13333333333333333,
+      "faster_than_baseline": 0.6,
+      "matched_expert": 0.3333333333333333,
+      "empty_patch": 0.0,
+      "mean_profile_calls": 0.06666666666666667,
+      "self_profiled_share": 0.26666666666666666,
+      "refusal_tasks": 0,
+      "mean_tool_calls": 5.133333333333334,
+      "mean_input_tokens": 86842.13333333333,
+      "mean_output_tokens": 1468.4666666666667,
+      "mean_minutes": 1.4946817066934375,
+      "exit_status": {
+        "completed": 15
+      }
+    },
+    "C2": {
+      "overall_score": 0.629925921802396,
+      "ci95": [
+        0.4737606625577586,
+        0.8965110938625511
+      ],
+      "incorrect": 0.26666666666666666,
+      "correct_no_speedup": 0.0,
+      "faster_than_baseline": 0.6666666666666666,
+      "matched_expert": 0.26666666666666666,
+      "empty_patch": 0.0,
+      "mean_profile_calls": 0.3333333333333333,
+      "self_profiled_share": 0.06666666666666667,
+      "refusal_tasks": 0,
+      "mean_tool_calls": 5.066666666666666,
+      "mean_input_tokens": 79515.33333333333,
+      "mean_output_tokens": 1317.6666666666667,
+      "mean_minutes": 2.1415242722299364,
+      "exit_status": {
+        "completed": 15
+      }
+    }
+  },
+  "paired": {
+    "C1-C0": {
+      "diff": -0.038040309325050425,
+      "ci95": [
+        -0.150877089012528,
+        0.029776990369174066
+      ],
+      "tasks_better": 3,
+      "tasks_worse": 3
+    },
+    "C2-C0": {
+      "diff": -0.004830246790392678,
+      "ci95": [
+        -0.13808756146996737,
+        0.10661274059972081
+      ],
+      "tasks_better": 5,
+      "tasks_worse": 1
+    },
+    "C2-C1": {
+      "diff": 0.03321006253465775,
+      "ci95": [
+        -0.005106624929490486,
+        0.08701698676274601
+      ],
+      "tasks_better": 4,
+      "tasks_worse": 2
+    }
+  }
+}

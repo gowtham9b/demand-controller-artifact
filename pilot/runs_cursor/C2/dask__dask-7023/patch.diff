@@ -1,0 +1,28 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 6cb51838b..9218395a4 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -1103,7 +1103,7 @@ class Array(DaskMethodsMixin):
+     dask.array.from_array
+     """
+ 
+-    __slots__ = "dask", "_name", "_cached_keys", "_chunks", "_meta"
++    __slots__ = "dask", "_name", "_cached_keys", "_chunks", "_meta", "_shape_cache"
+ 
+     def __new__(cls, dask, name, chunks, dtype=None, meta=None, shape=None):
+         self = super(Array, cls).__new__(cls)
+@@ -1237,7 +1237,13 @@ class Array(DaskMethodsMixin):
+ 
+     @property
+     def shape(self):
+-        return tuple(cached_cumsum(c, initial_zero=True)[-1] for c in self.chunks)
++        chunks = self._chunks
++        cached = getattr(self, "_shape_cache", None)
++        if cached is not None and cached[0] is chunks:
++            return cached[1]
++        shape = tuple(sum(c) for c in chunks)
++        self._shape_cache = (chunks, shape)
++        return shape
+ 
+     @property
+     def chunksize(self):

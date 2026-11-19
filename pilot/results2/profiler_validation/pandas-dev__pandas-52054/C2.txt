@@ -1,0 +1,12 @@
+Ranked hotspots for workload() (cProfile, 50 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1   1.1%     0.016    1.204       1  pandas/core/internals/construction.py:239 ndarray_to_mgr
+ 2   1.0%     0.014    0.043       1  pandas/core/dtypes/base.py:495 find
+ 3   0.9%     0.013    0.960       1  pandas/core/dtypes/cast.py:1541 maybe_cast_to_integer_array
+ 4   0.7%     0.010    1.299       1  pandas/core/frame.py:651 __init__
+ 5   0.7%     0.010    0.064       1  pandas/core/dtypes/common.py:1668 pandas_dtype
+ 6   0.6%     0.008    0.010      11  pandas/core/dtypes/base.py:231 construct_from_string
+ 7   0.5%     0.007    0.992       1  pandas/core/construction.py:494 sanitize_array
+ 8   0.4%     0.005    0.006       1  pandas/core/generic.py:266 __init__
+Outside the repository: 87.7% of self time. Largest: /opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/numeric.py:2407 array_equal 50.7%; <method 'astype' of 'numpy.ndarray' objects> 10.8%; <built-in method numpy.array> 10.6%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

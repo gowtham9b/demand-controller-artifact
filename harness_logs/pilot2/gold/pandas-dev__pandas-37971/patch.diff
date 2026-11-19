@@ -1,0 +1,45 @@
+diff --git a/pandas/core/arrays/interval.py b/pandas/core/arrays/interval.py
+index d007bb112c86c..500e96a0c2784 100644
+--- a/pandas/core/arrays/interval.py
++++ b/pandas/core/arrays/interval.py
+@@ -619,6 +619,24 @@ def __lt__(self, other):
+     def __le__(self, other):
+         return self._cmp_method(other, operator.le)
+ 
++    def argsort(
++        self,
++        ascending: bool = True,
++        kind: str = "quicksort",
++        na_position: str = "last",
++        *args,
++        **kwargs,
++    ) -> np.ndarray:
++        ascending = nv.validate_argsort_with_ascending(ascending, args, kwargs)
++
++        if ascending and kind == "quicksort" and na_position == "last":
++            return np.lexsort((self.right, self.left))
++
++        # TODO: other cases we can use lexsort for?  much more performant.
++        return super().argsort(
++            ascending=ascending, kind=kind, na_position=na_position, **kwargs
++        )
++
+     def fillna(self, value=None, method=None, limit=None):
+         """
+         Fill NA/NaN values using the specified method.
+diff --git a/pandas/core/indexes/interval.py b/pandas/core/indexes/interval.py
+index b0f8be986fe5d..de0ad03ee7105 100644
+--- a/pandas/core/indexes/interval.py
++++ b/pandas/core/indexes/interval.py
+@@ -957,11 +957,6 @@ def _format_space(self) -> str:
+         space = " " * (len(type(self).__name__) + 1)
+         return f"\n{space}"
+ 
+-    # --------------------------------------------------------------------
+-
+-    def argsort(self, *args, **kwargs) -> np.ndarray:
+-        return np.lexsort((self.right, self.left))
+-
+     # --------------------------------------------------------------------
+     # Set Operations
+ 

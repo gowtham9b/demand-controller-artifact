@@ -1,0 +1,11 @@
+cProfile of workload(): 50 calls, 0.002s profiled (times are totals over all calls, sorted by cumulative time)
+   ncalls  tottime  cumtime  filename:lineno(function)
+       50   0.0001   0.0008  /dcwork/workload.py:6(workload)
+       50   0.0003   0.0007  /testbed/lib/matplotlib/backends/backend_pdf.py:371(__init__)
+       50   0.0001   0.0003  ~:0(<method 'sub' of 're.Pattern' objects>)
+      100   0.0002   0.0002  /testbed/lib/matplotlib/backends/backend_pdf.py:394(hexify)
+      100   0.0001   0.0001  ~:0(<built-in method builtins.isinstance>)
+      100   0.0000   0.0000  ~:0(<method 'group' of 're.Match' objects>)
+       50   0.0000   0.0000  ~:0(<method 'encode' of 'str' objects>)
+      100   0.0000   0.0000  ~:0(<built-in method builtins.ord>)
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

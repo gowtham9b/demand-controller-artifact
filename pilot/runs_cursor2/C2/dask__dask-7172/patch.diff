@@ -1,0 +1,32 @@
+diff --git a/dask/array/percentile.py b/dask/array/percentile.py
+index d08eb3e19..e9ddc1af1 100644
+--- a/dask/array/percentile.py
++++ b/dask/array/percentile.py
+@@ -234,11 +234,23 @@ def merge_percentiles(finalq, qs, vals, interpolation="lower", Ns=None):
+     # >>> A = np.concatenate(map(np.array, map(zip, vals, counts)))
+     # >>> A.sort(0, kind='mergesort')
+ 
+-    combined_vals_counts = merge_sorted(*map(zip, vals, counts))
+-    combined_vals, combined_counts = zip(*combined_vals_counts)
++    if (
++        type(finalq) is np.ndarray
++        and all(type(v) is np.ndarray and v.dtype.kind in "iuf" for v in vals)
++        and all(c.dtype.kind in "iuf" for c in counts)
++        and not any(np.isnan(v).any() for v in vals if v.dtype.kind == "f")
++    ):
++        cv = np.concatenate(vals)
++        cc = np.concatenate(counts)
++        order = np.lexsort((cc, cv))
++        combined_vals = cv[order]
++        combined_counts = cc[order]
++    else:
++        combined_vals_counts = merge_sorted(*map(zip, vals, counts))
++        combined_vals, combined_counts = zip(*combined_vals_counts)
+ 
+-    combined_vals = array_safe(combined_vals, like=combined_vals[0])
+-    combined_counts = array_safe(combined_counts, like=combined_counts[0])
++        combined_vals = array_safe(combined_vals, like=combined_vals[0])
++        combined_counts = array_safe(combined_counts, like=combined_counts[0])
+ 
+     # percentile-like, but scaled by total number of observations
+     combined_q = np.cumsum(combined_counts)

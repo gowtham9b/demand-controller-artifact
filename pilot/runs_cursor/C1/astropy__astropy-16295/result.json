@@ -1,0 +1,11 @@
+{
+  "instance_id": "astropy__astropy-16295",
+  "condition": "C1",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 27.12147092819214,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 719
+}

@@ -1,0 +1,14 @@
+diff --git a/lib/matplotlib/backends/backend_ps.py b/lib/matplotlib/backends/backend_ps.py
+index 03693c859..c7cd4da4e 100644
+--- a/lib/matplotlib/backends/backend_ps.py
++++ b/lib/matplotlib/backends/backend_ps.py
+@@ -288,7 +288,8 @@ class RendererPS(_backend_pdf_ps.RendererPDFPSBase):
+         data = im[::-1, :, :3]  # Vertically flipped rgb values.
+         # data.tobytes().hex() has no spaces, so can be linewrapped by relying
+         # on textwrap.fill breaking long words.
+-        hexlines = textwrap.fill(data.tobytes().hex(), 128)
++        _hex = data.tobytes().hex()
++        hexlines = "\n".join(_hex[i:i + 128] for i in range(0, len(_hex), 128))
+ 
+         if transform is None:
+             matrix = "1 0 0 1 0 0"

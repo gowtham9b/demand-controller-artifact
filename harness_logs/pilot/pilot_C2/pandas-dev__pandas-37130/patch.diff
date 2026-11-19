@@ -1,0 +1,20 @@
+diff --git a/pandas/core/indexes/range.py b/pandas/core/indexes/range.py
+index 14098ddadb..3eec77efc4 100644
+--- a/pandas/core/indexes/range.py
++++ b/pandas/core/indexes/range.py
+@@ -459,6 +459,15 @@ class RangeIndex(Int64Index):
+         else:
+             return np.arange(len(self) - 1, -1, -1)
+ 
++    def _cmp_method(self, other, op):
++        if (
++            isinstance(other, RangeIndex)
++            and op in (operator.eq, operator.ne)
++            and self._range == other._range
++        ):
++            return np.full(len(self), op is operator.eq, dtype=bool)
++        return super()._cmp_method(other, op)
++
+     def equals(self, other: object) -> bool:
+         """
+         Determines if two Index objects contain the same elements.

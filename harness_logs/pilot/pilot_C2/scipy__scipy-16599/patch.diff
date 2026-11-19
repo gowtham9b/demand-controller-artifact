@@ -1,0 +1,47 @@
+diff --git a/scipy/stats/_continuous_distns.py b/scipy/stats/_continuous_distns.py
+index 1c38ef1a4..36c0702cb 100644
+--- a/scipy/stats/_continuous_distns.py
++++ b/scipy/stats/_continuous_distns.py
+@@ -8459,13 +8459,35 @@ class truncnorm_gen(rv_continuous):
+         if a.size == 1 and b.size == 1:
+             return _truncnorm_ppf_scalar(q, a.item(), b.item())
+ 
+-        out = None
+-        it = np.nditer([q, a, b, out], [],
+-                       [['readonly'], ['readonly'], ['readonly'],
+-                        ['writeonly', 'allocate']])
+-        for (_q, _a, _b, _x) in it:
+-            _x[...] = _truncnorm_ppf_scalar(_q, _a, _b)
+-        return it.operands[3]
++        q, a, b = np.broadcast_arrays(q, a, b)
++        out = np.empty(q.shape, dtype=np.result_type(q, a, b, float))
++        with np.errstate(all='ignore'):
++            delta = _truncnorm_get_delta(a, b)
++        fast = (delta > 0) & (q > 0) & (q < 1)
++        if np.any(fast):
++            qf, af, bf = q[fast], a[fast], b[fast]
++            pos = af > 0
++            r = np.empty(qf.shape)
++            if np.any(pos):
++                sa, sb = _norm_sf(af[pos]), _norm_sf(bf[pos])
++                qp = qf[pos]
++                r[pos] = _norm_isf(qp * sb + sa * (1.0 - qp))
++            neg = ~pos
++            if np.any(neg):
++                na, nb = _norm_cdf(af[neg]), _norm_cdf(bf[neg])
++                qn = qf[neg]
++                r[neg] = _norm_ppf(qn * nb + na * (1.0 - qn))
++            r = np.where(r < af, af, r)
++            r = np.where(r > bf, bf, r)
++            out[fast] = r
++        slow = ~fast
++        if np.any(slow):
++            idx = np.flatnonzero(slow)
++            qs, as_, bs = q.ravel(), a.ravel(), b.ravel()
++            flat = out.reshape(-1)
++            for i in idx:
++                flat[i] = _truncnorm_ppf_scalar(qs[i], as_[i], bs[i])
++        return out
+ 
+     def _munp(self, n, a, b):
+         def n_th_moment(n, a, b):

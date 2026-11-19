@@ -1,0 +1,634 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/gdal-activate.sh
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/gdal ']'
++++ export GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ GDAL_DATA=/opt/miniconda3/envs/testbed/share/gdal
++++ export GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ GDAL_DRIVER_PATH=/opt/miniconda3/envs/testbed/lib/gdalplugins
++++ '[' '!' -d /opt/miniconda3/envs/testbed/lib/gdalplugins ']'
++++ export CPL_ZIP_ENCODING=UTF-8
++++ CPL_ZIP_ENCODING=UTF-8
++++ '[' -n '5.1.16(1)-release' ']'
++++ '[' -f /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo ']'
++++ source /opt/miniconda3/envs/testbed/share/bash-completion/completions/gdalinfo
+++++ function_exists _get_comp_words_by_ref
+++++ declare -f -F _get_comp_words_by_ref
+++++ return 1
+++++ return 0
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/geotiff-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/epsg_csv ']'
++++ '[' -d /opt/miniconda3/envs/testbed/Library/share/epsg_csv ']'
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libarrow_activate.sh
++++ '[' -n '' ']'
++++ _la_log 'Beginning libarrow activation.'
++++ '[' '' = 1 ']'
++++ _la_gdb_prefix=/opt/miniconda3/envs/testbed/share/gdb/auto-load
++++ '[' '!' -w /opt/miniconda3/envs/testbed/share/gdb/auto-load ']'
++++ _la_placeholder=replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX
++++ _la_symlink_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib
++++ _la_orig_install_dir=/opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
++++ _la_log '          _la_gdb_prefix: /opt/miniconda3/envs/testbed/share/gdb/auto-load'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_placeholder: replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_symlink_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib'
++++ '[' '' = 1 ']'
++++ _la_log '    _la_orig_install_dir: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib'
++++ '[' '' = 1 ']'
++++ _la_log '  content of that folder:'
++++ '[' '' = 1 ']'
+++++ ls -al /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
+++++ sed 's/^/      /'
++++ _la_log '      total 12
+      drwxr-xr-x 2 root root 4096 Jul 25  2025 .
+      drwxr-xr-x 3 root root 4096 Jul 25  2025 ..
+      -rw-r--r-- 1 root root  971 Jul 25  2025 libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ for _la_target in "$_la_orig_install_dir/"*.py
++++ '[' '!' -e /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ basename /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_symlink=/opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ _la_log '   _la_target: /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ _la_log '  _la_symlink: /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py'
++++ '[' '' = 1 ']'
++++ '[' -L /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py ']'
+++++ readlink /opt/miniconda3/envs/testbed/share/gdb/auto-load//opt/miniconda3/envs/testbed/lib/libarrow.so.2100.0.0-gdb.py
++++ '[' /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py = /opt/miniconda3/envs/testbed/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.2100.0.0-gdb.py ']'
++++ _la_log 'symlink $_la_symlink already exists and points to $_la_target, skipping.'
++++ '[' '' = 1 ']'
++++ continue
++++ _la_log 'Libarrow activation complete.'
++++ '[' '' = 1 ']'
++++ unset _la_gdb_prefix
++++ unset _la_log
++++ unset _la_orig_install_dir
++++ unset _la_placeholder
++++ unset _la_symlink
++++ unset _la_symlink_dir
++++ unset _la_target
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/proj4-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/proj ']'
++++ export PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ PROJ_DATA=/opt/miniconda3/envs/testbed/share/proj
++++ '[' -f /opt/miniconda3/envs/testbed/share/proj/copyright_and_licenses.csv ']'
++++ export PROJ_NETWORK=ON
++++ PROJ_NETWORK=ON
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/udunits2-activate.sh
++++ '[' -n '' ']'
++++ '[' -d /opt/miniconda3/envs/testbed/share/udunits ']'
++++ export UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++++ UDUNITS2_XML_PATH=/opt/miniconda3/envs/testbed/share/udunits/udunits2.xml
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   xarray/core/variable.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 8d728bf253f63c557ab8993d47c1cd0c3113277d
+Author: ignamv <ignamv@gmail.com>
+Date:   Sun May 5 20:06:57 2024 +0200
+
+    Add argument check_dims to assert_allclose to allow transposed inputs (#5733) (#8991)
+    
+    * Add argument check_dims to assert_allclose to allow transposed inputs
+    
+    * Update whats-new.rst
+    
+    * Add `check_dims` argument to assert_equal and assert_identical + tests
+    
+    * Assert that dimensions match before transposing or comparing values
+    
+    * Add docstring for check_dims to assert_equal and assert_identical
+    
+    * Update doc/whats-new.rst
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    
+    * Undo fat finger
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    
+    * Add attribution to whats-new.rst
+    
+    * Replace check_dims with bool argument check_dim_order, rename align_dims to maybe_transpose_dims
+    
+    * Remove left-over half-made test
+    
+    * Remove check_dim_order argument from assert_identical
+    
+    * assert_allclose/equal: emit full diff if dimensions don't match
+    
+    * Rename check_dim_order test, test Dataset with different dim orders
+    
+    * Update whats-new.rst
+    
+    * Hide maybe_transpose_dims from Pytest traceback
+    
+    Co-authored-by: Maximilian Roos <5635139+max-sixty@users.noreply.github.com>
+    
+    * Ignore mypy error due to missing functools.partial.__name__
+    
+    ---------
+    
+    Co-authored-by: Tom Nicholas <tom@cworthy.org>
+    Co-authored-by: Maximilian Roos <5635139+max-sixty@users.noreply.github.com>
+
+diff --git a/doc/whats-new.rst b/doc/whats-new.rst
+index 0f79b648..9a4601a7 100644
+--- a/doc/whats-new.rst
++++ b/doc/whats-new.rst
+@@ -29,6 +29,8 @@ New Features
+   for example, will retain the object.  However, one cannot do operations that are not possible on the `ExtensionArray`
+   then, such as broadcasting.
+   By `Ilan Gold <https://github.com/ilan-gold>`_.
++- :py:func:`testing.assert_allclose`/:py:func:`testing.assert_equal` now accept a new argument `check_dims="transpose"`, controlling whether a transposed array is considered equal. (:issue:`5733`, :pull:`8991`)
++  By `Ignacio Martinez Vazquez <https://github.com/ignamv>`_.
+ - Added the option to avoid automatically creating 1D pandas indexes in :py:meth:`Dataset.expand_dims()`, by passing the new kwarg
+   `create_index=False`. (:pull:`8960`)
+   By `Tom Nicholas <https://github.com/TomNicholas>`_.
+diff --git a/xarray/testing/assertions.py b/xarray/testing/assertions.py
+index 018874c1..69885868 100644
+--- a/xarray/testing/assertions.py
++++ b/xarray/testing/assertions.py
+@@ -95,6 +95,18 @@ def assert_isomorphic(a: DataTree, b: DataTree, from_root: bool = False):
+         raise TypeError(f"{type(a)} not of type DataTree")
+ 
+ 
++def maybe_transpose_dims(a, b, check_dim_order: bool):
++    """Helper for assert_equal/allclose/identical"""
++    __tracebackhide__ = True
++    if not isinstance(a, (Variable, DataArray, Dataset)):
++        return b
++    if not check_dim_order and set(a.dims) == set(b.dims):
++        # Ensure transpose won't fail if a dimension is missing
++        # If this is the case, the difference will be caught by the caller
++        return b.transpose(*a.dims)
++    return b
++
++
+ @overload
+ def assert_equal(a, b): ...
+ 
+@@ -104,7 +116,7 @@ def assert_equal(a: DataTree, b: DataTree, from_root: bool = True): ...
+ 
+ 
+ @ensure_warnings
+-def assert_equal(a, b, from_root=True):
++def assert_equal(a, b, from_root=True, check_dim_order: bool = True):
+     """Like :py:func:`numpy.testing.assert_array_equal`, but for xarray
+     objects.
+ 
+@@ -127,6 +139,8 @@ def assert_equal(a, b, from_root=True):
+         Only used when comparing DataTree objects. Indicates whether or not to
+         first traverse to the root of the trees before checking for isomorphism.
+         If a & b have no parents then this has no effect.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -137,6 +151,7 @@ def assert_equal(a, b, from_root=True):
+     assert (
+         type(a) == type(b) or isinstance(a, Coordinates) and isinstance(b, Coordinates)
+     )
++    b = maybe_transpose_dims(a, b, check_dim_order)
+     if isinstance(a, (Variable, DataArray)):
+         assert a.equals(b), formatting.diff_array_repr(a, b, "equals")
+     elif isinstance(a, Dataset):
+@@ -182,6 +197,8 @@ def assert_identical(a, b, from_root=True):
+         Only used when comparing DataTree objects. Indicates whether or not to
+         first traverse to the root of the trees before checking for isomorphism.
+         If a & b have no parents then this has no effect.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -213,7 +230,9 @@ def assert_identical(a, b, from_root=True):
+ 
+ 
+ @ensure_warnings
+-def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
++def assert_allclose(
++    a, b, rtol=1e-05, atol=1e-08, decode_bytes=True, check_dim_order: bool = True
++):
+     """Like :py:func:`numpy.testing.assert_allclose`, but for xarray objects.
+ 
+     Raises an AssertionError if two objects are not equal up to desired
+@@ -233,6 +252,8 @@ def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
+         Whether byte dtypes should be decoded to strings as UTF-8 or not.
+         This is useful for testing serialization methods on Python 3 that
+         return saved strings as bytes.
++    check_dim_order : bool, optional, default is True
++        Whether dimensions must be in the same order.
+ 
+     See Also
+     --------
+@@ -240,16 +261,16 @@ def assert_allclose(a, b, rtol=1e-05, atol=1e-08, decode_bytes=True):
+     """
+     __tracebackhide__ = True
+     assert type(a) == type(b)
++    b = maybe_transpose_dims(a, b, check_dim_order)
+ 
+     equiv = functools.partial(
+         _data_allclose_or_equiv, rtol=rtol, atol=atol, decode_bytes=decode_bytes
+     )
+-    equiv.__name__ = "allclose"
++    equiv.__name__ = "allclose"  # type: ignore[attr-defined]
+ 
+     def compat_variable(a, b):
+         a = getattr(a, "variable", a)
+         b = getattr(b, "variable", b)
+-
+         return a.dims == b.dims and (a._data is b._data or equiv(a.data, b.data))
+ 
+     if isinstance(a, Variable):
+diff --git a/xarray/tests/test_assertions.py b/xarray/tests/test_assertions.py
+index f7e49a0f..aa0ea46f 100644
+--- a/xarray/tests/test_assertions.py
++++ b/xarray/tests/test_assertions.py
+@@ -57,6 +57,25 @@ def test_allclose_regression() -> None:
+ def test_assert_allclose(obj1, obj2) -> None:
+     with pytest.raises(AssertionError):
+         xr.testing.assert_allclose(obj1, obj2)
++    with pytest.raises(AssertionError):
++        xr.testing.assert_allclose(obj1, obj2, check_dim_order=False)
++
++
++@pytest.mark.parametrize("func", ["assert_equal", "assert_allclose"])
++def test_assert_allclose_equal_transpose(func) -> None:
++    """Transposed DataArray raises assertion unless check_dim_order=False."""
++    obj1 = xr.DataArray([[0, 1, 2], [2, 3, 4]], dims=["a", "b"])
++    obj2 = xr.DataArray([[0, 2], [1, 3], [2, 4]], dims=["b", "a"])
++    with pytest.raises(AssertionError):
++        getattr(xr.testing, func)(obj1, obj2)
++    getattr(xr.testing, func)(obj1, obj2, check_dim_order=False)
++    ds1 = obj1.to_dataset(name="varname")
++    ds1["var2"] = obj1
++    ds2 = obj1.to_dataset(name="varname")
++    ds2["var2"] = obj1.transpose()
++    with pytest.raises(AssertionError):
++        getattr(xr.testing, func)(ds1, ds2)
++    getattr(xr.testing, func)(ds1, ds2, check_dim_order=False)
+ 
+ 
+ @pytest.mark.filterwarnings("error")
++ pip install -e . --no-build-isolation
+Obtaining file:///testbed
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.23 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (2.2.6)
+Requirement already satisfied: packaging>=23.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (25.0)
+Requirement already satisfied: pandas>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from xarray==0.0.0) (2.3.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from pandas>=2.0->xarray==0.0.0) (2025.2)
+Requirement already satisfied: six>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas>=2.0->xarray==0.0.0) (1.17.0)
+Building wheels for collected packages: xarray
+  Building editable for xarray (pyproject.toml): started
+  Building editable for xarray (pyproject.toml): finished with status 'done'
+  Created wheel for xarray: filename=xarray-0.0.0-0.editable-py3-none-any.whl size=12369 sha256=c036f6bdaf2fe05a0bb0b8ce68996744a13a76a2deb9e819c6afabced03dd26d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-sybd12lc/wheels/0d/a6/cb/465a7b303d624cc531250fa27c75d038ddc29430bdb6ba7c9f
+Successfully built xarray
+Installing collected packages: xarray
+  Attempting uninstall: xarray
+    Found existing installation: xarray 0.0.0
+    Uninstalling xarray-0.0.0:
+      Successfully uninstalled xarray-0.0.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+xarray-datatree 0.0.15 requires xarray<=2024.07.0,>=2023.12.0, but you have xarray 0.0.0 which is incompatible.
+Successfully installed xarray-0.0.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 4 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 /testbed/xarray/tests/test_coarsen.py | cut -d" " -f1); line=$(echo 0 /testbed/xarray/tests/test_coarsen.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 /testbed/xarray/tests/test_calendar_ops.py | cut -d" " -f1); line=$(echo 1 /testbed/xarray/tests/test_calendar_ops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 /testbed/xarray/tests/test_accessor_str.py | cut -d" " -f1); line=$(echo 2 /testbed/xarray/tests/test_accessor_str.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 /testbed/xarray/tests/test_rolling.py | cut -d" " -f1); line=$(echo 3 /testbed/xarray/tests/test_rolling.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:05:51 UTC 2026] Processing [0]: /testbed/xarray/tests/test_coarsen.py
+[Thu Nov 12 21:05:51 UTC 2026] Processing [3]: /testbed/xarray/tests/test_rolling.py
+[Thu Nov 12 21:05:51 UTC 2026] Processing [2]: /testbed/xarray/tests/test_accessor_str.py
+[Thu Nov 12 21:05:51 UTC 2026] Processing [1]: /testbed/xarray/tests/test_calendar_ops.py
+[Thu Nov 12 21:05:57 UTC 2026] Finished processing [2] with exit 0: /testbed/xarray/tests/test_accessor_str.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 /testbed/xarray/tests/test_array_api.py | cut -d" " -f1); line=$(echo 4 /testbed/xarray/tests/test_array_api.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:05:57 UTC 2026] Processing [4]: /testbed/xarray/tests/test_array_api.py
+[Thu Nov 12 21:05:58 UTC 2026] Finished processing [1] with exit 0: /testbed/xarray/tests/test_calendar_ops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 /testbed/xarray/tests/test_strategies.py | cut -d" " -f1); line=$(echo 5 /testbed/xarray/tests/test_strategies.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:05:58 UTC 2026] Processing [5]: /testbed/xarray/tests/test_strategies.py
+[Thu Nov 12 21:06:00 UTC 2026] Finished processing [4] with exit 1: /testbed/xarray/tests/test_array_api.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 /testbed/xarray/tests/test_concat.py | cut -d" " -f1); line=$(echo 6 /testbed/xarray/tests/test_concat.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:00 UTC 2026] Processing [6]: /testbed/xarray/tests/test_concat.py
+[Thu Nov 12 21:06:05 UTC 2026] Finished processing [6] with exit 0: /testbed/xarray/tests/test_concat.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 /testbed/xarray/tests/test_interp.py | cut -d" " -f1); line=$(echo 7 /testbed/xarray/tests/test_interp.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:05 UTC 2026] Processing [7]: /testbed/xarray/tests/test_interp.py
+[Thu Nov 12 21:06:07 UTC 2026] Finished processing [0] with exit 0: /testbed/xarray/tests/test_coarsen.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 /testbed/xarray/tests/test_cftimeindex.py | cut -d" " -f1); line=$(echo 8 /testbed/xarray/tests/test_cftimeindex.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:07 UTC 2026] Processing [8]: /testbed/xarray/tests/test_cftimeindex.py
+[Thu Nov 12 21:06:10 UTC 2026] Finished processing [5] with exit 1: /testbed/xarray/tests/test_strategies.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 /testbed/xarray/tests/test_extensions.py | cut -d" " -f1); line=$(echo 9 /testbed/xarray/tests/test_extensions.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:10 UTC 2026] Processing [9]: /testbed/xarray/tests/test_extensions.py
+[Thu Nov 12 21:06:12 UTC 2026] Finished processing [8] with exit 1: /testbed/xarray/tests/test_cftimeindex.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 /testbed/xarray/tests/test_dataarray.py | cut -d" " -f1); line=$(echo 10 /testbed/xarray/tests/test_dataarray.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:13 UTC 2026] Processing [10]: /testbed/xarray/tests/test_dataarray.py
+[Thu Nov 12 21:06:15 UTC 2026] Finished processing [9] with exit 0: /testbed/xarray/tests/test_extensions.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 /testbed/xarray/tests/test_formatting.py | cut -d" " -f1); line=$(echo 11 /testbed/xarray/tests/test_formatting.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:15 UTC 2026] Processing [11]: /testbed/xarray/tests/test_formatting.py
+[Thu Nov 12 21:06:18 UTC 2026] Finished processing [7] with exit 0: /testbed/xarray/tests/test_interp.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 /testbed/xarray/tests/test_combine.py | cut -d" " -f1); line=$(echo 12 /testbed/xarray/tests/test_combine.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:19 UTC 2026] Processing [12]: /testbed/xarray/tests/test_combine.py
+[Thu Nov 12 21:06:19 UTC 2026] Finished processing [11] with exit 1: /testbed/xarray/tests/test_formatting.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 13 /testbed/xarray/tests/test_missing.py | cut -d" " -f1); line=$(echo 13 /testbed/xarray/tests/test_missing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:19 UTC 2026] Processing [13]: /testbed/xarray/tests/test_missing.py
+[Thu Nov 12 21:06:23 UTC 2026] Finished processing [12] with exit 0: /testbed/xarray/tests/test_combine.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 14 /testbed/xarray/tests/test_sparse.py | cut -d" " -f1); line=$(echo 14 /testbed/xarray/tests/test_sparse.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:23 UTC 2026] Processing [14]: /testbed/xarray/tests/test_sparse.py
+[Thu Nov 12 21:06:26 UTC 2026] Finished processing [13] with exit 0: /testbed/xarray/tests/test_missing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 15 /testbed/properties/test_encode_decode.py | cut -d" " -f1); line=$(echo 15 /testbed/properties/test_encode_decode.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:26 UTC 2026] Processing [15]: /testbed/properties/test_encode_decode.py
+[Thu Nov 12 21:06:29 UTC 2026] Finished processing [15] with exit 0: /testbed/properties/test_encode_decode.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 16 /testbed/properties/test_pandas_roundtrip.py | cut -d" " -f1); line=$(echo 16 /testbed/properties/test_pandas_roundtrip.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:29 UTC 2026] Processing [16]: /testbed/properties/test_pandas_roundtrip.py
+[Thu Nov 12 21:06:33 UTC 2026] Finished processing [10] with exit 1: /testbed/xarray/tests/test_dataarray.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 17 /testbed/xarray/tests/test_distributed.py | cut -d" " -f1); line=$(echo 17 /testbed/xarray/tests/test_distributed.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:33 UTC 2026] Processing [17]: /testbed/xarray/tests/test_distributed.py
+[Thu Nov 12 21:06:37 UTC 2026] Finished processing [14] with exit 1: /testbed/xarray/tests/test_sparse.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 18 /testbed/xarray/tests/test_cftime_offsets.py | cut -d" " -f1); line=$(echo 18 /testbed/xarray/tests/test_cftime_offsets.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:37 UTC 2026] Processing [18]: /testbed/xarray/tests/test_cftime_offsets.py
+[Thu Nov 12 21:06:49 UTC 2026] Finished processing [18] with exit 0: /testbed/xarray/tests/test_cftime_offsets.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 19 /testbed/xarray/tests/test_coding.py | cut -d" " -f1); line=$(echo 19 /testbed/xarray/tests/test_coding.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:49 UTC 2026] Processing [19]: /testbed/xarray/tests/test_coding.py
+[Thu Nov 12 21:06:54 UTC 2026] Finished processing [19] with exit 0: /testbed/xarray/tests/test_coding.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 20 /testbed/xarray/tests/test_datatree_mapping.py | cut -d" " -f1); line=$(echo 20 /testbed/xarray/tests/test_datatree_mapping.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:06:54 UTC 2026] Processing [20]: /testbed/xarray/tests/test_datatree_mapping.py
+[Thu Nov 12 21:07:01 UTC 2026] Finished processing [20] with exit 0: /testbed/xarray/tests/test_datatree_mapping.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 21 /testbed/xarray/tests/test_datatree.py | cut -d" " -f1); line=$(echo 21 /testbed/xarray/tests/test_datatree.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:01 UTC 2026] Processing [21]: /testbed/xarray/tests/test_datatree.py
+[Thu Nov 12 21:07:02 UTC 2026] Finished processing [16] with exit 1: /testbed/properties/test_pandas_roundtrip.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 22 /testbed/xarray/tests/test_plot.py | cut -d" " -f1); line=$(echo 22 /testbed/xarray/tests/test_plot.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:02 UTC 2026] Processing [22]: /testbed/xarray/tests/test_plot.py
+[Thu Nov 12 21:07:05 UTC 2026] Finished processing [21] with exit 0: /testbed/xarray/tests/test_datatree.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 23 /testbed/xarray/tests/test_dask.py | cut -d" " -f1); line=$(echo 23 /testbed/xarray/tests/test_dask.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:06 UTC 2026] Processing [23]: /testbed/xarray/tests/test_dask.py
+[Thu Nov 12 21:07:25 UTC 2026] Finished processing [23] with exit 1: /testbed/xarray/tests/test_dask.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 24 /testbed/xarray/tests/test_cftimeindex_resample.py | cut -d" " -f1); line=$(echo 24 /testbed/xarray/tests/test_cftimeindex_resample.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:25 UTC 2026] Processing [24]: /testbed/xarray/tests/test_cftimeindex_resample.py
+[Thu Nov 12 21:07:44 UTC 2026] Finished processing [24] with exit 0: /testbed/xarray/tests/test_cftimeindex_resample.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 25 /testbed/xarray/tests/test_formatting_html.py | cut -d" " -f1); line=$(echo 25 /testbed/xarray/tests/test_formatting_html.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:44 UTC 2026] Processing [25]: /testbed/xarray/tests/test_formatting_html.py
+[Thu Nov 12 21:07:45 UTC 2026] Finished processing [3] with exit 1: /testbed/xarray/tests/test_rolling.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 26 /testbed/xarray/tests/test_assertions.py | cut -d" " -f1); line=$(echo 26 /testbed/xarray/tests/test_assertions.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:46 UTC 2026] Processing [26]: /testbed/xarray/tests/test_assertions.py
+[Thu Nov 12 21:07:46 UTC 2026] Finished processing [22] with exit 0: /testbed/xarray/tests/test_plot.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 27 /testbed/xarray/tests/test_coding_times.py | cut -d" " -f1); line=$(echo 27 /testbed/xarray/tests/test_coding_times.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:46 UTC 2026] Processing [27]: /testbed/xarray/tests/test_coding_times.py
+[Thu Nov 12 21:07:48 UTC 2026] Finished processing [25] with exit 0: /testbed/xarray/tests/test_formatting_html.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 28 /testbed/xarray/tests/test_duck_array_ops.py | cut -d" " -f1); line=$(echo 28 /testbed/xarray/tests/test_duck_array_ops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:48 UTC 2026] Processing [28]: /testbed/xarray/tests/test_duck_array_ops.py
+[Thu Nov 12 21:07:49 UTC 2026] Finished processing [17] with exit 0: /testbed/xarray/tests/test_distributed.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 29 /testbed/xarray/tests/test_typed_ops.py | cut -d" " -f1); line=$(echo 29 /testbed/xarray/tests/test_typed_ops.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:50 UTC 2026] Processing [29]: /testbed/xarray/tests/test_typed_ops.py
+[Thu Nov 12 21:07:50 UTC 2026] Finished processing [26] with exit 0: /testbed/xarray/tests/test_assertions.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 30 /testbed/xarray/tests/test_backends_datatree.py | cut -d" " -f1); line=$(echo 30 /testbed/xarray/tests/test_backends_datatree.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:50 UTC 2026] Processing [30]: /testbed/xarray/tests/test_backends_datatree.py
+[Thu Nov 12 21:07:53 UTC 2026] Finished processing [27] with exit 0: /testbed/xarray/tests/test_coding_times.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 31 /testbed/xarray/tests/test_indexing.py | cut -d" " -f1); line=$(echo 31 /testbed/xarray/tests/test_indexing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:53 UTC 2026] Processing [31]: /testbed/xarray/tests/test_indexing.py
+[Thu Nov 12 21:07:53 UTC 2026] Finished processing [29] with exit 0: /testbed/xarray/tests/test_typed_ops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 32 /testbed/xarray/tests/test_dataset.py | cut -d" " -f1); line=$(echo 32 /testbed/xarray/tests/test_dataset.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:54 UTC 2026] Processing [32]: /testbed/xarray/tests/test_dataset.py
+/opt/miniconda3/envs/testbed/lib/python3.10/site-packages/_pytest/unraisableexception.py:33: RuntimeWarning: deallocating CachingFileManager(<class 'netCDF4._netCDF4.Dataset'>, '/tmp/pytest-of-root/pytest-30/test_to_netcdf1/test.nc', mode='r', kwargs={'clobber': True, 'diskless': False, 'persist': False, 'format': 'NETCDF4'}, manager_id='63a50500-5a2e-4b14-b4f9-815347916d80'), but file is not already closed. This may indicate a bug.
+  gc.collect()
+[Thu Nov 12 21:07:55 UTC 2026] Finished processing [30] with exit 0: /testbed/xarray/tests/test_backends_datatree.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 33 /testbed/xarray/tests/test_coding_strings.py | cut -d" " -f1); line=$(echo 33 /testbed/xarray/tests/test_coding_strings.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:55 UTC 2026] Processing [33]: /testbed/xarray/tests/test_coding_strings.py
+[Thu Nov 12 21:07:58 UTC 2026] Finished processing [31] with exit 0: /testbed/xarray/tests/test_indexing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 34 /testbed/xarray/tests/test_options.py | cut -d" " -f1); line=$(echo 34 /testbed/xarray/tests/test_options.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:58 UTC 2026] Processing [34]: /testbed/xarray/tests/test_options.py
+[Thu Nov 12 21:07:59 UTC 2026] Finished processing [33] with exit 0: /testbed/xarray/tests/test_coding_strings.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 35 /testbed/xarray/tests/test_accessor_dt.py | cut -d" " -f1); line=$(echo 35 /testbed/xarray/tests/test_accessor_dt.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:07:59 UTC 2026] Processing [35]: /testbed/xarray/tests/test_accessor_dt.py
+[Thu Nov 12 21:08:02 UTC 2026] Finished processing [34] with exit 0: /testbed/xarray/tests/test_options.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 36 /testbed/xarray/tests/test_weighted.py | cut -d" " -f1); line=$(echo 36 /testbed/xarray/tests/test_weighted.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:02 UTC 2026] Processing [36]: /testbed/xarray/tests/test_weighted.py
+[Thu Nov 12 21:08:05 UTC 2026] Finished processing [35] with exit 0: /testbed/xarray/tests/test_accessor_dt.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 37 /testbed/xarray/tests/test_coordinates.py | cut -d" " -f1); line=$(echo 37 /testbed/xarray/tests/test_coordinates.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:05 UTC 2026] Processing [37]: /testbed/xarray/tests/test_coordinates.py
+[Thu Nov 12 21:08:09 UTC 2026] Finished processing [37] with exit 0: /testbed/xarray/tests/test_coordinates.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 38 /testbed/xarray/tests/test_merge.py | cut -d" " -f1); line=$(echo 38 /testbed/xarray/tests/test_merge.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:09 UTC 2026] Processing [38]: /testbed/xarray/tests/test_merge.py
+[Thu Nov 12 21:08:09 UTC 2026] Finished processing [28] with exit 1: /testbed/xarray/tests/test_duck_array_ops.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 39 /testbed/xarray/tests/test_hashable.py | cut -d" " -f1); line=$(echo 39 /testbed/xarray/tests/test_hashable.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:09 UTC 2026] Processing [39]: /testbed/xarray/tests/test_hashable.py
+[Thu Nov 12 21:08:13 UTC 2026] Finished processing [32] with exit 1: /testbed/xarray/tests/test_dataset.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 40 /testbed/xarray/tests/test_computation.py | cut -d" " -f1); line=$(echo 40 /testbed/xarray/tests/test_computation.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:13 UTC 2026] Finished processing [39] with exit 0: /testbed/xarray/tests/test_hashable.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 41 /testbed/xarray/tests/test_indexes.py | cut -d" " -f1); line=$(echo 41 /testbed/xarray/tests/test_indexes.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:13 UTC 2026] Processing [40]: /testbed/xarray/tests/test_computation.py
+[Thu Nov 12 21:08:13 UTC 2026] Finished processing [38] with exit 0: /testbed/xarray/tests/test_merge.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 42 /testbed/xarray/tests/test_groupby.py | cut -d" " -f1); line=$(echo 42 /testbed/xarray/tests/test_groupby.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:13 UTC 2026] Processing [41]: /testbed/xarray/tests/test_indexes.py
+[Thu Nov 12 21:08:13 UTC 2026] Processing [42]: /testbed/xarray/tests/test_groupby.py
+[Thu Nov 12 21:08:17 UTC 2026] Finished processing [41] with exit 0: /testbed/xarray/tests/test_indexes.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 43 /testbed/xarray/tests/test_backends_api.py | cut -d" " -f1); line=$(echo 43 /testbed/xarray/tests/test_backends_api.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:17 UTC 2026] Processing [43]: /testbed/xarray/tests/test_backends_api.py
+[Thu Nov 12 21:08:21 UTC 2026] Finished processing [43] with exit 0: /testbed/xarray/tests/test_backends_api.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 44 /testbed/xarray/tests/test_variable.py | cut -d" " -f1); line=$(echo 44 /testbed/xarray/tests/test_variable.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:21 UTC 2026] Processing [44]: /testbed/xarray/tests/test_variable.py
+[Thu Nov 12 21:08:24 UTC 2026] Finished processing [40] with exit 1: /testbed/xarray/tests/test_computation.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 45 /testbed/xarray/tests/test_ufuncs.py | cut -d" " -f1); line=$(echo 45 /testbed/xarray/tests/test_ufuncs.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:24 UTC 2026] Processing [45]: /testbed/xarray/tests/test_ufuncs.py
+[Thu Nov 12 21:08:25 UTC 2026] Finished processing [36] with exit 0: /testbed/xarray/tests/test_weighted.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 46 /testbed/xarray/tests/test_error_messages.py | cut -d" " -f1); line=$(echo 46 /testbed/xarray/tests/test_error_messages.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:25 UTC 2026] Processing [46]: /testbed/xarray/tests/test_error_messages.py
+[Thu Nov 12 21:08:29 UTC 2026] Finished processing [45] with exit 0: /testbed/xarray/tests/test_ufuncs.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 47 /testbed/xarray/tests/test_conventions.py | cut -d" " -f1); line=$(echo 47 /testbed/xarray/tests/test_conventions.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Thu Nov 12 21:08:29 UTC 2026] Finished processing [46] with exit 0: /testbed/xarray/tests/test_error_messages.py
+[Thu Nov 12 21:08:29 UTC 2026] Processing [47]: /testbed/xarray/tests/test_conventions.py
+[Thu Nov 12 21:08:29 UTC 2026] Finished processing [42] with exit 1: /testbed/xarray/tests/test_groupby.py
+[Thu Nov 12 21:08:33 UTC 2026] Finished processing [47] with exit 1: /testbed/xarray/tests/test_conventions.py
+[Thu Nov 12 21:08:37 UTC 2026] Finished processing [44] with exit 1: /testbed/xarray/tests/test_variable.py
++ [[ -s /tmp/single_thread_tests.txt ]]
++ cat /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 1 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'idx=$(echo % | cut -d" " -f1); NUM_PARALLEL_TESTS=$(cat /tmp/covering_tests.txt | grep -vFx -f /tmp/single_thread_tests.txt | wc -l); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$((idx + NUM_PARALLEL_TESTS)).txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$((idx + NUM_PARALLEL_TESTS))]: $line" >&2; retries=0; rc=0; while true; do PYTHONHASHSEED=0 pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$((idx + NUM_PARALLEL_TESTS))] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$((idx + NUM_PARALLEL_TESTS))] with exit $rc: $line" >&2; exit $rc;' else echo 'Input file is empty, skipping.'
+/bin/bash -c 'idx=$(echo 0 /testbed/xarray/tests/test_backends.py | cut -d" " -f1); NUM_PARALLEL_TESTS=$(cat /tmp/covering_tests.txt | grep -vFx -f /tmp/single_thread_tests.txt | wc -l); line=$(echo 0 /testbed/xarray/tests/test_backends.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$((idx + NUM_PARALLEL_TESTS)).txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$((idx + NUM_PARALLEL_TESTS))]: $line" >&2; retries=0; rc=0; while true; do PYTHONHASHSEED=0 pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$((idx + NUM_PARALLEL_TESTS))] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$((idx + NUM_PARALLEL_TESTS))] with exit $rc: $line" >&2; exit $rc;' else echo 'Input file is empty, skipping.'
+[Thu Nov 12 21:08:37 UTC 2026] Processing [48]: /testbed/xarray/tests/test_backends.py
+[Thu Nov 12 21:09:11 UTC 2026] Finished processing [48] with exit 1: /testbed/xarray/tests/test_backends.py

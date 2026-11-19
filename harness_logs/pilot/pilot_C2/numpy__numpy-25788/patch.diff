@@ -1,0 +1,32 @@
+diff --git a/numpy/_core/numeric.py b/numpy/_core/numeric.py
+index 4e16f7e468..52bc1adf20 100644
+--- a/numpy/_core/numeric.py
++++ b/numpy/_core/numeric.py
+@@ -1151,7 +1151,7 @@ def tensordot(a, b, axes=2):
+     N2 = 1
+     for axis in axes_a:
+         N2 *= as_[axis]
+-    newshape_a = (int(multiply.reduce([as_[ax] for ax in notin])), N2)
++    newshape_a = (_prod([as_[ax] for ax in notin]), N2)
+     olda = [as_[axis] for axis in notin]
+ 
+     notin = [k for k in range(ndb) if k not in axes_b]
+@@ -1159,7 +1159,7 @@ def tensordot(a, b, axes=2):
+     N2 = 1
+     for axis in axes_b:
+         N2 *= bs[axis]
+-    newshape_b = (N2, int(multiply.reduce([bs[ax] for ax in notin])))
++    newshape_b = (N2, _prod([bs[ax] for ax in notin]))
+     oldb = [bs[axis] for axis in notin]
+ 
+     at = a.transpose(newaxes_a).reshape(newshape_a)
+@@ -1168,6 +1168,9 @@ def tensordot(a, b, axes=2):
+     return res.reshape(olda + oldb)
+ 
+ 
++from math import prod as _prod
++
++
+ def _roll_dispatcher(a, shift, axis=None):
+     return (a,)
+ 

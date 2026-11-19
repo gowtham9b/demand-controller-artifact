@@ -1,0 +1,3 @@
+scipy/stats/tests/test_fit.py
+scipy/stats/tests/test_distributions.py
+scipy/stats/tests/test_continuous_basic.py

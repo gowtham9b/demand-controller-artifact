@@ -1,0 +1,4 @@
+6. You also have a profiling tool, `dc-profile`. Before this session started, the controller profiled the original `workload()` function once against the unmodified repository; that profile is shown below and counts as 1 of your 4 profiling calls. It is the cProfile listing for the workload, sorted by cumulative time and truncated to about 4,000 tokens. Run the command `dc-profile` on its own (with no other commands in the same call) to profile the original `workload()` function again against the current state of the repository; it returns the same kind of listing. You may call `dc-profile` at most 3 more times for this task (4 in total, including the profile below).
+<profile>
+{evidence}
+</profile>

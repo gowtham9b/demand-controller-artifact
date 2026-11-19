@@ -1,0 +1,31 @@
+diff --git a/astropy/units/core.py b/astropy/units/core.py
+index 579136602..bcabc92ae 100644
+--- a/astropy/units/core.py
++++ b/astropy/units/core.py
+@@ -533,11 +533,16 @@ class UnitBase(metaclass=InheritDocstrings):
+         this unit, without the scale.  Since it is hashable, it is
+         useful as a dictionary key.
+         """
++        try:
++            return self.__dict__['_physical_type_id_cache']
++        except KeyError:
++            pass
+         unit = self.decompose()
+         r = zip([x.name for x in unit.bases], unit.powers)
+         # bases and powers are already sorted in a unique way
+         # r.sort()
+         r = tuple(r)
++        self.__dict__['_physical_type_id_cache'] = r
+         return r
+ 
+     @property
+@@ -778,6 +783,9 @@ class UnitBase(metaclass=InheritDocstrings):
+         -------
+         bool
+         """
++        if other is self and not isinstance(self, UnrecognizedUnit):
++            return True
++
+         equivalencies = self._normalize_equivalencies(equivalencies)
+ 
+         if isinstance(other, tuple):

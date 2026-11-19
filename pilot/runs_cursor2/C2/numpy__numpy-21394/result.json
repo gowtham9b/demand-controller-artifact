@@ -1,0 +1,35 @@
+{
+  "instance_id": "numpy__numpy-21394",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 50.641794204711914,
+  "seconds": 68.27619624137878,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602275.818214,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 1.7018249034881592,
+      "chars": 707,
+      "iters": 500,
+      "n_funcs": 12
+    }
+  ],
+  "patch_chars": 1145,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 68.27619624137878
+    }
+  ]
+}

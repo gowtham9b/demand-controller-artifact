@@ -1,0 +1,45 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..1cf7f467 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3170,6 +3170,7 @@ def unify_chunks(*args, **kwargs):
+         )
+ 
+     arrays = []
++    _rechunk_cache = {}
+     for a, i in arginds:
+         if i is None:
+             arrays.append(a)
+@@ -3183,7 +3184,11 @@ def unify_chunks(*args, **kwargs):
+                 for n, j in enumerate(i)
+             )
+             if chunks != a.chunks and all(a.chunks):
+-                arrays.append(a.rechunk(chunks))
++                key = (id(a), chunks)
++                hit = _rechunk_cache.get(key)
++                if hit is None:
++                    hit = _rechunk_cache[key] = (a, a.rechunk(chunks))
++                arrays.append(hit[1])
+             else:
+                 arrays.append(a)
+     return chunkss, arrays
+@@ -3298,10 +3303,18 @@ def block(arrays, allow_unknown_chunksizes=False):
+     # See numpy license at https://github.com/numpy/numpy/blob/master/LICENSE.txt
+     # or NUMPY_LICENSE.txt within this directory
+ 
++    _nd_cache = {}
++
+     def atleast_nd(x, ndim):
++        key = (id(x), ndim)
++        hit = _nd_cache.get(key)
++        if hit is not None and hit[0] is x:
++            return hit[1]
+         x = asanyarray(x)
+         diff = max(ndim - x.ndim, 0)
+-        return x[(None,) * diff + (Ellipsis,)]
++        out = x[(None,) * diff + (Ellipsis,)]
++        _nd_cache[key] = (x, out)
++        return out
+ 
+     def format_index(index):
+         return "arrays" + "".join("[{}]".format(i) for i in index)

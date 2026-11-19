@@ -1,0 +1,12 @@
+diff --git a/astropy/units/quantity_helper.py b/astropy/units/quantity_helper.py
+index 8b3ada9cc..60a6937d7 100644
+--- a/astropy/units/quantity_helper.py
++++ b/astropy/units/quantity_helper.py
+@@ -555,6 +555,7 @@ def converters_and_unit(function, method, *args):
+                             "Quantity.".format(function.__name__, method))
+ 
+         if converters[0] is not None or (unit is not None and
++                                         result_unit is not unit and
+                                          (not result_unit.is_equivalent(unit) or
+                                           result_unit.to(unit) != 1.)):
+             raise UnitsError("Cannot use '{1}' method on ufunc {0} with a "

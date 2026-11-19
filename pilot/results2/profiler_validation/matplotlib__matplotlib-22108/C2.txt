@@ -1,0 +1,7 @@
+Ranked hotspots for workload() (cProfile, 5000 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  45.4%     0.003    0.007       1  lib/matplotlib/transforms.py:1995 rotate
+ 2   8.8%     0.001    0.001       1  lib/matplotlib/transforms.py:170 invalidate
+ 3   4.2%     0.000    0.000       1  lib/matplotlib/transforms.py:180 _invalidate_internal
+Outside the repository: 41.6% of self time. Largest: <built-in method numpy.array> 25.7%; /dcwork/workload.py:13 workload 7.8%; /opt/miniconda3/envs/testbed/lib/python3.11/site-packages/numpy/core/multiarray.py:741 dot 3.1%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

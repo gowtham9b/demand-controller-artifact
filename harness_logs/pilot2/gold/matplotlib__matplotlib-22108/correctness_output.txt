@@ -1,0 +1,423 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\''
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh"
+. "/opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh"'
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/opt/miniconda3/envs/testbed/share/glib-2.0/schemas
+++ . /opt/miniconda3/envs/testbed/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/opt/miniconda3/envs/testbed
++++ for pre in ${rem}
++++ test '' = /opt/miniconda3/envs/testbed
++++ conda_catalog_files=/opt/miniconda3/envs/testbed
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///opt/miniconda3/envs/testbed/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   lib/matplotlib/transforms.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 68d6b79654626f1471caf9dd60d9f728823f0d90
+Merge: d8a90ae0e1 6447c953f3
+Author: Jody Klymak <jklymak@gmail.com>
+Date:   Wed Jan 5 10:35:52 2022 +0100
+
+    Merge pull request #20117 from anntzer/nhv
+    
+    Very soft-deprecate AxesDivider.new_{horizontal,vertical}.
+
++ pip install -e . --no-build-isolation
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: cycler>=0.10 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (4.42.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (1.4.5)
+Requirement already satisfied: numpy>=1.17 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (1.25.2)
+Requirement already satisfied: packaging>=20.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (25.0)
+Requirement already satisfied: pillow>=6.2.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (10.0.0)
+Requirement already satisfied: pyparsing<3.0.0,>=2.2.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (2.4.7)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (2.8.2)
+Requirement already satisfied: setuptools_scm>=4 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (7.1.0)
+Requirement already satisfied: six>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (1.16.0)
+Requirement already satisfied: setuptools in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from setuptools_scm>=4->matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (80.9.0)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from setuptools_scm>=4->matplotlib==3.6.0.dev1189+g68d6b79654.d20261113) (4.7.1)
+Installing collected packages: matplotlib
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.6.0.dev1189+g68d6b7965.d20261113
+    Uninstalling matplotlib-3.6.0.dev1189+g68d6b7965.d20261113:
+      Successfully uninstalled matplotlib-3.6.0.dev1189+g68d6b7965.d20261113
+  DEPRECATION: Legacy editable install of matplotlib==3.6.0.dev1189+g68d6b79654.d20261113 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for matplotlib
+Successfully installed matplotlib-3.6.0.dev1189+g68d6b7965.d20261113
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ cat /tmp/covering_tests.txt
++ grep -vFx -f /tmp/single_thread_tests.txt
++ shuf
++ awk -F/ '{if (tolower($NF) ~ /^(test.*\.py|.*_test\.py)$/) print $0}'
++ awk '{ print NR-1 " " $0 }'
++ xargs -P 2 '-d\n' --verbose --no-run-if-empty -I % /bin/bash -c 'set -o pipefail; idx=$(echo % | cut -d" " -f1); line=$(echo % | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 0 /testbed/lib/mpl_toolkits/tests/test_axisartist_axis_artist.py | cut -d" " -f1); line=$(echo 0 /testbed/lib/mpl_toolkits/tests/test_axisartist_axis_artist.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+/bin/bash -c 'set -o pipefail; idx=$(echo 1 /testbed/lib/matplotlib/tests/test_legend.py | cut -d" " -f1); line=$(echo 1 /testbed/lib/matplotlib/tests/test_legend.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:08 UTC 2026] Processing [0]: /testbed/lib/mpl_toolkits/tests/test_axisartist_axis_artist.py
+[Fri Nov 13 20:05:08 UTC 2026] Processing [1]: /testbed/lib/matplotlib/tests/test_legend.py
+[Fri Nov 13 20:05:12 UTC 2026] Finished processing [0] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axisartist_axis_artist.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 2 /testbed/examples/units/evans_test.py | cut -d" " -f1); line=$(echo 2 /testbed/examples/units/evans_test.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:12 UTC 2026] Processing [2]: /testbed/examples/units/evans_test.py
+[Fri Nov 13 20:05:13 UTC 2026] Exit 5 (>1). Retrying [2] attempt 1/2: /testbed/examples/units/evans_test.py
+[Fri Nov 13 20:05:14 UTC 2026] Exit 5 (>1). Retrying [2] attempt 2/2: /testbed/examples/units/evans_test.py
+[Fri Nov 13 20:05:15 UTC 2026] Finished processing [2] with exit 5: /testbed/examples/units/evans_test.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 3 /testbed/lib/matplotlib/tests/test_rcparams.py | cut -d" " -f1); line=$(echo 3 /testbed/lib/matplotlib/tests/test_rcparams.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:15 UTC 2026] Processing [3]: /testbed/lib/matplotlib/tests/test_rcparams.py
+[Fri Nov 13 20:05:19 UTC 2026] Finished processing [3] with exit 1: /testbed/lib/matplotlib/tests/test_rcparams.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 4 /testbed/lib/matplotlib/tests/test_bbox_tight.py | cut -d" " -f1); line=$(echo 4 /testbed/lib/matplotlib/tests/test_bbox_tight.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:19 UTC 2026] Processing [4]: /testbed/lib/matplotlib/tests/test_bbox_tight.py
+[Fri Nov 13 20:05:22 UTC 2026] Finished processing [4] with exit 0: /testbed/lib/matplotlib/tests/test_bbox_tight.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 5 /testbed/lib/matplotlib/tests/test_scale.py | cut -d" " -f1); line=$(echo 5 /testbed/lib/matplotlib/tests/test_scale.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:22 UTC 2026] Processing [5]: /testbed/lib/matplotlib/tests/test_scale.py
+[Fri Nov 13 20:05:25 UTC 2026] Finished processing [5] with exit 0: /testbed/lib/matplotlib/tests/test_scale.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 6 /testbed/lib/matplotlib/tests/test_backend_bases.py | cut -d" " -f1); line=$(echo 6 /testbed/lib/matplotlib/tests/test_backend_bases.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:25 UTC 2026] Processing [6]: /testbed/lib/matplotlib/tests/test_backend_bases.py
+[Fri Nov 13 20:05:30 UTC 2026] Finished processing [1] with exit 0: /testbed/lib/matplotlib/tests/test_legend.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 7 /testbed/lib/mpl_toolkits/tests/test_axes_grid.py | cut -d" " -f1); line=$(echo 7 /testbed/lib/mpl_toolkits/tests/test_axes_grid.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:30 UTC 2026] Processing [7]: /testbed/lib/mpl_toolkits/tests/test_axes_grid.py
+[Fri Nov 13 20:05:30 UTC 2026] Finished processing [6] with exit 0: /testbed/lib/matplotlib/tests/test_backend_bases.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 8 /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py | cut -d" " -f1); line=$(echo 8 /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:30 UTC 2026] Processing [8]: /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py
+[Fri Nov 13 20:05:31 UTC 2026] Exit 5 (>1). Retrying [8] attempt 1/2: /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py
+[Fri Nov 13 20:05:32 UTC 2026] Exit 5 (>1). Retrying [8] attempt 2/2: /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py
+[Fri Nov 13 20:05:33 UTC 2026] Finished processing [7] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axes_grid.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 9 /testbed/lib/matplotlib/tests/test_backend_svg.py | cut -d" " -f1); line=$(echo 9 /testbed/lib/matplotlib/tests/test_backend_svg.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:33 UTC 2026] Processing [9]: /testbed/lib/matplotlib/tests/test_backend_svg.py
+[Fri Nov 13 20:05:33 UTC 2026] Finished processing [8] with exit 5: /testbed/examples/text_labels_and_annotations/usetex_baseline_test.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 10 /testbed/lib/matplotlib/tests/test_ticker.py | cut -d" " -f1); line=$(echo 10 /testbed/lib/matplotlib/tests/test_ticker.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:34 UTC 2026] Processing [10]: /testbed/lib/matplotlib/tests/test_ticker.py
+[Fri Nov 13 20:05:36 UTC 2026] Finished processing [10] with exit 1: /testbed/lib/matplotlib/tests/test_ticker.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 11 /testbed/lib/matplotlib/tests/test_skew.py | cut -d" " -f1); line=$(echo 11 /testbed/lib/matplotlib/tests/test_skew.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:37 UTC 2026] Processing [11]: /testbed/lib/matplotlib/tests/test_skew.py
+[Fri Nov 13 20:05:37 UTC 2026] Finished processing [9] with exit 0: /testbed/lib/matplotlib/tests/test_backend_svg.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 12 /testbed/lib/matplotlib/tests/test_triangulation.py | cut -d" " -f1); line=$(echo 12 /testbed/lib/matplotlib/tests/test_triangulation.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:37 UTC 2026] Processing [12]: /testbed/lib/matplotlib/tests/test_triangulation.py
+[Fri Nov 13 20:05:39 UTC 2026] Finished processing [11] with exit 0: /testbed/lib/matplotlib/tests/test_skew.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 13 /testbed/lib/matplotlib/tests/test_cycles.py | cut -d" " -f1); line=$(echo 13 /testbed/lib/matplotlib/tests/test_cycles.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:39 UTC 2026] Processing [13]: /testbed/lib/matplotlib/tests/test_cycles.py
+[Fri Nov 13 20:05:40 UTC 2026] Finished processing [12] with exit 0: /testbed/lib/matplotlib/tests/test_triangulation.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 14 /testbed/lib/mpl_toolkits/tests/test_axes_grid1.py | cut -d" " -f1); line=$(echo 14 /testbed/lib/mpl_toolkits/tests/test_axes_grid1.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:41 UTC 2026] Processing [14]: /testbed/lib/mpl_toolkits/tests/test_axes_grid1.py
+[Fri Nov 13 20:05:41 UTC 2026] Finished processing [13] with exit 0: /testbed/lib/matplotlib/tests/test_cycles.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 15 /testbed/lib/matplotlib/tests/test_axes.py | cut -d" " -f1); line=$(echo 15 /testbed/lib/matplotlib/tests/test_axes.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:41 UTC 2026] Processing [15]: /testbed/lib/matplotlib/tests/test_axes.py
+[Fri Nov 13 20:05:44 UTC 2026] Finished processing [14] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axes_grid1.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 16 /testbed/lib/matplotlib/tests/test_units.py | cut -d" " -f1); line=$(echo 16 /testbed/lib/matplotlib/tests/test_units.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:44 UTC 2026] Processing [16]: /testbed/lib/matplotlib/tests/test_units.py
+[Fri Nov 13 20:05:46 UTC 2026] Finished processing [16] with exit 0: /testbed/lib/matplotlib/tests/test_units.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 17 /testbed/lib/matplotlib/tests/test_lines.py | cut -d" " -f1); line=$(echo 17 /testbed/lib/matplotlib/tests/test_lines.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:46 UTC 2026] Processing [17]: /testbed/lib/matplotlib/tests/test_lines.py
+[Fri Nov 13 20:05:51 UTC 2026] Finished processing [17] with exit 0: /testbed/lib/matplotlib/tests/test_lines.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 18 /testbed/lib/matplotlib/tests/test_colors.py | cut -d" " -f1); line=$(echo 18 /testbed/lib/matplotlib/tests/test_colors.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:52 UTC 2026] Processing [18]: /testbed/lib/matplotlib/tests/test_colors.py
+[Fri Nov 13 20:05:56 UTC 2026] Finished processing [18] with exit 0: /testbed/lib/matplotlib/tests/test_colors.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 19 /testbed/lib/mpl_toolkits/tests/test_axisartist_axislines.py | cut -d" " -f1); line=$(echo 19 /testbed/lib/mpl_toolkits/tests/test_axisartist_axislines.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:56 UTC 2026] Processing [19]: /testbed/lib/mpl_toolkits/tests/test_axisartist_axislines.py
+[Fri Nov 13 20:05:58 UTC 2026] Finished processing [19] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axisartist_axislines.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 20 /testbed/lib/matplotlib/tests/test_subplots.py | cut -d" " -f1); line=$(echo 20 /testbed/lib/matplotlib/tests/test_subplots.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:05:58 UTC 2026] Processing [20]: /testbed/lib/matplotlib/tests/test_subplots.py
+[Fri Nov 13 20:06:03 UTC 2026] Finished processing [20] with exit 0: /testbed/lib/matplotlib/tests/test_subplots.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 21 /testbed/lib/matplotlib/tests/test_quiver.py | cut -d" " -f1); line=$(echo 21 /testbed/lib/matplotlib/tests/test_quiver.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:03 UTC 2026] Processing [21]: /testbed/lib/matplotlib/tests/test_quiver.py
+[Fri Nov 13 20:06:05 UTC 2026] Finished processing [21] with exit 0: /testbed/lib/matplotlib/tests/test_quiver.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 22 /testbed/lib/matplotlib/tests/test_patheffects.py | cut -d" " -f1); line=$(echo 22 /testbed/lib/matplotlib/tests/test_patheffects.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:05 UTC 2026] Processing [22]: /testbed/lib/matplotlib/tests/test_patheffects.py
+[Fri Nov 13 20:06:08 UTC 2026] Finished processing [22] with exit 0: /testbed/lib/matplotlib/tests/test_patheffects.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 23 /testbed/lib/matplotlib/tests/test_streamplot.py | cut -d" " -f1); line=$(echo 23 /testbed/lib/matplotlib/tests/test_streamplot.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:08 UTC 2026] Processing [23]: /testbed/lib/matplotlib/tests/test_streamplot.py
+[Fri Nov 13 20:06:12 UTC 2026] Finished processing [23] with exit 0: /testbed/lib/matplotlib/tests/test_streamplot.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 24 /testbed/lib/matplotlib/tests/test_pyplot.py | cut -d" " -f1); line=$(echo 24 /testbed/lib/matplotlib/tests/test_pyplot.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:12 UTC 2026] Processing [24]: /testbed/lib/matplotlib/tests/test_pyplot.py
+[Fri Nov 13 20:06:15 UTC 2026] Finished processing [24] with exit 0: /testbed/lib/matplotlib/tests/test_pyplot.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 25 /testbed/lib/matplotlib/tests/test_agg_filter.py | cut -d" " -f1); line=$(echo 25 /testbed/lib/matplotlib/tests/test_agg_filter.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:15 UTC 2026] Processing [25]: /testbed/lib/matplotlib/tests/test_agg_filter.py
+[Fri Nov 13 20:06:17 UTC 2026] Finished processing [25] with exit 0: /testbed/lib/matplotlib/tests/test_agg_filter.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 26 /testbed/lib/matplotlib/tests/test_artist.py | cut -d" " -f1); line=$(echo 26 /testbed/lib/matplotlib/tests/test_artist.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:17 UTC 2026] Processing [26]: /testbed/lib/matplotlib/tests/test_artist.py
+[Fri Nov 13 20:06:19 UTC 2026] Finished processing [26] with exit 0: /testbed/lib/matplotlib/tests/test_artist.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 27 /testbed/lib/matplotlib/tests/test_spines.py | cut -d" " -f1); line=$(echo 27 /testbed/lib/matplotlib/tests/test_spines.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:19 UTC 2026] Processing [27]: /testbed/lib/matplotlib/tests/test_spines.py
+[Fri Nov 13 20:06:21 UTC 2026] Finished processing [27] with exit 0: /testbed/lib/matplotlib/tests/test_spines.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 28 /testbed/lib/matplotlib/tests/test_mathtext.py | cut -d" " -f1); line=$(echo 28 /testbed/lib/matplotlib/tests/test_mathtext.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:21 UTC 2026] Processing [28]: /testbed/lib/matplotlib/tests/test_mathtext.py
+[Fri Nov 13 20:06:33 UTC 2026] Finished processing [15] with exit 1: /testbed/lib/matplotlib/tests/test_axes.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 29 /testbed/lib/mpl_toolkits/tests/test_axisartist_floating_axes.py | cut -d" " -f1); line=$(echo 29 /testbed/lib/mpl_toolkits/tests/test_axisartist_floating_axes.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:33 UTC 2026] Processing [29]: /testbed/lib/mpl_toolkits/tests/test_axisartist_floating_axes.py
+[Fri Nov 13 20:06:35 UTC 2026] Finished processing [29] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axisartist_floating_axes.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 30 /testbed/lib/matplotlib/tests/test_container.py | cut -d" " -f1); line=$(echo 30 /testbed/lib/matplotlib/tests/test_container.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:35 UTC 2026] Processing [30]: /testbed/lib/matplotlib/tests/test_container.py
+[Fri Nov 13 20:06:36 UTC 2026] Finished processing [30] with exit 0: /testbed/lib/matplotlib/tests/test_container.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 31 /testbed/lib/matplotlib/tests/test_colorbar.py | cut -d" " -f1); line=$(echo 31 /testbed/lib/matplotlib/tests/test_colorbar.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:36 UTC 2026] Processing [31]: /testbed/lib/matplotlib/tests/test_colorbar.py
+[Fri Nov 13 20:06:41 UTC 2026] Finished processing [31] with exit 0: /testbed/lib/matplotlib/tests/test_colorbar.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 32 /testbed/lib/matplotlib/tests/test_usetex.py | cut -d" " -f1); line=$(echo 32 /testbed/lib/matplotlib/tests/test_usetex.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:41 UTC 2026] Processing [32]: /testbed/lib/matplotlib/tests/test_usetex.py
+[Fri Nov 13 20:06:48 UTC 2026] Finished processing [28] with exit 0: /testbed/lib/matplotlib/tests/test_mathtext.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 33 /testbed/lib/matplotlib/tests/test_marker.py | cut -d" " -f1); line=$(echo 33 /testbed/lib/matplotlib/tests/test_marker.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:48 UTC 2026] Processing [33]: /testbed/lib/matplotlib/tests/test_marker.py
+[Fri Nov 13 20:06:51 UTC 2026] Finished processing [33] with exit 0: /testbed/lib/matplotlib/tests/test_marker.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 34 /testbed/lib/matplotlib/tests/test_path.py | cut -d" " -f1); line=$(echo 34 /testbed/lib/matplotlib/tests/test_path.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:51 UTC 2026] Processing [34]: /testbed/lib/matplotlib/tests/test_path.py
+[Fri Nov 13 20:06:56 UTC 2026] Finished processing [34] with exit 0: /testbed/lib/matplotlib/tests/test_path.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 35 /testbed/lib/matplotlib/tests/test_ttconv.py | cut -d" " -f1); line=$(echo 35 /testbed/lib/matplotlib/tests/test_ttconv.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:56 UTC 2026] Processing [35]: /testbed/lib/matplotlib/tests/test_ttconv.py
+[Fri Nov 13 20:06:58 UTC 2026] Finished processing [35] with exit 0: /testbed/lib/matplotlib/tests/test_ttconv.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 36 /testbed/lib/matplotlib/tests/test_simplification.py | cut -d" " -f1); line=$(echo 36 /testbed/lib/matplotlib/tests/test_simplification.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:06:58 UTC 2026] Processing [36]: /testbed/lib/matplotlib/tests/test_simplification.py
+[Fri Nov 13 20:07:05 UTC 2026] Finished processing [36] with exit 0: /testbed/lib/matplotlib/tests/test_simplification.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 37 /testbed/lib/matplotlib/tests/test_sankey.py | cut -d" " -f1); line=$(echo 37 /testbed/lib/matplotlib/tests/test_sankey.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:05 UTC 2026] Processing [37]: /testbed/lib/matplotlib/tests/test_sankey.py
+[Fri Nov 13 20:07:06 UTC 2026] Finished processing [37] with exit 0: /testbed/lib/matplotlib/tests/test_sankey.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 38 /testbed/lib/matplotlib/tests/test_backend_pgf.py | cut -d" " -f1); line=$(echo 38 /testbed/lib/matplotlib/tests/test_backend_pgf.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:06 UTC 2026] Processing [38]: /testbed/lib/matplotlib/tests/test_backend_pgf.py
+[Fri Nov 13 20:07:40 UTC 2026] Finished processing [38] with exit 0: /testbed/lib/matplotlib/tests/test_backend_pgf.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 39 /testbed/lib/matplotlib/tests/test_widgets.py | cut -d" " -f1); line=$(echo 39 /testbed/lib/matplotlib/tests/test_widgets.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:40 UTC 2026] Processing [39]: /testbed/lib/matplotlib/tests/test_widgets.py
+[Fri Nov 13 20:07:48 UTC 2026] Finished processing [39] with exit 1: /testbed/lib/matplotlib/tests/test_widgets.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 40 /testbed/lib/matplotlib/tests/test_backend_cairo.py | cut -d" " -f1); line=$(echo 40 /testbed/lib/matplotlib/tests/test_backend_cairo.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:48 UTC 2026] Processing [40]: /testbed/lib/matplotlib/tests/test_backend_cairo.py
+[Fri Nov 13 20:07:49 UTC 2026] Finished processing [40] with exit 0: /testbed/lib/matplotlib/tests/test_backend_cairo.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 41 /testbed/lib/matplotlib/tests/test_collections.py | cut -d" " -f1); line=$(echo 41 /testbed/lib/matplotlib/tests/test_collections.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:49 UTC 2026] Processing [41]: /testbed/lib/matplotlib/tests/test_collections.py
+[Fri Nov 13 20:07:55 UTC 2026] Finished processing [41] with exit 0: /testbed/lib/matplotlib/tests/test_collections.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 42 /testbed/lib/matplotlib/tests/test_image.py | cut -d" " -f1); line=$(echo 42 /testbed/lib/matplotlib/tests/test_image.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:07:56 UTC 2026] Processing [42]: /testbed/lib/matplotlib/tests/test_image.py
+[Fri Nov 13 20:08:05 UTC 2026] Finished processing [42] with exit 1: /testbed/lib/matplotlib/tests/test_image.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 43 /testbed/lib/mpl_toolkits/tests/test_mplot3d.py | cut -d" " -f1); line=$(echo 43 /testbed/lib/mpl_toolkits/tests/test_mplot3d.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:06 UTC 2026] Processing [43]: /testbed/lib/mpl_toolkits/tests/test_mplot3d.py
+[Fri Nov 13 20:08:18 UTC 2026] Finished processing [43] with exit 0: /testbed/lib/mpl_toolkits/tests/test_mplot3d.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 44 /testbed/lib/matplotlib/tests/test_pickle.py | cut -d" " -f1); line=$(echo 44 /testbed/lib/matplotlib/tests/test_pickle.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:18 UTC 2026] Processing [44]: /testbed/lib/matplotlib/tests/test_pickle.py
+[Fri Nov 13 20:08:21 UTC 2026] Finished processing [44] with exit 0: /testbed/lib/matplotlib/tests/test_pickle.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 45 /testbed/lib/matplotlib/tests/test_constrainedlayout.py | cut -d" " -f1); line=$(echo 45 /testbed/lib/matplotlib/tests/test_constrainedlayout.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:21 UTC 2026] Processing [45]: /testbed/lib/matplotlib/tests/test_constrainedlayout.py
+[Fri Nov 13 20:08:29 UTC 2026] Finished processing [45] with exit 0: /testbed/lib/matplotlib/tests/test_constrainedlayout.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 46 /testbed/lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py | cut -d" " -f1); line=$(echo 46 /testbed/lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:29 UTC 2026] Processing [46]: /testbed/lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py
+[Fri Nov 13 20:08:31 UTC 2026] Finished processing [46] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 47 /testbed/lib/matplotlib/tests/test_font_manager.py | cut -d" " -f1); line=$(echo 47 /testbed/lib/matplotlib/tests/test_font_manager.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:31 UTC 2026] Processing [47]: /testbed/lib/matplotlib/tests/test_font_manager.py
+[Fri Nov 13 20:08:34 UTC 2026] Finished processing [47] with exit 0: /testbed/lib/matplotlib/tests/test_font_manager.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 48 /testbed/lib/matplotlib/tests/test_dates.py | cut -d" " -f1); line=$(echo 48 /testbed/lib/matplotlib/tests/test_dates.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:34 UTC 2026] Processing [48]: /testbed/lib/matplotlib/tests/test_dates.py
+[Fri Nov 13 20:08:38 UTC 2026] Finished processing [48] with exit 0: /testbed/lib/matplotlib/tests/test_dates.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 49 /testbed/lib/matplotlib/tests/test_animation.py | cut -d" " -f1); line=$(echo 49 /testbed/lib/matplotlib/tests/test_animation.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:38 UTC 2026] Processing [49]: /testbed/lib/matplotlib/tests/test_animation.py
+[Fri Nov 13 20:08:57 UTC 2026] Finished processing [49] with exit 0: /testbed/lib/matplotlib/tests/test_animation.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 50 /testbed/lib/matplotlib/tests/test_offsetbox.py | cut -d" " -f1); line=$(echo 50 /testbed/lib/matplotlib/tests/test_offsetbox.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:08:58 UTC 2026] Processing [50]: /testbed/lib/matplotlib/tests/test_offsetbox.py
+[Fri Nov 13 20:09:01 UTC 2026] Finished processing [50] with exit 0: /testbed/lib/matplotlib/tests/test_offsetbox.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 51 /testbed/lib/matplotlib/tests/test_contour.py | cut -d" " -f1); line=$(echo 51 /testbed/lib/matplotlib/tests/test_contour.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:01 UTC 2026] Processing [51]: /testbed/lib/matplotlib/tests/test_contour.py
+[Fri Nov 13 20:09:05 UTC 2026] Finished processing [51] with exit 0: /testbed/lib/matplotlib/tests/test_contour.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 52 /testbed/lib/matplotlib/tests/test_agg.py | cut -d" " -f1); line=$(echo 52 /testbed/lib/matplotlib/tests/test_agg.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:05 UTC 2026] Processing [52]: /testbed/lib/matplotlib/tests/test_agg.py
+[Fri Nov 13 20:09:15 UTC 2026] Finished processing [52] with exit 0: /testbed/lib/matplotlib/tests/test_agg.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 53 /testbed/lib/matplotlib/tests/test_transforms.py | cut -d" " -f1); line=$(echo 53 /testbed/lib/matplotlib/tests/test_transforms.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:16 UTC 2026] Processing [53]: /testbed/lib/matplotlib/tests/test_transforms.py
+[Fri Nov 13 20:09:18 UTC 2026] Finished processing [53] with exit 0: /testbed/lib/matplotlib/tests/test_transforms.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 54 /testbed/lib/matplotlib/tests/test_text.py | cut -d" " -f1); line=$(echo 54 /testbed/lib/matplotlib/tests/test_text.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:18 UTC 2026] Processing [54]: /testbed/lib/matplotlib/tests/test_text.py
+[Fri Nov 13 20:09:27 UTC 2026] Finished processing [54] with exit 0: /testbed/lib/matplotlib/tests/test_text.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 55 /testbed/lib/matplotlib/tests/test_table.py | cut -d" " -f1); line=$(echo 55 /testbed/lib/matplotlib/tests/test_table.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:28 UTC 2026] Processing [55]: /testbed/lib/matplotlib/tests/test_table.py
+[Fri Nov 13 20:09:30 UTC 2026] Finished processing [55] with exit 0: /testbed/lib/matplotlib/tests/test_table.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 56 /testbed/examples/scales/log_test.py | cut -d" " -f1); line=$(echo 56 /testbed/examples/scales/log_test.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:30 UTC 2026] Processing [56]: /testbed/examples/scales/log_test.py
+[Fri Nov 13 20:09:31 UTC 2026] Exit 5 (>1). Retrying [56] attempt 1/2: /testbed/examples/scales/log_test.py
+[Fri Nov 13 20:09:32 UTC 2026] Exit 5 (>1). Retrying [56] attempt 2/2: /testbed/examples/scales/log_test.py
+[Fri Nov 13 20:09:33 UTC 2026] Finished processing [56] with exit 5: /testbed/examples/scales/log_test.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 57 /testbed/lib/matplotlib/tests/test_category.py | cut -d" " -f1); line=$(echo 57 /testbed/lib/matplotlib/tests/test_category.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:33 UTC 2026] Processing [57]: /testbed/lib/matplotlib/tests/test_category.py
+[Fri Nov 13 20:09:35 UTC 2026] Finished processing [57] with exit 0: /testbed/lib/matplotlib/tests/test_category.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 58 /testbed/lib/matplotlib/tests/test_arrow_patches.py | cut -d" " -f1); line=$(echo 58 /testbed/lib/matplotlib/tests/test_arrow_patches.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:35 UTC 2026] Processing [58]: /testbed/lib/matplotlib/tests/test_arrow_patches.py
+[Fri Nov 13 20:09:38 UTC 2026] Finished processing [58] with exit 0: /testbed/lib/matplotlib/tests/test_arrow_patches.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 59 /testbed/lib/matplotlib/tests/test_backend_ps.py | cut -d" " -f1); line=$(echo 59 /testbed/lib/matplotlib/tests/test_backend_ps.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:09:38 UTC 2026] Processing [59]: /testbed/lib/matplotlib/tests/test_backend_ps.py
+[Fri Nov 13 20:10:55 UTC 2026] Finished processing [59] with exit 0: /testbed/lib/matplotlib/tests/test_backend_ps.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 60 /testbed/lib/matplotlib/tests/test_testing.py | cut -d" " -f1); line=$(echo 60 /testbed/lib/matplotlib/tests/test_testing.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:10:55 UTC 2026] Processing [60]: /testbed/lib/matplotlib/tests/test_testing.py
+[Fri Nov 13 20:10:57 UTC 2026] Finished processing [60] with exit 0: /testbed/lib/matplotlib/tests/test_testing.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 61 /testbed/lib/matplotlib/tests/test_tightlayout.py | cut -d" " -f1); line=$(echo 61 /testbed/lib/matplotlib/tests/test_tightlayout.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:10:57 UTC 2026] Processing [61]: /testbed/lib/matplotlib/tests/test_tightlayout.py
+[Fri Nov 13 20:10:59 UTC 2026] Finished processing [32] with exit 0: /testbed/lib/matplotlib/tests/test_usetex.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 62 /testbed/lib/matplotlib/tests/test_png.py | cut -d" " -f1); line=$(echo 62 /testbed/lib/matplotlib/tests/test_png.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:10:59 UTC 2026] Processing [62]: /testbed/lib/matplotlib/tests/test_png.py
+[Fri Nov 13 20:11:01 UTC 2026] Finished processing [62] with exit 0: /testbed/lib/matplotlib/tests/test_png.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 63 /testbed/lib/matplotlib/tests/test_backend_pdf.py | cut -d" " -f1); line=$(echo 63 /testbed/lib/matplotlib/tests/test_backend_pdf.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:01 UTC 2026] Processing [63]: /testbed/lib/matplotlib/tests/test_backend_pdf.py
+[Fri Nov 13 20:11:02 UTC 2026] Finished processing [61] with exit 0: /testbed/lib/matplotlib/tests/test_tightlayout.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 64 /testbed/lib/matplotlib/tests/test_figure.py | cut -d" " -f1); line=$(echo 64 /testbed/lib/matplotlib/tests/test_figure.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:02 UTC 2026] Processing [64]: /testbed/lib/matplotlib/tests/test_figure.py
+[Fri Nov 13 20:11:04 UTC 2026] Finished processing [63] with exit 0: /testbed/lib/matplotlib/tests/test_backend_pdf.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 65 /testbed/lib/mpl_toolkits/tests/test_axisartist_clip_path.py | cut -d" " -f1); line=$(echo 65 /testbed/lib/mpl_toolkits/tests/test_axisartist_clip_path.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:04 UTC 2026] Processing [65]: /testbed/lib/mpl_toolkits/tests/test_axisartist_clip_path.py
+[Fri Nov 13 20:11:06 UTC 2026] Finished processing [65] with exit 0: /testbed/lib/mpl_toolkits/tests/test_axisartist_clip_path.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 66 /testbed/lib/matplotlib/tests/test_polar.py | cut -d" " -f1); line=$(echo 66 /testbed/lib/matplotlib/tests/test_polar.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:06 UTC 2026] Processing [66]: /testbed/lib/matplotlib/tests/test_polar.py
+[Fri Nov 13 20:11:12 UTC 2026] Finished processing [64] with exit 0: /testbed/lib/matplotlib/tests/test_figure.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 67 /testbed/lib/matplotlib/tests/test_patches.py | cut -d" " -f1); line=$(echo 67 /testbed/lib/matplotlib/tests/test_patches.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:12 UTC 2026] Processing [67]: /testbed/lib/matplotlib/tests/test_patches.py
+[Fri Nov 13 20:11:13 UTC 2026] Finished processing [66] with exit 0: /testbed/lib/matplotlib/tests/test_polar.py
+/bin/bash -c 'set -o pipefail; idx=$(echo 68 /testbed/lib/matplotlib/tests/test_preprocess_data.py | cut -d" " -f1); line=$(echo 68 /testbed/lib/matplotlib/tests/test_preprocess_data.py | cut -d" " -f2-); outfile="/tmp/raw_correctness_output/$idx.txt"; mkdir -p /tmp/raw_correctness_output; echo "[$(date)] Processing [$idx]: $line" >&2; retries=0; rc=0; while true; do pytest --no-header -rA --tb=no -p no:cacheprovider --continue-on-collection-errors $line | tee "$outfile" > /dev/null; rc=${PIPESTATUS[0]}; if [ "$rc" -le 1 ]; then break; fi; if [ "$retries" -ge 2 ]; then break; fi; retries=$((retries+1)); echo "[$(date)] Exit $rc (>1). Retrying [$idx] attempt $retries/2: $line" >&2; done; echo "[$(date)] Finished processing [$idx] with exit $rc: $line" >&2; exit $rc;'
+[Fri Nov 13 20:11:13 UTC 2026] Processing [68]: /testbed/lib/matplotlib/tests/test_preprocess_data.py
+[Fri Nov 13 20:11:15 UTC 2026] Finished processing [67] with exit 0: /testbed/lib/matplotlib/tests/test_patches.py
+[Fri Nov 13 20:11:16 UTC 2026] Finished processing [68] with exit 0: /testbed/lib/matplotlib/tests/test_preprocess_data.py
++ [[ -s /tmp/single_thread_tests.txt ]]

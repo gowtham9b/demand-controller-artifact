@@ -1,0 +1,21 @@
+2026-11-12 08:38:10,521 - INFO - Test spec version: 3.5
+2026-11-12 08:38:10,521 - INFO - Using DockerHub image: ghcr.io/swefficiency/swefficiency-images:matplotlib__matplotlib-22108
+2026-11-12 08:38:11,193 - INFO - Creating container for matplotlib__matplotlib-22108...
+2026-11-12 08:38:11,249 - INFO - Container for matplotlib__matplotlib-22108 created: 33d3f5da726534cfa9733fbf826e9b7bdbe431d2b43a7bf7c81940028c38faf3
+2026-11-12 08:38:11,368 - INFO - Container for matplotlib__matplotlib-22108 started: 33d3f5da726534cfa9733fbf826e9b7bdbe431d2b43a7bf7c81940028c38faf3
+2026-11-12 08:38:11,469 - ERROR - Error in evaluating model for matplotlib__matplotlib-22108: [Errno 2] No such file or directory: '/Users/gowtham/workspace/paper-revisions/demand-controller/pilot/certs/host-ca.tar'
+Traceback (most recent call last):
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/run_validation.py", line 345, in run_instance
+    copy_to_container(container, Path(extra_ca), Path(ca_in_container))
+  File "/Users/gowtham/workspace/paper-revisions/demand-controller/harness/swefficiency/harness/docker_utils.py", line 64, in copy_to_container
+    tar_path.unlink()
+  File "/Users/gowtham/.pyenv/versions/3.12.4/lib/python3.12/pathlib.py", line 1342, in unlink
+    os.unlink(self)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/gowtham/workspace/paper-revisions/demand-controller/pilot/certs/host-ca.tar'
+
+Check (logs/run_evaluation/pilot/pilot_C0/matplotlib__matplotlib-22108/run_instance.log) for more information.
+2026-11-12 08:38:11,469 - INFO - Attempting to stop container sweb.eval.matplotlib__matplotlib-22108.pilot...
+2026-11-12 08:38:11,555 - INFO - Attempting to remove container sweb.eval.matplotlib__matplotlib-22108.pilot...
+2026-11-12 08:38:11,622 - INFO - Container sweb.eval.matplotlib__matplotlib-22108.pilot removed.
+2026-11-12 08:38:11,622 - INFO - Attempting to remove image ghcr.io/swefficiency/swefficiency-images:matplotlib__matplotlib-22108...
+2026-11-12 08:38:17,421 - INFO - Image ghcr.io/swefficiency/swefficiency-images:matplotlib__matplotlib-22108 removed.

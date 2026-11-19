@@ -1,0 +1,26 @@
+diff --git a/scipy/stats/_binned_statistic.py b/scipy/stats/_binned_statistic.py
+index 23facdd07..7cbebe451 100644
+--- a/scipy/stats/_binned_statistic.py
++++ b/scipy/stats/_binned_statistic.py
+@@ -582,11 +582,16 @@ def binned_statistic_dd(sample, values, statistic='mean',
+     elif statistic == 'std':
+         result.fill(0)
+         flatcount = np.bincount(binnumbers, None)
+-        a = flatcount.nonzero()
+-        for i in np.unique(binnumbers):
+-            for vv in builtins.range(Vdim):
+-                # NOTE: take std dev by bin, np.std() is 2-pass and stable
+-                result[vv, i] = np.std(values[vv, binnumbers == i])
++        a = flatcount.nonzero()[0]
++        for vv in builtins.range(Vdim):
++            # two-pass (stable) per-bin standard deviation
++            flatsum = np.bincount(binnumbers, values[vv])
++            mean = flatsum[a] / flatcount[a]
++            full_mean = np.zeros(len(flatcount))
++            full_mean[a] = mean
++            dev = values[vv] - full_mean[binnumbers]
++            sq = np.bincount(binnumbers, dev * dev)
++            result[vv, a] = np.sqrt(sq[a] / flatcount[a])
+     elif statistic == 'count':
+         result.fill(0)
+         flatcount = np.bincount(binnumbers, None)

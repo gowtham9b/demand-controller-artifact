@@ -1,0 +1,42 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..f5884fb0 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3347,7 +3347,16 @@ def block(arrays, allow_unknown_chunksizes=False):
+         raise ValueError("Lists cannot be empty")
+ 
+     # convert all the arrays to ndarrays
+-    arrays = rec.map_reduce(arrays, f_map=asanyarray, f_reduce=list)
++    _acache = {}
++
++    def _cached_asanyarray(x):
++        key = id(x)
++        hit = _acache.get(key)
++        if hit is None:
++            hit = _acache[key] = (x, asanyarray(x))
++        return hit[1]
++
++    arrays = rec.map_reduce(arrays, f_map=_cached_asanyarray, f_reduce=list)
+ 
+     # determine the maximum dimension of the elements
+     elem_ndim = rec.map_reduce(arrays, f_map=lambda xi: xi.ndim, f_reduce=max)
+@@ -3357,9 +3366,16 @@ def block(arrays, allow_unknown_chunksizes=False):
+     first_axis = ndim - list_ndim
+ 
+     # Make all the elements the same dimension
+-    arrays = rec.map_reduce(
+-        arrays, f_map=lambda xi: atleast_nd(xi, ndim), f_reduce=list
+-    )
++    _cache = {}
++
++    def _cached_atleast_nd(xi):
++        key = id(xi)
++        hit = _cache.get(key)
++        if hit is None:
++            hit = _cache[key] = (xi, atleast_nd(xi, ndim))
++        return hit[1]
++
++    arrays = rec.map_reduce(arrays, f_map=_cached_atleast_nd, f_reduce=list)
+ 
+     # concatenate innermost lists on the right, outermost on the left
+     return rec.map_reduce(

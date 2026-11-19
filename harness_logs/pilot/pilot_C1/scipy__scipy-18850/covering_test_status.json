@@ -1,0 +1,16 @@
+{
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_constructor": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_vertices_regions_translation_invariance": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_vertices_regions_scaling_invariance": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_old_radius_api_error": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_sort_vertices_of_regions": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_sort_vertices_of_regions_flattened": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_sort_vertices_of_regions_dimensionality": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_num_vertices": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_voronoi_circles": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_duplicate_point_handling": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_incorrect_radius_handling": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_incorrect_center_handling": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_area_unsupported_dimension": "PASSED",
+    "scipy/spatial/tests/test_spherical_voronoi.py::TestSphericalVoronoi::test_region_types": "PASSED"
+}

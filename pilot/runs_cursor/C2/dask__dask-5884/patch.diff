@@ -1,0 +1,27 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 0397777a..ef82b142 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -3183,6 +3183,13 @@ def unify_chunks(*args, **kwargs):
+                 for n, j in enumerate(i)
+             )
+             if chunks != a.chunks and all(a.chunks):
++                same = all(
++                    c == ac or (type(c) is int and ac == (c,))
++                    for c, ac in zip(chunks, a.chunks)
++                )
++                if same:
++                    arrays.append(a)
++                    continue
+                 arrays.append(a.rechunk(chunks))
+             else:
+                 arrays.append(a)
+@@ -3301,6 +3308,8 @@ def block(arrays, allow_unknown_chunksizes=False):
+     def atleast_nd(x, ndim):
+         x = asanyarray(x)
+         diff = max(ndim - x.ndim, 0)
++        if diff == 0:
++            return x
+         return x[(None,) * diff + (Ellipsis,)]
+ 
+     def format_index(index):

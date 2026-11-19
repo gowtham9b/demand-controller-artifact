@@ -1,0 +1,35 @@
+{
+  "instance_id": "pandas-dev__pandas-26697",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 17.64613914489746,
+  "seconds": 38.21656584739685,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602126.709464,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 4.445597887039185,
+      "chars": 430,
+      "iters": 17,
+      "n_funcs": 5
+    }
+  ],
+  "patch_chars": 616,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 38.21656584739685
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+diff --git a/sympy/ntheory/factor_.py b/sympy/ntheory/factor_.py
+index 9083b52e01..13d29af35d 100644
+--- a/sympy/ntheory/factor_.py
++++ b/sympy/ntheory/factor_.py
+@@ -2244,6 +2244,10 @@ def is_perfect(n):
+     n, x = divmod(1 + r, 4)
+     if x:
+         return False
++    if type(n) is int and n > 0:
++        if n & (n - 1):
++            return False
++        return n.bit_length() in MERSENNE_PRIME_EXPONENTS
+     e, b = integer_log(n, 2)
+     return b and (e + 1) in MERSENNE_PRIME_EXPONENTS
+ 
+@@ -2270,6 +2274,11 @@ def is_mersenne_prime(n):
+     """
+     from sympy.core.power import integer_log
+ 
++    if type(n) is int and n >= 0:
++        m = n + 1
++        if m & n:
++            return False
++        return m.bit_length() - 1 in MERSENNE_PRIME_EXPONENTS
+     r, b = integer_log(n + 1, 2)
+     return b and r in MERSENNE_PRIME_EXPONENTS
+ 

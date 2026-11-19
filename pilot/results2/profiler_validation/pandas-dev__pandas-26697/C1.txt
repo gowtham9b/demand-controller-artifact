@@ -1,0 +1,7 @@
+cProfile of workload(): 10 calls, 1.938s profiled (times are totals over all calls, sorted by cumulative time)
+   ncalls  tottime  cumtime  filename:lineno(function)
+       10   0.0003   1.9369  /dcwork/workload.py:10(workload)
+       10   0.0004   1.9366  /testbed/pandas/core/indexes/range.py:346(get_loc)
+       10   1.9361   1.9361  ~:0(<method 'index' of 'range' objects>)
+       10   0.0001   0.0001  ~:0(<pandas._libs.lib.is_integer>)
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

@@ -1,0 +1,35 @@
+{
+  "instance_id": "matplotlib__matplotlib-23287",
+  "condition": "C1",
+  "model": "claude-sonnet-5-5-medium",
+  "valid": true,
+  "infra_failure": "",
+  "exit_status": "completed",
+  "error": "",
+  "agent_version": "2026.11.13-eacade1",
+  "agent_seconds": 25.229909896850586,
+  "seconds": 50.70917987823486,
+  "profile_calls": 1,
+  "auto_profile_calls": 1,
+  "agent_profile_calls": 0,
+  "profile_events": [
+    {
+      "t": 1794602856.996525,
+      "kind": "auto",
+      "status": "ok",
+      "seconds": 4.9031078815460205,
+      "chars": 813,
+      "iters": 50,
+      "n_funcs": 9
+    }
+  ],
+  "patch_chars": 983,
+  "attempts": [
+    {
+      "valid": true,
+      "infra_failure": "",
+      "exit_status": "completed",
+      "seconds": 50.70917987823486
+    }
+  ]
+}

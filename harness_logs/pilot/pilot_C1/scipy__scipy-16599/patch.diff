@@ -1,0 +1,52 @@
+diff --git a/scipy/stats/_continuous_distns.py b/scipy/stats/_continuous_distns.py
+index 1c38ef1a4..aa291e7c5 100644
+--- a/scipy/stats/_continuous_distns.py
++++ b/scipy/stats/_continuous_distns.py
+@@ -8459,13 +8459,28 @@ class truncnorm_gen(rv_continuous):
+         if a.size == 1 and b.size == 1:
+             return _truncnorm_ppf_scalar(q, a.item(), b.item())
+ 
+-        out = None
+-        it = np.nditer([q, a, b, out], [],
+-                       [['readonly'], ['readonly'], ['readonly'],
+-                        ['writeonly', 'allocate']])
+-        for (_q, _a, _b, _x) in it:
+-            _x[...] = _truncnorm_ppf_scalar(_q, _a, _b)
+-        return it.operands[3]
++        q, a, b = np.broadcast_arrays(q, a, b)
++        out = np.empty(q.shape, dtype=np.result_type(q, a, b, np.float64))
++        # vectorized fast path: interior q, positive delta
++        delta = _truncnorm_get_delta(a, b)
++        fast = (delta > 0) & (q > 0) & (q < 1)
++        fa = fast & (a > 0)
++        fb = fast & ~(a > 0)
++        if np.any(fa):
++            qa, aa, ba = q[fa], a[fa], b[fa]
++            sa, sb = _norm_sf(aa), _norm_sf(ba)
++            r = _norm_isf(qa * sb + sa * (1.0 - qa))
++            out[fa] = np.clip(r, aa, ba)
++        if np.any(fb):
++            qb, ab, bb = q[fb], a[fb], b[fb]
++            na, nb = _norm_cdf(ab), _norm_cdf(bb)
++            r = _norm_ppf(qb * nb + na * (1.0 - qb))
++            out[fb] = np.clip(r, ab, bb)
++        rest = ~fast
++        if np.any(rest):
++            for idx in zip(*np.nonzero(rest)):
++                out[idx] = _truncnorm_ppf_scalar(q[idx], a[idx], b[idx])
++        return out
+ 
+     def _munp(self, n, a, b):
+         def n_th_moment(n, a, b):
+@@ -8540,6 +8555,11 @@ class truncnorm_gen(rv_continuous):
+             a, b = np.broadcast_arrays(a, b)
+             # a and b now have the same shape.
+ 
++            if tuple(size) == a.shape:
++                U = random_state.uniform(low=0, high=1, size=a.size)
++                out = self._ppf(U.reshape(a.shape), a, b)
++                return out.item() if out.ndim == 0 else out
++
+             # `shp` is the shape of the blocks of random variates that are
+             # generated for each combination of parameters associated with
+             # broadcasting a and b.

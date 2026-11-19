@@ -1,0 +1,44 @@
+{
+    "dask__dask-7172": {
+        "perf_report": null,
+        "correctness_report": {
+            "test_results": {
+                "dask/array/tests/test_percentiles.py::test_percentile[tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentile[dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_arrays[tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_arrays[dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_q[tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_q[dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5-tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5-dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.00-tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.00-dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[q2-tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[q2-dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.01-tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.01-dask]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_unknown_chunk_sizes[tdigest]": "PASSED",
+                "dask/array/tests/test_percentiles.py::test_unknown_chunk_sizes[dask]": "PASSED",
+                "[1]": "SKIPPED"
+            },
+            "PASS_TO_PASS": [
+                "dask/array/tests/test_percentiles.py::test_percentile[dask]",
+                "dask/array/tests/test_percentiles.py::test_percentile[tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_arrays[dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_arrays[tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_q[dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_empty_q[tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5-dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5-tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.00-dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.00-tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.01-dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[5.01-tdigest]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[q2-dask]",
+                "dask/array/tests/test_percentiles.py::test_percentiles_with_scaler_percentile[q2-tdigest]",
+                "dask/array/tests/test_percentiles.py::test_unknown_chunk_sizes[dask]",
+                "dask/array/tests/test_percentiles.py::test_unknown_chunk_sizes[tdigest]"
+            ]
+        }
+    }
+}

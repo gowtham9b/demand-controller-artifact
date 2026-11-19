@@ -1,0 +1,29 @@
+diff --git a/sympy/core/assumptions.py b/sympy/core/assumptions.py
+index 613dd65f80..3d7334fada 100644
+--- a/sympy/core/assumptions.py
++++ b/sympy/core/assumptions.py
+@@ -214,7 +214,13 @@
+ from .core import BasicMeta
+ from .sympify import sympify
+ 
+-from sympy.core.random import shuffle
++from sympy.core.random import rng as _rng
++
++_rand = _rng.random
++
++
++def _random_key(_):
++    return _rand()
+ from sympy.core.assumptions_generated import generated_assumptions as _assumptions
+ 
+ def _load_pre_generated_assumption_rules():
+@@ -585,7 +591,8 @@ def _ask(fact, obj):
+         # call to shuffle. These are pushed to the back of the queue meaning
+         # that the inference graph is traversed in breadth-first order.
+         new_facts_to_check = list(_assume_rules.prereq[fact_i] - facts_queued)
+-        shuffle(new_facts_to_check)
++        if len(new_facts_to_check) > 1:
++            new_facts_to_check.sort(key=_random_key)
+         facts_to_check.extend(new_facts_to_check)
+         facts_queued.update(new_facts_to_check)
+ 

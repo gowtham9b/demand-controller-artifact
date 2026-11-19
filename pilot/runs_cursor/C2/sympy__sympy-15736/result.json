@@ -1,0 +1,11 @@
+{
+  "instance_id": "sympy__sympy-15736",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 72.18060302734375,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 481
+}

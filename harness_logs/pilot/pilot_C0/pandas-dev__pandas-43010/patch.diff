@@ -1,0 +1,20 @@
+diff --git a/pandas/core/generic.py b/pandas/core/generic.py
+index 860d4f6a5d..020c4ee055 100644
+--- a/pandas/core/generic.py
++++ b/pandas/core/generic.py
+@@ -10436,6 +10436,15 @@ class NDFrame(PandasObject, indexing.IndexingMixin):
+             )
+             return self._agg_by_level("mad", axis=axis, level=level, skipna=skipna)
+ 
++        if (
++            self.ndim == 1
++            and isinstance(self._values, np.ndarray)
++            and self._values.dtype.kind in "iu"
++            and len(self._values)
++        ):
++            vals = self._values
++            return np.abs(vals - vals.mean(dtype="float64")).mean()
++
+         data = self._get_numeric_data()
+         if axis == 0:
+             demeaned = data - data.mean(axis=0)

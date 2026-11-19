@@ -1,0 +1,30 @@
+/Users/gowtham/workspace/paper-revisions/demand-controller/harness/.venv/bin/swefficiency eval --run_id pilot2 --num_workers 1 --instances_regex ^(matplotlib__matplotlib-22108|matplotlib__matplotlib-23287)$
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-13 11:33:37,292 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-13 11:33:37,293 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-13 11:33:59,530 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-13 11:33:59,532 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-13 11:34:22,167 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-13 11:34:22,169 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Found 2 instances matching regex pattern '^(matplotlib__matplotlib-22108|matplotlib__matplotlib-23287)$'
+Starting evaluation with 1 workers...
+Using gold predictions (no prediction path provided)
+Running on 2 filtered instances
+Run ID: pilot2
+Using gold predictions - ignoring predictions_path
+Original dataset size: 2
+Filtered dataset size: 2
+Filtered dataset to 2 instances with predictions.
+Running 2 unevaluated instances...
+Running 2 instances...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [16:56<16:56, 1016.04s/it]100%|██████████| 2/2 [36:28<00:00, 1094.27s/it]100%|██████████| 2/2 [36:28<00:00, 1094.27s/it]
+All instances run.
+Results saved to logs/run_evaluation/pilot2/gold/validation_report_pilot2.json
+Cleaning cached images...
+Removed 0 images.
+Evaluation completed successfully!

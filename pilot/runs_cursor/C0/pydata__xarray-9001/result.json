@@ -1,0 +1,11 @@
+{
+  "instance_id": "pydata__xarray-9001",
+  "condition": "C0",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 260.2336721420288,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 640
+}

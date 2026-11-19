@@ -1,0 +1,41 @@
+diff --git a/scipy/stats/_continuous_distns.py b/scipy/stats/_continuous_distns.py
+index 1c38ef1a4..423565a5a 100644
+--- a/scipy/stats/_continuous_distns.py
++++ b/scipy/stats/_continuous_distns.py
+@@ -8557,6 +8557,36 @@ class truncnorm_gen(rv_continuous):
+             # loop below.
+             out = np.empty(size)
+ 
++            if numsamples == 1 and tuple(size) == a.shape and a.size > 1:
++                # one variate per parameter combination: vectorize
++                uu = random_state.uniform(low=0, high=1, size=a.size)
++                af, bf = a.ravel(), b.ravel()
++                res = np.empty(a.size)
++                delta = np.zeros(a.size)
++                inner = (af <= TRUNCNORM_TAIL_X) & (bf >= -TRUNCNORM_TAIL_X)
++                pos = inner & (af > 0)
++                neg = inner & ~(af > 0)
++                delta[pos] = _norm_sf(af[pos]) - _norm_sf(bf[pos])
++                delta[neg] = _norm_cdf(bf[neg]) - _norm_cdf(af[neg])
++                delta = np.maximum(delta, 0)
++                fast = (uu > 0) & (uu < 1) & (delta > 0)
++                fa = fast & (af > 0)
++                fb = fast & ~(af > 0)
++                if fa.any():
++                    q = uu[fa]
++                    sa, sb = _norm_sf(af[fa]), _norm_sf(bf[fa])
++                    res[fa] = _norm_isf(q * sb + sa * (1.0 - q))
++                if fb.any():
++                    q = uu[fb]
++                    na, nb = _norm_cdf(af[fb]), _norm_cdf(bf[fb])
++                    res[fb] = _norm_ppf(q * nb + na * (1.0 - q))
++                for i in np.flatnonzero(~fast):
++                    res[i] = _truncnorm_ppf_scalar(uu[i], af[i], bf[i])
++                res = np.where(res < af, af, res)
++                res = np.where(res > bf, bf, res)
++                return res.reshape(size)
++
++
+             it = np.nditer([a, b],
+                            flags=['multi_index'],
+                            op_flags=[['readonly'], ['readonly']])

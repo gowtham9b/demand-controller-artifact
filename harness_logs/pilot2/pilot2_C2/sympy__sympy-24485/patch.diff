@@ -1,0 +1,57 @@
+diff --git a/sympy/core/assumptions.py b/sympy/core/assumptions.py
+index 613dd65f80..ff9d12c071 100644
+--- a/sympy/core/assumptions.py
++++ b/sympy/core/assumptions.py
+@@ -507,6 +507,9 @@ def getit(self):
+     return property(getit)
+ 
+ 
++_reach_cache = {}
++
++
+ def _ask(fact, obj):
+     """
+     Find the truth value for a property of an object.
+@@ -537,9 +540,28 @@ def _ask(fact, obj):
+     # A dict that maps facts to their handlers:
+     handler_map = obj._prop_handler
+ 
+-    # This is our queue of facts to check:
++    # Fast path: with no handlers nothing new can be derived.
++    key = (id(handler_map), fact)
++    reach = _reach_cache.get(key)
++    if reach is None:
++        seen = {fact}
++        stack = [fact]
++        while stack:
++            for f in _assume_rules.prereq[stack.pop()]:
++                if f not in seen:
++                    seen.add(f)
++                    stack.append(f)
++        seen.discard(fact)
++        reach = (tuple(f for f in seen if f in handler_map), handler_map)
++        _reach_cache[key] = reach
++    others = list(reach[0])
++    shuffle(others)
++
++    # Only facts with handlers can produce new knowledge, so only those are
++    # queued (after fact itself).
+     facts_to_check = [fact]
+-    facts_queued = {fact}
++    facts_to_check.extend(others)
++    facts_queued = None
+ 
+     # Loop over the queue as it extends
+     for fact_i in facts_to_check:
+@@ -584,10 +606,7 @@ def _ask(fact, obj):
+         # queries can result from bugs in the handlers that are exposed by this
+         # call to shuffle. These are pushed to the back of the queue meaning
+         # that the inference graph is traversed in breadth-first order.
+-        new_facts_to_check = list(_assume_rules.prereq[fact_i] - facts_queued)
+-        shuffle(new_facts_to_check)
+-        facts_to_check.extend(new_facts_to_check)
+-        facts_queued.update(new_facts_to_check)
++        # (Queue was fully built up front.)
+ 
+     # The above loop should be able to handle everything fine in a
+     # single-threaded context but in multithreaded code it is possible that

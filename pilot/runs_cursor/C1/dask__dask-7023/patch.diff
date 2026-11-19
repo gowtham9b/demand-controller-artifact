@@ -1,0 +1,13 @@
+diff --git a/dask/array/core.py b/dask/array/core.py
+index 6cb51838b..745b4383c 100644
+--- a/dask/array/core.py
++++ b/dask/array/core.py
+@@ -1237,7 +1237,7 @@ class Array(DaskMethodsMixin):
+ 
+     @property
+     def shape(self):
+-        return tuple(cached_cumsum(c, initial_zero=True)[-1] for c in self.chunks)
++        return tuple(map(sum, self._chunks))
+ 
+     @property
+     def chunksize(self):

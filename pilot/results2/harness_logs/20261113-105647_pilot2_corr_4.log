@@ -1,0 +1,13 @@
+/Users/gowtham/workspace/paper-revisions/demand-controller/harness/.venv/bin/python -c import sys, json; from swefficiency.harness.run_validation import main; main(dataset_name='swefficiency/swefficiency', split='test', instance_ids=json.loads(sys.argv[1]), max_workers=int(sys.argv[2]), max_build_workers=16, force_rebuild=False, cache_level='env', clean=False, open_file_limit=4096, run_id=sys.argv[3], timeout=7200, allow_test_patch=False, run_coverage=False, run_perf=False, run_perf_profiling=False, run_correctness=True, empty_patch=False, model_predictions=sys.argv[4], gdrive_annotation_sheet='', push_to_dockerhub=False, use_dockerhub_images=True, use_podman=False, workload_predictions='', force_rerun=False, process_isolation=True) ["matplotlib__matplotlib-22108", "matplotlib__matplotlib-23287", "numpy__numpy-21394", "numpy__numpy-21832"] 1 pilot2 /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/results2/baseline_predictions.jsonl
+Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+2026-11-13 10:56:48,438 - datasets.load - WARNING - Using the latest cached version of the dataset since swefficiency/swefficiency couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+2026-11-13 10:56:48,439 - datasets.packaged_modules.cache.cache - WARNING - Found the latest cached dataset configuration 'default' at /Users/gowtham/.cache/huggingface/datasets/swefficiency___swefficiency/default/0.0.0/7fbfe6c2f1f409afb17acc4c3f737991ec6e1c27 (last modified on Wed Nov 11 18:45:53 2026).
+Loading model predictions from /Users/gowtham/workspace/paper-revisions/demand-controller/pilot/results2/baseline_predictions.jsonl...
+Running 4 unevaluated instances...
+Running 4 instances...
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [07:13<21:40, 433.65s/it] 50%|█████     | 2/4 [18:11<18:11, 545.84s/it] 75%|███████▌  | 3/4 [25:14<08:24, 504.76s/it]100%|██████████| 4/4 [36:15<00:00, 543.96s/it]100%|██████████| 4/4 [36:15<00:00, 543.96s/it]
+All instances run.
+Results saved to logs/run_evaluation/pilot2/baseline/validation_report_pilot2.json
+Cleaning cached images...
+Removed 0 images.

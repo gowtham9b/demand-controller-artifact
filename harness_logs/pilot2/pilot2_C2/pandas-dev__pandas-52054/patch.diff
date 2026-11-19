@@ -1,0 +1,19 @@
+diff --git a/pandas/core/dtypes/cast.py b/pandas/core/dtypes/cast.py
+index c81ebc06ba..c8870d758c 100644
+--- a/pandas/core/dtypes/cast.py
++++ b/pandas/core/dtypes/cast.py
+@@ -1608,7 +1608,13 @@ def maybe_cast_to_integer_array(arr: list | np.ndarray, dtype: np.dtype) -> np.n
+         warnings.filterwarnings(
+             "ignore", "elementwise comparison failed", FutureWarning
+         )
+-        if np.array_equal(arr, casted):
++        if isinstance(arr, np.ndarray) and arr.dtype.kind == "f":
++            # compare in the (narrower) float dtype to avoid upcasting
++            if arr.shape == casted.shape and bool(
++                (casted.astype(arr.dtype) == arr).all()
++            ):
++                return casted
++        elif np.array_equal(arr, casted):
+             return casted
+ 
+     # We do this casting to allow for proper

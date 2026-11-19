@@ -1,0 +1,38 @@
+diff --git a/numpy/_core/numeric.py b/numpy/_core/numeric.py
+index 4e16f7e468..41c3438e65 100644
+--- a/numpy/_core/numeric.py
++++ b/numpy/_core/numeric.py
+@@ -1,4 +1,5 @@
+ import functools
++from math import prod as _prod
+ import itertools
+ import operator
+ import sys
+@@ -1151,7 +1152,7 @@ def tensordot(a, b, axes=2):
+     N2 = 1
+     for axis in axes_a:
+         N2 *= as_[axis]
+-    newshape_a = (int(multiply.reduce([as_[ax] for ax in notin])), N2)
++    newshape_a = (_prod([as_[ax] for ax in notin]), N2)
+     olda = [as_[axis] for axis in notin]
+ 
+     notin = [k for k in range(ndb) if k not in axes_b]
+@@ -1159,11 +1160,15 @@ def tensordot(a, b, axes=2):
+     N2 = 1
+     for axis in axes_b:
+         N2 *= bs[axis]
+-    newshape_b = (N2, int(multiply.reduce([bs[ax] for ax in notin])))
++    newshape_b = (N2, _prod([bs[ax] for ax in notin]))
+     oldb = [bs[axis] for axis in notin]
+ 
+-    at = a.transpose(newaxes_a).reshape(newshape_a)
+-    bt = b.transpose(newaxes_b).reshape(newshape_b)
++    if newaxes_a != list(range(nda)):
++        a = a.transpose(newaxes_a)
++    if newaxes_b != list(range(ndb)):
++        b = b.transpose(newaxes_b)
++    at = a.reshape(newshape_a)
++    bt = b.reshape(newshape_b)
+     res = dot(at, bt)
+     return res.reshape(olda + oldb)
+ 

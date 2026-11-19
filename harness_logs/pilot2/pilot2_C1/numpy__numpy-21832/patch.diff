@@ -1,0 +1,27 @@
+diff --git a/numpy/core/function_base.py b/numpy/core/function_base.py
+index e940ac230..ecd01332d 100644
+--- a/numpy/core/function_base.py
++++ b/numpy/core/function_base.py
+@@ -139,7 +139,8 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     _mult_inplace = _nx.isscalar(delta)
+     if div > 0:
+         step = delta / div
+-        if _nx.any(step == 0):
++        _z = step == 0
++        if (_z.any() if hasattr(_z, 'any') else _nx.any(_z)):
+             # Special handling for denormal numbers, gh-5437
+             y /= div
+             if _mult_inplace:
+@@ -166,7 +167,11 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     if axis != 0:
+         y = _nx.moveaxis(y, 0, axis)
+ 
+-    if _nx.issubdtype(dtype, _nx.integer):
++    if isinstance(dtype, _nx.dtype):
++        _isint = dtype.kind in 'iu'
++    else:
++        _isint = _nx.issubdtype(dtype, _nx.integer)
++    if _isint:
+         _nx.floor(y, out=y)
+ 
+     if retstep:

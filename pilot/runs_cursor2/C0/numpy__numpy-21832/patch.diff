@@ -1,0 +1,25 @@
+diff --git a/numpy/core/function_base.py b/numpy/core/function_base.py
+index e940ac230..5bcc10019 100644
+--- a/numpy/core/function_base.py
++++ b/numpy/core/function_base.py
+@@ -128,8 +128,11 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     stop  = asanyarray(stop)  * 1.0
+ 
+     dt = result_type(start, stop, float(num))
++    integer_out = False
+     if dtype is None:
+         dtype = dt
++    else:
++        integer_out = _nx.issubdtype(dtype, _nx.integer)
+ 
+     delta = stop - start
+     y = _nx.arange(0, num, dtype=dt).reshape((-1,) + (1,) * ndim(delta))
+@@ -166,7 +169,7 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     if axis != 0:
+         y = _nx.moveaxis(y, 0, axis)
+ 
+-    if _nx.issubdtype(dtype, _nx.integer):
++    if integer_out:
+         _nx.floor(y, out=y)
+ 
+     if retstep:

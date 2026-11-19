@@ -1,0 +1,5 @@
+Ranked hotspots for workload() (cProfile, 500 calls; times per call)
+ #  self%   self ms   cum ms   calls  repository location
+ 1  27.2%     0.010    0.037       1  astropy/coordinates/angles/formats.py:322 _check_hour_range
+Outside the repository: 72.8% of self time. Largest: <method 'reduce' of 'numpy.ufunc' objects> 21.2%; /opt/miniconda3/envs/testbed/lib/python3.11/site-packages/numpy/core/fromnumeric.py:71 _wrapreduction 20.2%; /opt/miniconda3/envs/testbed/lib/python3.11/site-packages/numpy/core/fromnumeric.py:2322 any 9.4%
+[dc-profile allowance: 1 of 4 calls used; 3 remaining]

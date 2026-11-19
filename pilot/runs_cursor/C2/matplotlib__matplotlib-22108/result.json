@@ -1,0 +1,11 @@
+{
+  "instance_id": "matplotlib__matplotlib-22108",
+  "condition": "C2",
+  "model": "claude-sonnet-5-5-medium",
+  "exit_status": "completed",
+  "error": "",
+  "seconds": 41.56209397315979,
+  "profile_calls": 0,
+  "profile_events": [],
+  "patch_chars": 801
+}

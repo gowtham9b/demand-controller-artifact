@@ -1,0 +1,10 @@
+/testbed/pandas/tests/io/formats/style/test_html.py
+/testbed/pandas/tests/io/formats/style/test_highlight.py
+/testbed/pandas/tests/io/formats/style/test_deprecated.py
+/testbed/pandas/tests/io/excel/test_style.py
+/testbed/pandas/tests/io/formats/style/test_style.py
+/testbed/pandas/tests/io/formats/style/test_matplotlib.py
+/testbed/pandas/tests/io/formats/style/test_to_latex.py
+/testbed/pandas/tests/io/excel/test_openpyxl.py
+/testbed/pandas/tests/io/formats/style/test_bar.py
+/testbed/pandas/tests/io/formats/style/test_non_unique.py

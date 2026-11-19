@@ -1,0 +1,1023 @@
+{
+  "primary": {
+    "n_tasks": 18,
+    "correctness_rule": "baseline-relative required tests (primary)",
+    "conditions": {
+      "C0": {
+        "hm_human_sr": {
+          "value": 0.5512913815026905,
+          "ci95": [
+            0.32778336980021316,
+            1.0835640570740432
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.8627966557398857,
+          "ci95": [
+            0.5770556673424404,
+            1.230230953693091
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 3.828578191361983,
+          "ci95": [
+            1.7815581881402576,
+            9.310004844326155
+          ]
+        },
+        "incorrect": 0.05555555555555555,
+        "correct_no_speedup": 0.16666666666666666,
+        "faster_than_baseline": 0.7777777777777778,
+        "matched_expert": 0.5,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 0,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.3333333333333333,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 5.222222222222222,
+        "mean_minutes": 0.7197634074423048,
+        "median_minutes": 0.4676589647928874,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 106675.94117647059,
+        "mean_output_tokens": 1728.5294117647059,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      },
+      "C1": {
+        "hm_human_sr": {
+          "value": 0.5550596334816829,
+          "ci95": [
+            0.3180087024308551,
+            1.041689106826329
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.8212795760504079,
+          "ci95": [
+            0.5725262534586107,
+            1.0984680471002317
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 3.644350094497301,
+          "ci95": [
+            1.7938511542370255,
+            8.419527639934364
+          ]
+        },
+        "incorrect": 0.05555555555555555,
+        "correct_no_speedup": 0.05555555555555555,
+        "faster_than_baseline": 0.8333333333333334,
+        "matched_expert": 0.3888888888888889,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.0,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 3.5555555555555554,
+        "mean_minutes": 0.5741592091542702,
+        "median_minutes": 0.4275812427202861,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 75966.94117647059,
+        "mean_output_tokens": 1325.3529411764705,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      },
+      "C2": {
+        "hm_human_sr": {
+          "value": 0.812655735072128,
+          "ci95": [
+            0.6507996546126698,
+            1.0231136556870093
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.9001064116694094,
+          "ci95": [
+            0.7321708294090512,
+            1.1026134595975967
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 3.9941366887512886,
+          "ci95": [
+            1.9540044223168658,
+            9.210608597206745
+          ]
+        },
+        "incorrect": 0.05555555555555555,
+        "correct_no_speedup": 0.05555555555555555,
+        "faster_than_baseline": 0.8333333333333334,
+        "matched_expert": 0.3333333333333333,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.05555555555555555,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 4.722222222222222,
+        "mean_minutes": 0.6319535493850709,
+        "median_minutes": 0.5457297166188557,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 82345.0,
+        "mean_output_tokens": 1545.9411764705883,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      }
+    },
+    "paired": {
+      "C1-C0": {
+        "hm_human_sr": {
+          "diff": 0.003768251978992332,
+          "ci95": [
+            -0.10103781687211413,
+            0.14584724460344156
+          ],
+          "p_boot_le_0": 0.4773
+        },
+        "gm_human_sr": {
+          "diff": -0.04151707968947782,
+          "ci95": [
+            -0.20231923322558862,
+            0.09307222173159295
+          ],
+          "p_boot_le_0": 0.7277
+        },
+        "gm_adj_speedup": {
+          "diff": -0.1842280968646821,
+          "ci95": [
+            -1.2942267376077472,
+            0.388178823511645
+          ],
+          "p_boot_le_0": 0.7277
+        },
+        "tasks_better": 6,
+        "tasks_worse": 9
+      },
+      "C2-C0": {
+        "hm_human_sr": {
+          "diff": 0.26136435356943744,
+          "ci95": [
+            -0.10605635330830046,
+            0.40018686957992766
+          ],
+          "p_boot_le_0": 0.0733
+        },
+        "gm_human_sr": {
+          "diff": 0.03730975592952368,
+          "ci95": [
+            -0.18530101098331805,
+            0.20139388496074329
+          ],
+          "p_boot_le_0": 0.3808
+        },
+        "gm_adj_speedup": {
+          "diff": 0.16555849738930561,
+          "ci95": [
+            -0.9416556522897956,
+            1.1900834801955134
+          ],
+          "p_boot_le_0": 0.3808
+        },
+        "tasks_better": 6,
+        "tasks_worse": 8
+      },
+      "C2-C1": {
+        "hm_human_sr": {
+          "diff": 0.2575961015904451,
+          "ci95": [
+            -0.056199070039007454,
+            0.4164552588947839
+          ],
+          "p_boot_le_0": 0.0951
+        },
+        "gm_human_sr": {
+          "diff": 0.0788268356190015,
+          "ci95": [
+            -0.0533060439802026,
+            0.20879348852815535
+          ],
+          "p_boot_le_0": 0.1608
+        },
+        "gm_adj_speedup": {
+          "diff": 0.3497865942539877,
+          "ci95": [
+            -0.20545585843870798,
+            1.465691559272944
+          ],
+          "p_boot_le_0": 0.1608
+        },
+        "tasks_better": 7,
+        "tasks_worse": 4
+      }
+    }
+  },
+  "primary_raw_harness": {
+    "n_tasks": 18,
+    "correctness_rule": "harness PASS_TO_PASS (secondary)",
+    "conditions": {
+      "C0": {
+        "hm_human_sr": {
+          "value": 0.06332970341103315,
+          "ci95": [
+            0.023852478989811514,
+            0.6975989601939121
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.5116043922800136,
+          "ci95": [
+            0.23747869560247808,
+            0.9698945477493243
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.2701958866641365,
+          "ci95": [
+            1.3083346429763638,
+            4.516978825518088
+          ]
+        },
+        "incorrect": 0.3888888888888889,
+        "correct_no_speedup": 0.1111111111111111,
+        "faster_than_baseline": 0.5,
+        "matched_expert": 0.3888888888888889,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 0,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.3333333333333333,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 5.222222222222222,
+        "mean_minutes": 0.7197634074423048,
+        "median_minutes": 0.4676589647928874,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 106675.94117647059,
+        "mean_output_tokens": 1728.5294117647059,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      },
+      "C1": {
+        "hm_human_sr": {
+          "value": 0.06329341444733196,
+          "ci95": [
+            0.023815794663545335,
+            0.7320239191513311
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.4843361347006506,
+          "ci95": [
+            0.23125521420797043,
+            0.8924334033735954
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.1491955842287216,
+          "ci95": [
+            1.2964472236553588,
+            4.039138788215175
+          ]
+        },
+        "incorrect": 0.3888888888888889,
+        "correct_no_speedup": 0.05555555555555555,
+        "faster_than_baseline": 0.5555555555555556,
+        "matched_expert": 0.2777777777777778,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.0,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 3.5555555555555554,
+        "mean_minutes": 0.5741592091542702,
+        "median_minutes": 0.4275812427202861,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 75966.94117647059,
+        "mean_output_tokens": 1325.3529411764705,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      },
+      "C2": {
+        "hm_human_sr": {
+          "value": 0.06577644246868018,
+          "ci95": [
+            0.02403058691247442,
+            0.8648077693773939
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.5422090698620723,
+          "ci95": [
+            0.2624683504017253,
+            0.942625058224639
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.4060012358907787,
+          "ci95": [
+            1.4407596875024395,
+            4.462329533277012
+          ]
+        },
+        "incorrect": 0.3888888888888889,
+        "correct_no_speedup": 0.0,
+        "faster_than_baseline": 0.6111111111111112,
+        "matched_expert": 0.2777777777777778,
+        "empty_patch": 0.05555555555555555,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.05555555555555555,
+        "touches_hotspot_file_share": 0.9444444444444444,
+        "mean_tool_calls": 4.722222222222222,
+        "mean_minutes": 0.6319535493850709,
+        "median_minutes": 0.5457297166188557,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 82345.0,
+        "mean_output_tokens": 1545.9411764705883,
+        "exit_status": {
+          "completed": 17,
+          "": 1
+        }
+      }
+    },
+    "paired": {
+      "C1-C0": {
+        "hm_human_sr": {
+          "diff": -3.628896370119761e-05,
+          "ci95": [
+            -0.03367181791238198,
+            0.03539093627599214
+          ],
+          "p_boot_le_0": 0.5472
+        },
+        "gm_human_sr": {
+          "diff": -0.02726825757936302,
+          "ci95": [
+            -0.1414258219379923,
+            0.05594235147441291
+          ],
+          "p_boot_le_0": 0.7579
+        },
+        "gm_adj_speedup": {
+          "diff": -0.12100030243541493,
+          "ci95": [
+            -0.6495128854951676,
+            0.22125021086835966
+          ],
+          "p_boot_le_0": 0.7579
+        },
+        "tasks_better": 4,
+        "tasks_worse": 7
+      },
+      "C2-C0": {
+        "hm_human_sr": {
+          "diff": 0.0024467390576470294,
+          "ci95": [
+            -0.0006100488524894064,
+            0.31988606422120636
+          ],
+          "p_boot_le_0": 0.0671
+        },
+        "gm_human_sr": {
+          "diff": 0.030604677582058648,
+          "ci95": [
+            -0.10598208208704142,
+            0.1535361081356006
+          ],
+          "p_boot_le_0": 0.3173
+        },
+        "gm_adj_speedup": {
+          "diff": 0.13580534922664222,
+          "ci95": [
+            -0.4456402836306658,
+            0.7200295058012435
+          ],
+          "p_boot_le_0": 0.3173
+        },
+        "tasks_better": 4,
+        "tasks_worse": 6
+      },
+      "C2-C1": {
+        "hm_human_sr": {
+          "diff": 0.002483028021348227,
+          "ci95": [
+            -0.00011500464100405861,
+            0.3319705239869589
+          ],
+          "p_boot_le_0": 0.0573
+        },
+        "gm_human_sr": {
+          "diff": 0.05787293516142167,
+          "ci95": [
+            -0.012987823375884234,
+            0.16877958966329776
+          ],
+          "p_boot_le_0": 0.0717
+        },
+        "gm_adj_speedup": {
+          "diff": 0.25680565166205715,
+          "ci95": [
+            -0.05069843499303655,
+            0.8360171479363092
+          ],
+          "p_boot_le_0": 0.0717
+        },
+        "tasks_better": 5,
+        "tasks_worse": 1
+      }
+    }
+  },
+  "valid_in_all_three": {
+    "n_tasks": 17,
+    "correctness_rule": "baseline-relative required tests (primary)",
+    "conditions": {
+      "C0": {
+        "hm_human_sr": {
+          "value": 0.5432858781891257,
+          "ci95": [
+            0.31886770034822476,
+            1.1080565576109236
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.8709331682633478,
+          "ci95": [
+            0.5675842105207503,
+            1.2572870906412414
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 4.1431804230167915,
+          "ci95": [
+            1.8693146087593,
+            10.443645529170213
+          ]
+        },
+        "incorrect": 0.0,
+        "correct_no_speedup": 0.17647058823529413,
+        "faster_than_baseline": 0.8235294117647058,
+        "matched_expert": 0.5294117647058824,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 0,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.35294117647058826,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 5.529411764705882,
+        "mean_minutes": 0.7621024314094993,
+        "median_minutes": 0.4754692117373149,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 106675.94117647059,
+        "mean_output_tokens": 1728.5294117647059,
+        "exit_status": {
+          "completed": 17
+        }
+      },
+      "C1": {
+        "hm_human_sr": {
+          "value": 0.5471619065179153,
+          "ci95": [
+            0.30941717108778066,
+            1.0715415894649924
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.8266231260488728,
+          "ci95": [
+            0.564801438712833,
+            1.1290033534174526
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 3.9323898524703393,
+          "ci95": [
+            1.8716229943759917,
+            9.349292732962208
+          ]
+        },
+        "incorrect": 0.0,
+        "correct_no_speedup": 0.058823529411764705,
+        "faster_than_baseline": 0.8823529411764706,
+        "matched_expert": 0.4117647058823529,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.0,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 3.764705882352941,
+        "mean_minutes": 0.6079332802809921,
+        "median_minutes": 0.434663987159729,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 75966.94117647059,
+        "mean_output_tokens": 1325.3529411764705,
+        "exit_status": {
+          "completed": 17
+        }
+      },
+      "C2": {
+        "hm_human_sr": {
+          "value": 0.8176981823184264,
+          "ci95": [
+            0.6436101064632872,
+            1.0480867570905115
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.9108602017075464,
+          "ci95": [
+            0.7291374046154144,
+            1.1285628776880396
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 4.333120259209964,
+          "ci95": [
+            2.0673074651720205,
+            10.289771272990922
+          ]
+        },
+        "incorrect": 0.0,
+        "correct_no_speedup": 0.058823529411764705,
+        "faster_than_baseline": 0.8823529411764706,
+        "matched_expert": 0.35294117647058826,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.058823529411764705,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 5.0,
+        "mean_minutes": 0.6691272875841926,
+        "median_minutes": 0.5719387332598368,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 82345.0,
+        "mean_output_tokens": 1545.9411764705883,
+        "exit_status": {
+          "completed": 17
+        }
+      }
+    },
+    "paired": {
+      "C1-C0": {
+        "hm_human_sr": {
+          "diff": 0.003876028328789638,
+          "ci95": [
+            -0.10687802707265985,
+            0.15785253145469416
+          ],
+          "p_boot_le_0": 0.4743
+        },
+        "gm_human_sr": {
+          "diff": -0.04431004221447499,
+          "ci95": [
+            -0.21857729091660377,
+            0.10118185050678224
+          ],
+          "p_boot_le_0": 0.7283
+        },
+        "gm_adj_speedup": {
+          "diff": -0.21079057054645212,
+          "ci95": [
+            -1.5186820027466028,
+            0.44198696222636563
+          ],
+          "p_boot_le_0": 0.7283
+        },
+        "tasks_better": 6,
+        "tasks_worse": 9
+      },
+      "C2-C0": {
+        "hm_human_sr": {
+          "diff": 0.27441230412930073,
+          "ci95": [
+            -0.10733888478495494,
+            0.41244190396661656
+          ],
+          "p_boot_le_0": 0.0701
+        },
+        "gm_human_sr": {
+          "diff": 0.03992703344419868,
+          "ci95": [
+            -0.1955781094348582,
+            0.2110645357168343
+          ],
+          "p_boot_le_0": 0.376
+        },
+        "gm_adj_speedup": {
+          "diff": 0.18993983619317234,
+          "ci95": [
+            -1.0939948110925368,
+            1.3439516069500366
+          ],
+          "p_boot_le_0": 0.376
+        },
+        "tasks_better": 6,
+        "tasks_worse": 8
+      },
+      "C2-C1": {
+        "hm_human_sr": {
+          "diff": 0.2705362758005111,
+          "ci95": [
+            -0.06391117432038279,
+            0.430519390894032
+          ],
+          "p_boot_le_0": 0.0983
+        },
+        "gm_human_sr": {
+          "diff": 0.08423707565867367,
+          "ci95": [
+            -0.05926060572830182,
+            0.21674702440244964
+          ],
+          "p_boot_le_0": 0.1617
+        },
+        "gm_adj_speedup": {
+          "diff": 0.40073040673962446,
+          "ci95": [
+            -0.24756079638549577,
+            1.677037644506967
+          ],
+          "p_boot_le_0": 0.1617
+        },
+        "tasks_better": 7,
+        "tasks_worse": 4
+      }
+    }
+  },
+  "valid_in_all_three_raw_harness": {
+    "n_tasks": 17,
+    "correctness_rule": "harness PASS_TO_PASS (secondary)",
+    "conditions": {
+      "C0": {
+        "hm_human_sr": {
+          "value": 0.060098855617016216,
+          "ci95": [
+            0.02248409756074594,
+            0.679002498208936
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.5007941174199806,
+          "ci95": [
+            0.2198102269371627,
+            0.9897298826164059
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.382364639291181,
+          "ci95": [
+            1.3269220520800429,
+            4.851560531415505
+          ]
+        },
+        "incorrect": 0.35294117647058826,
+        "correct_no_speedup": 0.11764705882352941,
+        "faster_than_baseline": 0.5294117647058824,
+        "matched_expert": 0.4117647058823529,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 0,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.35294117647058826,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 5.529411764705882,
+        "mean_minutes": 0.7621024314094993,
+        "median_minutes": 0.4754692117373149,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 106675.94117647059,
+        "mean_output_tokens": 1728.5294117647059,
+        "exit_status": {
+          "completed": 17
+        }
+      },
+      "C1": {
+        "hm_human_sr": {
+          "value": 0.06006425256142434,
+          "ci95": [
+            0.02247517292123747,
+            0.6886030483276397
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.47257698534742,
+          "ci95": [
+            0.2096549135257126,
+            0.8909884487529577
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.2481308387461523,
+          "ci95": [
+            1.3186328988525282,
+            4.342894772258789
+          ]
+        },
+        "incorrect": 0.35294117647058826,
+        "correct_no_speedup": 0.058823529411764705,
+        "faster_than_baseline": 0.5882352941176471,
+        "matched_expert": 0.29411764705882354,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.0,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 3.764705882352941,
+        "mean_minutes": 0.6079332802809921,
+        "median_minutes": 0.434663987159729,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 75966.94117647059,
+        "mean_output_tokens": 1325.3529411764705,
+        "exit_status": {
+          "completed": 17
+        }
+      },
+      "C2": {
+        "hm_human_sr": {
+          "value": 0.062432364112948634,
+          "ci95": [
+            0.02269866711420791,
+            0.868426097656067
+          ]
+        },
+        "gm_human_sr": {
+          "value": 0.5325691406505944,
+          "ci95": [
+            0.24319608966082262,
+            0.9542991645719063
+          ]
+        },
+        "gm_adj_speedup": {
+          "value": 2.5335239463279016,
+          "ci95": [
+            1.4846561887477376,
+            4.88131885370086
+          ]
+        },
+        "incorrect": 0.35294117647058826,
+        "correct_no_speedup": 0.0,
+        "faster_than_baseline": 0.6470588235294118,
+        "matched_expert": 0.29411764705882354,
+        "empty_patch": 0.0,
+        "auto_profile_runs": 17,
+        "mean_agent_profile_calls": 0.0,
+        "runs_with_agent_profile_call": 0,
+        "agent_profile_calls_total": 0,
+        "agent_profile_errors": 0,
+        "refusal_runs": 0,
+        "self_profiled_share": 0.058823529411764705,
+        "touches_hotspot_file_share": 1.0,
+        "mean_tool_calls": 5.0,
+        "mean_minutes": 0.6691272875841926,
+        "median_minutes": 0.5719387332598368,
+        "runs_with_usage": 17,
+        "mean_input_tokens": 82345.0,
+        "mean_output_tokens": 1545.9411764705883,
+        "exit_status": {
+          "completed": 17
+        }
+      }
+    },
+    "paired": {
+      "C1-C0": {
+        "hm_human_sr": {
+          "diff": -3.460305559187249e-05,
+          "ci95": [
+            -0.0321298353416028,
+            0.034057535936260416
+          ],
+          "p_boot_le_0": 0.5437
+        },
+        "gm_human_sr": {
+          "diff": -0.028217132072560602,
+          "ci95": [
+            -0.1482580508987236,
+            0.056079272306214664
+          ],
+          "p_boot_le_0": 0.765
+        },
+        "gm_adj_speedup": {
+          "diff": -0.13423380054502854,
+          "ci95": [
+            -0.7350455967687932,
+            0.22910513992174633
+          ],
+          "p_boot_le_0": 0.765
+        },
+        "tasks_better": 4,
+        "tasks_worse": 7
+      },
+      "C2-C0": {
+        "hm_human_sr": {
+          "diff": 0.002333508495932418,
+          "ci95": [
+            -0.00046896856602800073,
+            0.3305487655855917
+          ],
+          "p_boot_le_0": 0.0668
+        },
+        "gm_human_sr": {
+          "diff": 0.031775023230613764,
+          "ci95": [
+            -0.10666742774131893,
+            0.16171539163682644
+          ],
+          "p_boot_le_0": 0.3188
+        },
+        "gm_adj_speedup": {
+          "diff": 0.15115930703672076,
+          "ci95": [
+            -0.48643424191182316,
+            0.7747457460682702
+          ],
+          "p_boot_le_0": 0.3188
+        },
+        "tasks_better": 4,
+        "tasks_worse": 6
+      },
+      "C2-C1": {
+        "hm_human_sr": {
+          "diff": 0.0023681115515242906,
+          "ci95": [
+            -0.0001086332716213962,
+            0.33784439122702886
+          ],
+          "p_boot_le_0": 0.0602
+        },
+        "gm_human_sr": {
+          "diff": 0.059992155303174366,
+          "ci95": [
+            -0.013068213709349612,
+            0.17495037666254645
+          ],
+          "p_boot_le_0": 0.0729
+        },
+        "gm_adj_speedup": {
+          "diff": 0.2853931075817493,
+          "ci95": [
+            -0.05668466477369005,
+            0.9099164116075513
+          ],
+          "p_boot_le_0": 0.0729
+        },
+        "tasks_better": 5,
+        "tasks_worse": 1
+      }
+    }
+  },
+  "valid_in_all_three_ids": [
+    "astropy__astropy-16295",
+    "astropy__astropy-6940",
+    "dask__dask-7172",
+    "dask__dask-5884",
+    "matplotlib__matplotlib-23287",
+    "matplotlib__matplotlib-22108",
+    "numpy__numpy-21832",
+    "numpy__numpy-21394",
+    "pandas-dev__pandas-43281",
+    "pandas-dev__pandas-26697",
+    "pandas-dev__pandas-37971",
+    "pandas-dev__pandas-52054",
+    "pydata__xarray-9001",
+    "scipy__scipy-11757",
+    "scipy__scipy-16599",
+    "sympy__sympy-24485",
+    "sympy__sympy-14772"
+  ],
+  "infra": {
+    "C0": {
+      "runs_with_infra_retries": 1,
+      "infra_retries_total": 6,
+      "runs_never_valid": [
+        "pydata__xarray-7374"
+      ],
+      "scoring_status_counts": {
+        "scored": 17,
+        "no_valid_run": 1
+      },
+      "scoring_infra_unresolved": [],
+      "scoring_rescored": [
+        "matplotlib__matplotlib-23287",
+        "matplotlib__matplotlib-22108",
+        "numpy__numpy-21394",
+        "scipy__scipy-16599"
+      ]
+    },
+    "C1": {
+      "runs_with_infra_retries": 1,
+      "infra_retries_total": 6,
+      "runs_never_valid": [
+        "pydata__xarray-7374"
+      ],
+      "scoring_status_counts": {
+        "scored": 17,
+        "no_valid_run": 1
+      },
+      "scoring_infra_unresolved": [],
+      "scoring_rescored": [
+        "matplotlib__matplotlib-23287",
+        "matplotlib__matplotlib-22108",
+        "numpy__numpy-21394",
+        "scipy__scipy-16599"
+      ]
+    },
+    "C2": {
+      "runs_with_infra_retries": 1,
+      "infra_retries_total": 6,
+      "runs_never_valid": [
+        "pydata__xarray-7374"
+      ],
+      "scoring_status_counts": {
+        "scored": 17,
+        "no_valid_run": 1
+      },
+      "scoring_infra_unresolved": [],
+      "scoring_rescored": [
+        "matplotlib__matplotlib-23287",
+        "matplotlib__matplotlib-22108",
+        "numpy__numpy-21832",
+        "scipy__scipy-16599"
+      ]
+    }
+  },
+  "correctness_rule_disagreements": {
+    "C0": [
+      "astropy__astropy-16295",
+      "matplotlib__matplotlib-22108",
+      "numpy__numpy-21832",
+      "numpy__numpy-21394",
+      "pandas-dev__pandas-43281",
+      "pandas-dev__pandas-26697"
+    ],
+    "C1": [
+      "astropy__astropy-16295",
+      "matplotlib__matplotlib-22108",
+      "numpy__numpy-21832",
+      "numpy__numpy-21394",
+      "pandas-dev__pandas-43281",
+      "pandas-dev__pandas-26697"
+    ],
+    "C2": [
+      "astropy__astropy-16295",
+      "matplotlib__matplotlib-22108",
+      "numpy__numpy-21832",
+      "numpy__numpy-21394",
+      "pandas-dev__pandas-43281",
+      "pandas-dev__pandas-26697"
+    ]
+  },
+  "gold_correct": {
+    "baseline_relative": 18,
+    "raw_harness": 12,
+    "n": 18
+  },
+  "gold_touches_hotspot_file_share": 1.0
+}

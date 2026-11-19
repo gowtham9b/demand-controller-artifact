@@ -1,0 +1,13 @@
+diff --git a/numpy/core/function_base.py b/numpy/core/function_base.py
+index e940ac230..a2e2d3445 100644
+--- a/numpy/core/function_base.py
++++ b/numpy/core/function_base.py
+@@ -166,7 +166,7 @@ def linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None,
+     if axis != 0:
+         y = _nx.moveaxis(y, 0, axis)
+ 
+-    if _nx.issubdtype(dtype, _nx.integer):
++    if _nx.dtype(dtype).kind in 'iu':
+         _nx.floor(y, out=y)
+ 
+     if retstep:
